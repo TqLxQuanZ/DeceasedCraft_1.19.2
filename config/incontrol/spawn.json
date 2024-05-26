@@ -1208,7 +1208,7 @@
         "mob": "crittersandcompanions:otter",
         "dimension": "minecraft:overworld",
         "incontrol": true,
-        "category": "river",
+        "biometags": "is_river",
         "result": "allow"
     },
     {
