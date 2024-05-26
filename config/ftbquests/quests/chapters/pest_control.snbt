@@ -1,0 +1,163 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pest_control"
+	group: "410F2D717CE3690A"
+	icon: {
+		Count: 1b
+		id: "apocalypsenow:tactical_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "389BEBD3DE02E81E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.cure.control_1.description_1}"]
+			icon: "mutationcraft:human_herder_spawn_egg"
+			id: "2CB3D27DD3C51BCB"
+			rewards: [{
+				id: "26E8A7E4D688B2CC"
+				type: "xp"
+				xp: 1500
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.cure.control_1.subtitle}"
+			tasks: [{
+				entity: "mutationcraft:human_herder"
+				icon: "minecraft:zombie_head"
+				id: "7F17D15776468E6A"
+				type: "kill"
+				value: 5L
+			}]
+			title: "{quest.cure.control_1.title}"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.cure.control_2.description_1}"]
+			icon: "mutationcraft:resenter_spawn_egg"
+			id: "5C6D546A00F23CDF"
+			rewards: [{
+				id: "5A2E0A6D08686826"
+				type: "xp"
+				xp: 3000
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.cure.control_2.subtitle}"
+			tasks: [{
+				entity: "mutationcraft:resenter"
+				icon: "minecraft:zombie_head"
+				id: "708583748C652630"
+				type: "kill"
+				value: 5L
+			}]
+			title: "{quest.cure.control_2.title}"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.cure.control_3.description_1}"]
+			icon: "mutationcraft:parasitic_bomber_spawn_egg"
+			id: "283660ADF57AD0A0"
+			rewards: [{
+				id: "131E8CDAA7811848"
+				type: "xp"
+				xp: 5000
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.cure.control_3.subtitle}"
+			tasks: [{
+				entity: "mutationcraft:the_intoxicator"
+				icon: "minecraft:zombie_head"
+				id: "09244AB71F01D1EE"
+				type: "kill"
+				value: 3L
+			}]
+			title: "{quest.cure.control_3.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.cure.control_4.description_1}"]
+			icon: "minecraft:zombie_head"
+			id: "31F2F707FABE0045"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0C1B051E3BCDC079"
+				type: "xp"
+				xp: 3000
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.cure.control_4.subtitle}"
+			tasks: [{
+				entity: "zombie_extreme:demolisher"
+				icon: "minecraft:zombie_head"
+				id: "4D160EE918B978BB"
+				type: "kill"
+				value: 5L
+			}]
+			title: "{quest.cure.control_4.title}"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.cure.control_5.description_1}"]
+			id: "78AAC5FF8FC7624D"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "50609B92AAE71FB3"
+				type: "xp"
+				xp: 3000
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				entity: "zombie_extreme:rat_king"
+				icon: "minecraft:zombie_head"
+				id: "407B8A65CC11BB3E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "{quest.cure.control_5.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.cure.control_6.description_1}"]
+			icon: "minecraft:zombie_head"
+			id: "34B4322A74068EF0"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "7C4DE2557DE5A5DF"
+				type: "xp"
+				xp: 3000
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				entity: "zombie_extreme:patient_zero"
+				icon: "minecraft:zombie_head"
+				id: "16C150D2C7CF93B5"
+				type: "kill"
+				value: 5L
+			}]
+			title: "{quest.cure.control_6.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "{quest.control}"
+}

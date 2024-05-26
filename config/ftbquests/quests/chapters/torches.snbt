@@ -1,0 +1,208 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "torches"
+	group: "06797646CDBF2AAC"
+	icon: "immersiveengineering:treated_wood_horizontal"
+	id: "0FFF810BED7FD7EB"
+	order_index: 0
+	quest_links: [{
+		id: "52EB7745105A10A7"
+		linked_quest: "07EC69DFF4EBD8DC"
+		x: -8.5d
+		y: -1.5d
+	}]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.treated.clay.description_1}"]
+			id: "3E1518F914DE49E1"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 5
+				id: "355D88C798B40965"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2855058338B0F783"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "{quest.treated.clay.title}"
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E1518F914DE49E1"]
+			dependency_requirement: "one_started"
+			description: ["{quest.treated.brick.description_1}"]
+			hide_text_until_complete: false
+			id: "0CE7CDD6A51D849C"
+			progression_mode: "linear"
+			rewards: [{
+				count: 5
+				id: "5985EF11C872D575"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7898492560D9959A"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3E1518F914DE49E1"
+				"0CE7CDD6A51D849C"
+				"07EC69DFF4EBD8DC"
+			]
+			description: ["{quest.treated.coke_brick.description_1}"]
+			hide_text_until_complete: false
+			id: "164DD663512EF330"
+			progression_mode: "linear"
+			rewards: [{
+				count: 5
+				id: "52A1D9FE54905DF7"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "091C5BCEAD664861"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["164DD663512EF330"]
+			dependency_requirement: "one_started"
+			description: ["{quest.treated.coke_oven.description_1}"]
+			id: "55C8C614C6ADE563"
+			progression_mode: "linear"
+			rewards: [{
+				id: "00D3D95E517B6B3E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:main/mb_cokeoven"
+				criterion: ""
+				id: "2DE20B689353BA57"
+				type: "advancement"
+			}]
+			title: "{quest.treated.coke_oven.title}"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55C8C614C6ADE563"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.treated.creosote.description_1}"
+				""
+				"{quest.treated.creosote.description_2}"
+			]
+			id: "2FC4D860C8175089"
+			progression_mode: "linear"
+			rewards: [{
+				id: "06684E2E34BE8B00"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "172652FCED45DEF9"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FC4D860C8175089"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.treated.planks.description_1}"
+				""
+				"{quest.treated.planks.description_2}"
+			]
+			id: "0858B9CB97437ACF"
+			progression_mode: "linear"
+			rewards: [{
+				count: 32
+				id: "1176EB89A629C8D1"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.treated.planks.subtitle}"
+			tasks: [{
+				id: "628EC2A797C1C32B"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FC4D860C8175089"]
+			description: [
+				"{quest.treated.torch_production.description_1}"
+				""
+				"{quest.treated.torch_production.description_2}"
+			]
+			id: "4818F05CFA7C5FA2"
+			progression_mode: "linear"
+			rewards: [{
+				count: 64
+				id: "15DE083F7A6D28B2"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.treated.torch_production.subtitle}"
+			tasks: [{
+				count: 32L
+				id: "4F39BE570D8DBE39"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "{quest.treated.torch_production.title}"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55C8C614C6ADE563"]
+			description: [
+				"{quest.treated.coal_coke.description_1}"
+				""
+				"{quest.treated.coal_coke.description_2}"
+			]
+			id: "242AE3A8336F6175"
+			progression_mode: "linear"
+			rewards: [{
+				count: 15
+				id: "76FCEBE49599AF30"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.treated.coal_coke.subtitle}"
+			tasks: [{
+				id: "3E7FC964513B5E9B"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+	]
+	title: "{quest.treated}"
+}

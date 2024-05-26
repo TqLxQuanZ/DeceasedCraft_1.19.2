@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "planes"
+	group: "0D77BDD69DA6720E"
+	icon: {
+		Count: 1b
+		id: "simpleplanes:plane"
+		tag: {
+			EntityTag: {
+				material: "minecraft:oak_planks"
+			}
+		}
+	}
+	id: "5E2FC43BDE206404"
+	order_index: 2
+	quest_links: [{
+		id: "724873E3BED0E3F2"
+		linked_quest: "53D3CB47281F3C35"
+		x: 1.0d
+		y: 2.5d
+	}]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.planes.workbench.description_1}"
+				""
+				"{quest.planes.workbench.description_2}"
+			]
+			id: "31A945464BC2A672"
+			rewards: [{
+				id: "7330631347E76A46"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{quest.planes.workbench.subtitle}"
+			tasks: [{
+				id: "245A5B50B49232AE"
+				item: "simpleplanes:plane_workbench"
+				type: "item"
+			}]
+			title: "{quest.planes.workbench.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31A945464BC2A672"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.planes.propeller.description_1}"
+				""
+				"{quest.planes.propeller.description_2}"
+			]
+			id: "26E1352BFE376C00"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "3B0736D98D21EA45"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "{quest.planes.propeller.subtitle}"
+			tasks: [{
+				id: "389747C882E2BACE"
+				item: "simpleplanes:propeller"
+				type: "item"
+			}]
+			title: "{quest.planes.propeller.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31A945464BC2A672"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.planes.wood.description_1}"
+				""
+				"{quest.planes.wood.description_2}"
+			]
+			id: "4FA41433E6E6E326"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "6C4C70B4EC272300"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{quest.planes.wood.subtitle}"
+			tasks: [{
+				id: "74B0906528859AC9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			title: "{quest.planes.wood.title}"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7BB53BAA7D84178E"
+				"5B1EB10BA63FDF19"
+				"7690274AC0CC0B3E"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{quest.planes.engine.description_1}"
+				""
+				"{quest.planes.engine.description_2}"
+				""
+				"{quest.planes.engine.description_3}"
+				""
+				"{quest.planes.engine.description_4}"
+			]
+			id: "34092B8D7A3D9314"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "12D05E08B42B9E29"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.planes.engine.subtitle}"
+			tasks: [{
+				id: "658710BDA07365E7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "simpleplanes:plane_engines"
+					}
+				}
+				title: "Any #simpleplanes:plane_engines"
+				type: "item"
+			}]
+			title: "{quest.planes.engine.title}"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34092B8D7A3D9314"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.planes.shooter.description_1}"
+				""
+				"{quest.planes.shooter.description_2}"
+			]
+			id: "4A24041088DE0548"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0CD979C0F168379F"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.planes.shooter.subtitle}"
+			tasks: [{
+				id: "02CEFB637E31C150"
+				item: "simpleplanes:shooter"
+				type: "item"
+			}]
+			title: "{quest.planes.shooter.title}"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A24041088DE0548"]
+			dependency_requirement: "one_started"
+			description: ["{quest.planes.missile.description_1}"]
+			id: "5D57E01489E8A571"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 7
+				id: "7FBBB70A9AC8DD01"
+				item: "cgm:missile"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.planes.missile.subtitle}"
+			tasks: [{
+				id: "500DCF5E123EC8DF"
+				item: "cgm:missile"
+				type: "item"
+			}]
+			title: "{quest.planes.missile.title}"
+			x: 12.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34092B8D7A3D9314"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.planes.upgrades.description_1}"
+				""
+				"{quest.planes.upgrades.description_2}"
+			]
+			id: "1F1E07FFA8286A85"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "46D07BEE78FC0B28"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "circle"
+			subtitle: "{quest.planes.upgrades.subtitle}"
+			tasks: [{
+				id: "605CF86903399AD4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "simpleplanes:plane_upgrades"
+					}
+				}
+				title: "Any #simpleplanes:plane_upgrades"
+				type: "item"
+			}]
+			title: "{quest.planes.upgrades.title}"
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4A24041088DE0548"]
+			dependency_requirement: "one_started"
+			description: ["{quest.planes.arrow.description_1}"]
+			id: "0101A30A3D0DC28E"
+			rewards: [{
+				count: 31
+				id: "7DD1083078A528B9"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			subtitle: "{quest.planes.arrow.subtitle}"
+			tasks: [{
+				id: "14379C92A94FEDD6"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			title: "{quest.planes.arrow.title}"
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A24041088DE0548"]
+			dependency_requirement: "one_started"
+			description: ["{quest.planes.bullet.description_1}"]
+			id: "2609D2B4D68053A3"
+			rewards: [{
+				count: 15
+				id: "4D25127133D549D6"
+				item: "cgm:advanced_bullet"
+				type: "item"
+			}]
+			subtitle: "{quest.planes.bullet.subtitle}"
+			tasks: [{
+				id: "0B7370D2AD787F67"
+				item: "cgm:advanced_bullet"
+				type: "item"
+			}]
+			title: "{quest.planes.bullet.title}"
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4FA41433E6E6E326"
+				"26E1352BFE376C00"
+			]
+			id: "7BB53BAA7D84178E"
+			rewards: [{
+				id: "5311FAC8BC862E3E"
+				table_id: 3132227616718337425L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{quest.planes.type.smallplane.description_1}"
+			tasks: [{
+				id: "32A68BD56AF76C31"
+				item: {
+					Count: 1b
+					id: "simpleplanes:plane"
+					tag: {
+						EntityTag: {
+							material: "minecraft:oak_planks"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.planes.type.smallplane.title}"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4FA41433E6E6E326"
+				"26E1352BFE376C00"
+			]
+			id: "7690274AC0CC0B3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E29C7F8B1F5EE15"
+				table_id: 3132227616718337425L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{quest.planes.type.helicopter.description_2}"
+			tasks: [{
+				id: "7AB2F8E280DA1BEC"
+				item: {
+					Count: 1b
+					id: "simpleplanes:helicopter"
+					tag: {
+						EntityTag: {
+							material: "minecraft:oak_planks"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.planes.type.helicopter.title}"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4FA41433E6E6E326"
+				"26E1352BFE376C00"
+			]
+			description: [""]
+			id: "5B1EB10BA63FDF19"
+			rewards: [{
+				id: "6858C2B3E2F23DDE"
+				table_id: 3132227616718337425L
+				type: "random"
+			}]
+			shape: "square"
+			subtitle: "{quest.planes.type.largeplane.description_2}"
+			tasks: [{
+				id: "58B90F1D7BBCD44E"
+				item: {
+					Count: 1b
+					id: "simpleplanes:large_plane"
+					tag: {
+						EntityTag: {
+							material: "minecraft:oak_planks"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.planes.type.largeplane.title}"
+			x: 5.0d
+			y: 1.0d
+		}
+	]
+	title: "{quest.planes}"
+}

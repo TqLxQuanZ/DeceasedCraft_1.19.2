@@ -1,0 +1,214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_transport"
+	group: "0D77BDD69DA6720E"
+	icon: "create:controls"
+	id: "2AB51EED6E71C05F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: [""]
+			id: "4F409A5069158D18"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 3
+				id: "101F671EB6A7244A"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{quest.train.steam_engine.subtitle}"
+			tasks: [{
+				id: "31C8AD4065B39D1B"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.train.train_tracks.description_1}"]
+			id: "358DC7C7A1EF9AD4"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 31
+				id: "2DF225187FB6CCB0"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "{quest.train.train_tracks.subtitle}"
+			tasks: [{
+				id: "64DF824BB2573B75"
+				item: "create:track"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4F409A5069158D18"
+				"4B96A3DF7F541D30"
+				"1DE6001A10454C74"
+			]
+			dependency_requirement: "one_started"
+			description: ["{quest.train.train_station.description_1}"]
+			id: "2A3F96302E68B66A"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "2AB92861781F6A53"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{quest.train.train_station.subtitle}"
+			tasks: [{
+				id: "1829D91C33FF85AD"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03E2CE50F420AEAA"]
+			dependency_requirement: "one_started"
+			description: ["{quest.train.train_fuel.description_1}"]
+			hide: false
+			id: "691FB0F87421B8D7"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "11AF3437396A3C3C"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{quest.train.train_fuel.subtitle}"
+			tasks: [{
+				id: "0B8547B4012E8E99"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:coals"
+					}
+				}
+				title: "Any #minecraft:coals"
+				type: "item"
+			}]
+			title: "{quest.train.train_fuel.title}"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4B96A3DF7F541D30"
+				"495CE9D070CBC0DE"
+			]
+			dependency_requirement: "one_started"
+			description: ["{quest.train.train_control.description_1}"]
+			id: "6B85E8592B0BB1D8"
+			rewards: [{
+				id: "40E07D2479481929"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{quest.train.train_control.subtitle}"
+			tasks: [{
+				id: "405E24CB0AD1CE9A"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			description: ["{quest.train.train_casing.description_1}"]
+			id: "4B96A3DF7F541D30"
+			rewards: [{
+				count: 3
+				id: "2938037BF6A842A1"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.train.train_casing.subtitle}"
+			tasks: [{
+				id: "5106D12D8D568A5B"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			id: "1DE6001A10454C74"
+			rewards: [{
+				count: 3
+				id: "26EFB9BC58D717FB"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{quest.train.heat_engine.subtitle}"
+			tasks: [{
+				id: "6A82680218CF67C1"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "495CE9D070CBC0DE"
+			rewards: [{
+				count: 3
+				id: "4C151813E72E6ECF"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "{quest.train.precision_mechanism.subtitle}"
+			tasks: [{
+				id: "4BCA1F0B373FB6D1"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2A3F96302E68B66A"
+				"6B85E8592B0BB1D8"
+				"4B96A3DF7F541D30"
+				"358DC7C7A1EF9AD4"
+			]
+			description: ["{quest.train.train_assembly.description_1}"]
+			icon: "create:schedule"
+			id: "03E2CE50F420AEAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BA337C256676449"
+				table_id: 3132227616718337425L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "{quest.train.train_assembly.subtitle}"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "6943BDDC37CBA408"
+				type: "advancement"
+			}]
+			title: "{quest.train.train_assembly.title}"
+			x: -4.0d
+			y: 4.0d
+		}
+	]
+	title: "{quest.train}"
+}

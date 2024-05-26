@@ -1,0 +1,676 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guides"
+	group: "410F2D717CE3690A"
+	icon: "minecraft:book"
+	id: "094F32D04EFC8577"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guides.readme.description_1}"
+				""
+				"{quest.guides.readme.description_2}"
+			]
+			icon: "minecraft:paper"
+			id: "6A2115E257194F4F"
+			progression_mode: "flexible"
+			shape: "rsquare"
+			size: 4.0d
+			subtitle: "{quest.guides.readme.subtitle}"
+			tasks: [{
+				id: "09084EACBEE55A60"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.readme.title}"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			description: ["{quest.guides.flying.description_1}"]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "simpleplanes:planes_book"
+				}
+			}
+			id: "53D3CB47281F3C35"
+			optional: true
+			rewards: [{
+				id: "2F467C34D58460D4"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "simpleplanes:planes_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.flying.subtitle}"
+			tasks: [{
+				id: "1B5E93BAAFB80B45"
+				title: "Pilot"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.flying.title}"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: ["{quest.guides.engineer.description_1}"]
+			icon: "immersiveengineering:manual"
+			id: "57F9335CCADDE4A6"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				id: "282F69FD48C5A15D"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.engineer.subtitle}"
+			tasks: [{
+				id: "5ED75A0BC060F5CF"
+				title: "PhD of Engineering"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.engineer.title}"
+			x: -2.25d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guides.encyclopedia.description_1}"
+				""
+				"{quest.guides.encyclopedia.description_2}"
+			]
+			icon: "alexsmobs:animal_dictionary"
+			id: "6504F3EAFADBC856"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				id: "3BD4757E20A9F3EC"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.encyclopedia.subtitle}"
+			tasks: [{
+				id: "40406F939C6412B9"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.encyclopedia.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: [
+				"{quest.guides.foodhealth.description_1}"
+				"{quest.guides.foodhealth.description_2}"
+				""
+				"{quest.guides.foodhealth.description_3}"
+				"{quest.guides.foodhealth.description_4}"
+			]
+			icon: "minecraft:cooked_beef"
+			id: "7DE11DC0814007B7"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0FFEAB7B4708699D"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "{quest.guides.foodhealth.subtitle}"
+			tasks: [{
+				id: "3E582D28E2DA2FF8"
+				title: "Foods"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.foodhealth.title}"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.guides.specialization.description_1}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7AE195FFCA7345BE"
+			rewards: [{
+				id: "69B8DD8F8109487A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "{quest.guides.specialization.subtitle}"
+			tasks: [{
+				id: "37EF73974FAE0FC0"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.specialization.title}"
+			x: -1.5d
+			y: -3.75d
+		}
+		{
+			can_repeat: true
+			description: [
+				"{quest.guides.parkour.description_1}"
+				""
+				"{quest.guides.parkour.description_2}"
+			]
+			icon: "minecraft:player_head"
+			id: "29B705D98AA4A1E1"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				id: "51662641ED1F5AD6"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "parcool:parcool_guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.parkour.subtitle}"
+			tasks: [{
+				id: "5CBB69B31DC7FA0F"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.parkour.title}"
+			x: 2.25d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guides.wasteland.description_1}"
+				""
+				"{quest.guides.wasteland.description_2}"
+				""
+				"{quest.guides.wasteland.description_3}"
+				""
+				"{quest.guides.wasteland.description_4}"
+			]
+			icon: "biomesoplenty:dead_sapling"
+			id: "700AA4FDC8248832"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "272D04C323514B70"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.wasteland.subtitle}"
+			tasks: [{
+				id: "023EEEDD6B00C848"
+				title: "Fallout"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.wasteland.title}"
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			description: ["{quest.guides.blaze.description_1}"]
+			icon: "minecraft:blaze_powder"
+			id: "159A0FA1BC603377"
+			rewards: [{
+				id: "70FAA5FA4F31D11E"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.blaze.subtitle}"
+			tasks: [{
+				id: "7BD7532BC4543BEA"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.blaze.title}"
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guides.compass.description_1}"
+				""
+				"{quest.guides.compass.description_2}"
+			]
+			icon: {
+				Count: 1b
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "71B16B68BEBC0A3C"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "0D59E3ACE6434330"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.compass.subtitle}"
+			tasks: [{
+				id: "68FEDDF8697BE545"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{quest.guides.compass.title}"
+			x: 0.0d
+			y: 9.75d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guides.remnants.description_1}"
+				""
+				"{quest.guides.remnants.description_2}"
+				""
+				"{quest.guides.remnants.description_3}"
+			]
+			icon: "another_furniture:oak_bench"
+			id: "5806D165EFC8E301"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "695A64A7B8CE1938"
+				item: "farmersdelight:apple_cider"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.remnants.subtitle}"
+			tasks: [{
+				id: "75B8DF85EA4DCED4"
+				title: "City"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.remnants.title}"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"{quest.guides.cure.description_1}"
+				""
+				"{quest.guides.cure.description_2}"
+				"{quest.guides.cure.description_3}"
+			]
+			id: "742FF73D1D68BA5D"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3DCBA65373B26E6B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "16665A904F9A5F67"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{quest.guides.cure.subtitle}"
+			tasks: [{
+				id: "137F4D2AA46A9F02"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "{quest.guides.cure.title}"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guides.infection.description_1}"
+				"{quest.guides.infection.description_2}"
+				""
+				"{quest.guides.infection.description_3}"
+			]
+			icon: "minecraft:zombie_head"
+			id: "0DAADE741F538D43"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 3
+				id: "52F9505A7E84B7E7"
+				item: "firstaid:plaster"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{quest.guides.infection.subtitle}"
+			tasks: [{
+				id: "38F7E93853FF6AC5"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.infection.title}"
+			x: -1.5d
+			y: 5.25d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guides.forgotten.description_1}"
+				""
+				"{quest.guides.forgotten.description_2}"
+				"{quest.guides.forgotten.description_3}"
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "656144C7048D7668"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 3
+				id: "6E6EE815945220D9"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.forgotten.subtitle}"
+			tasks: [{
+				id: "0DCD3D158ADE1BEB"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.forgotten.title}"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guides.start.description_1}"
+				"{quest.guides.start.description_2}"
+				""
+				"{quest.guides.start.description_3}"
+			]
+			icon: "minecraft:zombie_head"
+			id: "44FC50E18E90F2C8"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "7C0D2E7F8E7389CC"
+				item: {
+					Count: 1b
+					id: "apocalypsenow:baseball_bat"
+					tag: {
+						Damage: 87
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 4.0d
+			subtitle: "{quest.guides.start.subtitle}"
+			tasks: [{
+				id: "7757AA674A7668AD"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.start.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guides.bodyhealth.description_1}"
+				""
+				"{quest.guides.bodyhealth.description_2}"
+				""
+				"{quest.guides.bodyhealth.description_3}"
+				""
+				"{quest.guides.bodyhealth.description_4}"
+			]
+			icon: "artifacts:crystal_heart"
+			id: "338F2C6F8723CB9E"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "69FB59B317CE0112"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": { }
+					}
+					id: "minecraft:leather_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "{quest.guides.bodyhealth.subtitle}"
+			tasks: [{
+				id: "06F9335E7DD01A9F"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.bodyhealth.title}"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["{quest.guides.nether.description_1}"]
+			icon: "minecraft:purpur_block"
+			id: "7AFF562B41079294"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "651B442B1C3DEE53"
+				table_id: 3132227616718337425L
+				type: "random"
+			}]
+			size: 2.0d
+			subtitle: "{quest.guides.nether.subtitle}"
+			tasks: [{
+				id: "1297133D6B28CC36"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.nether.title}"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.guides.flare.description_1}"]
+			id: "3776451F76BAF380"
+			rewards: [{
+				count: 64
+				id: "140F0DCCC4AE8766"
+				item: "drg_flares:drg_flare_yellow"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.flare.subtitle}"
+			tasks: [{
+				id: "00160D764F6BAB68"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:flares"
+					}
+				}
+				title: "Any #forge:flares"
+				type: "item"
+			}]
+			title: "{quest.guides.flare.title}"
+			x: -3.0d
+			y: 14.25d
+		}
+		{
+			can_repeat: true
+			description: [
+				"{quest.guides.paladin.description_1}"
+				""
+				"{quest.guides.paladin.description_2}"
+			]
+			icon: "pfm:furniture_book"
+			id: "6DD6F8B79319D27D"
+			optional: true
+			progression_mode: "flexible"
+			rewards: [{
+				id: "09298241B791FD0C"
+				item: "pfm:furniture_book"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.guides.paladin.subtitle}"
+			tasks: [{
+				id: "73A6EE36F0AD1875"
+				type: "checkmark"
+			}]
+			title: "{quest.guides.paladin.title}"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["{quest.chalk.description_1}"]
+			id: "2D2F4B75C8F96B9A"
+			rewards: [
+				{
+					id: "111CEA8B1FD0C57E"
+					item: {
+						Count: 1b
+						id: "chalk:white_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78861876AD5CF7E1"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.chalk.subtitle}"
+			tasks: [{
+				id: "46DF82700AD1071E"
+				item: {
+					Count: 1b
+					id: "chalk:chalk_box"
+					tag: {
+						Items: [
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.chalk.title}"
+			x: 3.0d
+			y: 14.25d
+		}
+		{
+			description: [
+				"{quest.backpack.description_1}"
+				""
+				"{quest.backpack.description_2}"
+				"{quest.backpack.description_3}"
+			]
+			id: "383BC8B7DAB18413"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F16920099D6351F"
+				table_id: 3132227616718337425L
+				type: "random"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "{quest.backpack.subtitle}"
+			tasks: [{
+				id: "36CE9AE72663B13C"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "{quest.backpack.title}"
+			x: 0.0d
+			y: 14.25d
+		}
+	]
+	title: "{quest.guides}"
+}

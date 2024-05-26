@@ -1,0 +1,937 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "machinery"
+	group: "06797646CDBF2AAC"
+	icon: "immersiveengineering:plate_duroplast"
+	id: "1B7E170768E21867"
+	order_index: 3
+	quest_links: [
+		{
+			id: "00166D9D5D8A1E4D"
+			linked_quest: "2FC4D860C8175089"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "1197D90DA0F98E42"
+			linked_quest: "2B210294E5EEA1D9"
+			x: 25.5d
+			y: -12.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"4A1A36DD335F7F72"
+				"18BCFEEA3BBC95E8"
+			]
+			description: [
+				"{quest.material.arc_furnace.description_1}"
+				""
+				"{quest.material.arc_furnace.description_2}"
+				"{quest.material.arc_furnace.description_3}"
+				"{quest.material.arc_furnace.description_4}"
+			]
+			id: "735FD75967EE7FF2"
+			progression_mode: "linear"
+			rewards: [{
+				id: "064A384E142D22FA"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "0F8125AA64D4FBE0"
+				type: "advancement"
+			}]
+			title: "{quest.material.arc_furnace.title}"
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2FAC7CA3578CD6CA"]
+			dependency_requirement: "one_started"
+			description: ["{quest.material.metal_press.description_1}"]
+			id: "4A1A36DD335F7F72"
+			progression_mode: "linear"
+			rewards: [{
+				id: "0EAA97934614BD04"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "{quest.material.metal_press.subtitle}"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "0397BE13C8F6DAED"
+				type: "advancement"
+			}]
+			title: "{quest.material.metal_press.title}"
+			x: 2.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4A1A36DD335F7F72"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.material.refinery.description_1}"
+				""
+				"{quest.material.refinery.description_2}"
+			]
+			id: "7EE0809A9B220503"
+			progression_mode: "linear"
+			rewards: [{
+				id: "15E25B69E08EBBFF"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_refinery"
+				criterion: ""
+				id: "4F9E6D10339BF7D8"
+				type: "advancement"
+			}]
+			title: "{quest.material.refinery.title}"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A1A36DD335F7F72"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.material.mixer.description_1}"
+				""
+				"{quest.material.mixer.description_2}"
+			]
+			id: "66347F4471AF0AD5"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				count: 32
+				id: "25FE7A3692DE28D5"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_mixer"
+				criterion: ""
+				id: "3F5B990D01B934D4"
+				type: "advancement"
+			}]
+			title: "{quest.material.mixer.title}"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"63E59FB8B226160E"
+				"105D66E818989F4D"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.guns.plastic.description_1}"
+				""
+				"{quest.guns.plastic.description_2}"
+			]
+			id: "4AB6C074F8B0FB9E"
+			progression_mode: "linear"
+			rewards: [{
+				count: 12
+				id: "0CF34A6B8FE468A9"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "490D77AB682AA5D9"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A1A36DD335F7F72"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.material.seismic.description_1}"
+				""
+				"{quest.material.seismic.description_2}"
+			]
+			id: "77EC1AAFA634748C"
+			progression_mode: "linear"
+			rewards: [{
+				count: 12
+				id: "3BC7DE0276280747"
+				item: "immersiveengineering:buckshot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69E99CEB96E8F942"
+				item: "immersivepetroleum:seismic_survey"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"214C3F711F81055E"
+				"4011B3F40BE5AC43"
+			]
+			description: [
+				"{quest.material.derrick.description_1}"
+				""
+				"{quest.material.derrick.description_2}"
+				"{quest.material.derrick.description_3}"
+				""
+				"{quest.material.derrick.description_4}"
+			]
+			id: "30DD32A41789F621"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "62C27C473E0ABFA3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 32
+					id: "27D1B94F4E5F8828"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Black Gold"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_derrick"
+				criterion: ""
+				id: "2AA4E84EBE8135C8"
+				type: "advancement"
+			}]
+			title: "Derrick"
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30DD32A41789F621"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.material.pumpjack.description_1}"
+				""
+				"{quest.material.pumpjack.description_2}"
+				""
+				"{quest.material.pumpjack.description_3}"
+			]
+			id: "0E055A2041D2A050"
+			progression_mode: "linear"
+			rewards: [{
+				id: "108A02499C42A03C"
+				type: "xp"
+				xp: 2000
+			}]
+			subtitle: "{quest.material.pumpjack.subtitle}"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_pumpjack"
+				criterion: ""
+				id: "57823BEBF3731104"
+				type: "advancement"
+			}]
+			title: "{quest.material.pumpjack.title}"
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4A1A36DD335F7F72"
+				"214C3F711F81055E"
+			]
+			description: [
+				"{quest.material.oil_tank.description_1}"
+				""
+				"{quest.material.oil_tank.description_2}"
+			]
+			id: "76D2EF1A6D98F9BE"
+			progression_mode: "linear"
+			rewards: [{
+				id: "5577F4F42C53375A"
+				type: "xp"
+				xp: 1000
+			}]
+			size: 1.5d
+			subtitle: "{quest.material.oil_tank.subtitle}"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_oiltank"
+				criterion: ""
+				id: "2FEC5DAD8075C122"
+				type: "advancement"
+			}]
+			title: "{quest.material.oil_tank.title}"
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30DD32A41789F621"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.material.distill.description_1}"
+				""
+				"{quest.material.distill.description_2}"
+			]
+			id: "7D29A71120419FE4"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "4D1908B9C164EE52"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 32
+					id: "3F22600A654A1CAE"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_distillationtower"
+				criterion: ""
+				id: "05F51FDD963E004C"
+				type: "advancement"
+			}]
+			title: "{quest.material.distill.title}"
+			x: 16.5d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"79DB78FF202EFC39"
+				"4F92684663C4744D"
+			]
+			description: [
+				"{quest.guns.rubber.description_1}"
+				""
+				"{quest.guns.rubber.description_2}"
+			]
+			id: "1D87E5535012EEDF"
+			progression_mode: "linear"
+			rewards: [{
+				count: 12
+				id: "12D06C5D771084FE"
+				item: "contenttweaker:rubber"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "14BF278076AB7AF3"
+				item: "contenttweaker:rubber"
+				type: "item"
+			}]
+			title: "{quest.guns.rubber.title}"
+			x: 24.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["79DB78FF202EFC39"]
+			dependency_requirement: "one_started"
+			description: ["{quest.material.polyethylene.description_1}"]
+			id: "127BFFF817F6D610"
+			progression_mode: "linear"
+			rewards: [{
+				count: 12
+				id: "5286ED240AD73D46"
+				item: "contenttweaker:polyethylene"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A9165F6B1D75F76"
+				item: "contenttweaker:polyethylene"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"127BFFF817F6D610"
+				"735FD75967EE7FF2"
+			]
+			description: ["{quest.material.resistance_fiber.description_1}"]
+			id: "46570C043F3FB3BE"
+			progression_mode: "linear"
+			rewards: [{
+				count: 5
+				id: "54D41F43DCDBF0F2"
+				item: "contenttweaker:resistant_fiber"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3369991E84D16E5F"
+				item: "contenttweaker:resistant_fiber"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["46570C043F3FB3BE"]
+			dependency_requirement: "one_started"
+			description: ["{quest.material.resistance_fabric.description_1}"]
+			id: "4FDDCD5355B35149"
+			progression_mode: "linear"
+			rewards: [{
+				count: 3
+				id: "7A6D84B26AB0BBE9"
+				item: "contenttweaker:resistant_fabric"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5608C993770BD609"
+				item: "contenttweaker:resistant_fabric"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"127BFFF817F6D610"
+				"735FD75967EE7FF2"
+				"2B210294E5EEA1D9"
+			]
+			description: [
+				"{quest.melee.carbon_smelt.description_1}"
+				""
+				"{quest.melee.carbon_smelt.description_2}"
+			]
+			id: "0C3BABE6431EA92C"
+			progression_mode: "linear"
+			rewards: [{
+				count: 2
+				id: "1DDBC5DBF0C3024B"
+				item: "contenttweaker:high_carbon_steel_alloy"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "22C51AF6FDE3DD6B"
+				item: "contenttweaker:high_carbon_steel_alloy"
+				type: "item"
+			}]
+			title: "{quest.melee.carbon_smelt.title}"
+			x: 24.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"735FD75967EE7FF2"
+				"1FFA9E02C93303E5"
+			]
+			dependency_requirement: "one_started"
+			description: ["{quest.guns.aluminum_ingot.description_1}"]
+			id: "5A03F43381D2CB75"
+			min_required_dependencies: 1
+			progression_mode: "linear"
+			rewards: [{
+				count: 12
+				id: "72E06C7E03013064"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.guns.aluminum_ingot.subtitle}"
+			tasks: [{
+				id: "52F06FC69389086C"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2FAC7CA3578CD6CA"]
+			dependency_requirement: "one_started"
+			description: ["{quest.material.power.description_1}"]
+			icon: "immersiveengineering:windmill"
+			id: "41D1A738905E5E29"
+			progression_mode: "linear"
+			rewards: [{
+				id: "3C75D76D88FD83FD"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{quest.material.power.subtitle}"
+			tasks: [{
+				id: "22F6101BB709332C"
+				title: "Power Generation"
+				type: "checkmark"
+			}]
+			title: "{quest.material.power.title}"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30DD32A41789F621"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.material.high_refinery.description_1}"
+				""
+				"{quest.material.high_refinery.description_2}"
+			]
+			id: "06EF7D03DE0768F5"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "34BAB3FFD0A06850"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 32
+					id: "3C90EC2F09577314"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_hydrotreater"
+				criterion: ""
+				id: "49CDCA8D0B083F0C"
+				type: "advancement"
+			}]
+			title: "{quest.material.high_refinery.title}"
+			x: 16.5d
+			y: -5.25d
+		}
+		{
+			description: [
+				"{quest.material.book.description_1}"
+				""
+				"{quest.material.book.description_2}"
+			]
+			icon: "immersiveengineering:manual"
+			id: "2FAC7CA3578CD6CA"
+			rewards: [{
+				id: "60DC7E2DCDC6C06C"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			subtitle: "{quest.material.book.subtitle}"
+			tasks: [{
+				id: "44F8CE502F270F03"
+				title: "Advanced Machines"
+				type: "checkmark"
+			}]
+			title: "{quest.material.book.title}"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77EC1AAFA634748C"]
+			description: ["{quest.material.oil.description_1}"]
+			id: "214C3F711F81055E"
+			progression_mode: "linear"
+			rewards: [{
+				id: "7982C19F7BD29E57"
+				item: "immersivepetroleum:crudeoil_bucket"
+				type: "item"
+			}]
+			subtitle: "{quest.material.oil.subtitle}"
+			tasks: [{
+				advancement: "immersivepetroleum:main/root"
+				criterion: ""
+				id: "20EDF5CDD904DEB3"
+				type: "advancement"
+			}]
+			title: "{quest.material.oil.title}"
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["66347F4471AF0AD5"]
+			description: ["{quest.material.concrete.description_1}"]
+			id: "4011B3F40BE5AC43"
+			progression_mode: "linear"
+			subtitle: "Don't spill it now..."
+			tasks: [{
+				id: "02CE1549C1E27545"
+				item: "immersiveengineering:concrete_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7D29A71120419FE4"
+				"06EF7D03DE0768F5"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{quest.material.naptha.description_1}"]
+			id: "0C32FC3CA332DD0C"
+			progression_mode: "linear"
+			rewards: [{
+				id: "59F469E3CE8E7B73"
+				item: "immersivepetroleum:crudeoil_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1415945686031B8F"
+				item: "immersivepetroleum:naphtha_bucket"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0C32FC3CA332DD0C"]
+			description: ["{quest.material.cracked_naptha.description_1}"]
+			id: "27C1BD1983456DB1"
+			progression_mode: "linear"
+			rewards: [{
+				id: "2CAA148F2C6D7A7C"
+				item: {
+					Count: 1b
+					id: "minecraft:water_bucket"
+					tag: {
+						Purity: -1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "006FE5CE89C764B4"
+				item: "immersivepetroleum:naphtha_cracked_bucket"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27C1BD1983456DB1"]
+			description: ["{quest.material.ethylene.description_1}"]
+			id: "79DB78FF202EFC39"
+			progression_mode: "linear"
+			rewards: [{
+				id: "77E8280509671C4E"
+				item: "immersivepetroleum:naphtha_cracked_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3840993A222F03D7"
+				item: "immersivepetroleum:ethylene_bucket"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["27C1BD1983456DB1"]
+			description: ["{quest.material.propylene.description_1}"]
+			id: "4F92684663C4744D"
+			progression_mode: "linear"
+			rewards: [{
+				id: "1AF4F7E1AD285A9C"
+				item: "immersivepetroleum:naphtha_cracked_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17A73E9486A55832"
+				item: "immersivepetroleum:propylene_bucket"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["30DD32A41789F621"]
+			description: [
+				"{quest.material.flarestack.description_1}"
+				""
+				"{quest.material.flarestack.description_2}"
+			]
+			id: "10A67665617B85EE"
+			progression_mode: "linear"
+			rewards: [{
+				id: "43273237E2D42AAF"
+				item: "immersivepetroleum:flarestack"
+				type: "item"
+			}]
+			subtitle: "{quest.material.flarestack.subtitle}"
+			tasks: [{
+				id: "2E7C6BEFEF2B167C"
+				item: "immersivepetroleum:flarestack"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1D87E5535012EEDF"
+				"4AB6C074F8B0FB9E"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{quest.material.cables.description_1}"]
+			id: "658E201139B88C53"
+			progression_mode: "linear"
+			rewards: [{
+				count: 15
+				id: "4A57D8E863DBBAAC"
+				item: "contenttweaker:rubber"
+				type: "item"
+			}]
+			subtitle: "{quest.material.cables.subtitle}"
+			tasks: [{
+				id: "36FAA47FDF8CC00A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:rubber_cables"
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.material.cables.title}"
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30DD32A41789F621"]
+			description: [
+				"{quest.material.rail.description_1}"
+				""
+				"{quest.material.rail.description_2}"
+			]
+			icon: "create:track"
+			id: "4E85AA0234D340E3"
+			progression_mode: "linear"
+			rewards: [{
+				id: "11AA4774035979DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "railways:white_conductor_cap"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "{quest.material.rail.subtitle}"
+			tasks: [{
+				id: "2E3E3C7CA7EA3F1F"
+				title: "Shipping and Handling"
+				type: "checkmark"
+			}]
+			title: "{quest.material.rail.title}"
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["658E201139B88C53"]
+			description: ["{quest.material.wrench.description_1}"]
+			id: "454EC0800E7827FF"
+			progression_mode: "linear"
+			rewards: [{
+				id: "44620B6357B7574B"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			subtitle: "{quest.material.wrench.subtitle}"
+			tasks: [{
+				id: "577A40FBF926E34F"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			title: "{quest.material.wrench.title}"
+			x: 25.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7EE0809A9B220503"
+				"7C8D13E68A50DE51"
+				"7BFFB4EF2D6D77DC"
+			]
+			description: ["{quest.material.acetaldehyde.description_1}"]
+			id: "257A2559BF92F7A7"
+			progression_mode: "linear"
+			rewards: [{
+				count: 16
+				id: "5172B8D3CCFD1AC0"
+				item: "immersiveengineering:ingot_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F2FB727B74255F3"
+				item: "immersiveengineering:acetaldehyde_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A1A36DD335F7F72"]
+			description: [
+				"{quest.material.ethanol.description_1}"
+				""
+				"{quest.material.ethanol.description_2}"
+			]
+			hide_dependency_lines: true
+			id: "7C8D13E68A50DE51"
+			progression_mode: "linear"
+			rewards: [{
+				id: "46C7BEF2BA8B7CCB"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "67F281244AF084DD"
+				item: "immersiveengineering:ethanol_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7EE0809A9B220503"
+				"257A2559BF92F7A7"
+				"2FC4D860C8175089"
+			]
+			description: ["{quest.material.phenolic.description_1}"]
+			id: "105D66E818989F4D"
+			progression_mode: "linear"
+			tasks: [{
+				id: "729C28573D55A842"
+				item: "immersiveengineering:phenolic_resin_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A1A36DD335F7F72"]
+			description: ["{quest.material.silver_plate.description_1}"]
+			hide_dependency_lines: true
+			id: "7BFFB4EF2D6D77DC"
+			progression_mode: "linear"
+			rewards: [{
+				id: "48380F3143349EFD"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35A507352655A33C"
+				item: "immersiveengineering:plate_silver"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A1A36DD335F7F72"]
+			hide_dependency_lines: true
+			id: "63E59FB8B226160E"
+			progression_mode: "linear"
+			tasks: [{
+				id: "38ED472E1C70960C"
+				item: "immersiveengineering:mold_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.material.projector.description_1}"]
+			id: "5A1F033D08C396E1"
+			rewards: [{
+				id: "515E4AE2CB4ECEB6"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "6840FCAA162BC8A7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "immersivepetroleum:projector"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			description: ["{quest.material.bauxite.description_1}"]
+			id: "18BCFEEA3BBC95E8"
+			rewards: [{
+				count: 3
+				id: "11D35C97CB9A26E5"
+				item: "immersiveengineering:ore_aluminum"
+				type: "item"
+			}]
+			subtitle: "{quest.material.bauxite.subtitle}"
+			tasks: [{
+				id: "00BF9DFA8D64A1B0"
+				item: "immersiveengineering:raw_aluminum"
+				type: "item"
+			}]
+			title: "{quest.material.bauxite.title}"
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["18BCFEEA3BBC95E8"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.material.aluminium_nugget.description_1}"
+				""
+				"{quest.material.aluminium_nugget.description_2}"
+			]
+			id: "1FFA9E02C93303E5"
+			progression_mode: "linear"
+			rewards: [{
+				id: "202BDBE46025A382"
+				item: "immersiveengineering:ingot_aluminum"
+				type: "item"
+			}]
+			subtitle: "{quest.material.aluminium_nugget.subtitle}"
+			tasks: [{
+				id: "472B252F90114BED"
+				item: "immersiveengineering:nugget_aluminum"
+				type: "item"
+			}]
+			title: "{quest.material.aluminium_nugget.title}"
+			x: 4.5d
+			y: -12.0d
+		}
+	]
+	title: "{quest.material}"
+}

@@ -1,0 +1,366 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_needs"
+	group: "0CEF75605D0E77B3"
+	icon: "apocalypsenow:medicalkit"
+	id: "2583DDB195B6CFEA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.healthwater.fiber.description_1}"]
+			icon: "immersiveengineering:hemp_fiber"
+			id: "655E03A6D98DF879"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1CD77904F68767B7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 12
+					id: "0CC89C4D431E6EAB"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{quest.healthwater.fiber.subtitle}"
+			tasks: [{
+				id: "4C7B3A6FBFEC9EE0"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			title: "{quest.healthwater.fiber.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["655E03A6D98DF879"]
+			dependency_requirement: "one_started"
+			description: ["{quest.healthwater.string.description_1}"]
+			id: "103C05E04D0AEB52"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "72473B765CA99FBE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 12
+					id: "1F418A3274D6FB13"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2394AAEC1A9810DD"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "{quest.healthwater.string.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.healthwater.thirst.description_1}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+					Purity: -1
+				}
+			}
+			id: "6F42F5255BB2A5CA"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0765D912CF7AF832"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "48C4BF696B83CA14"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{quest.healthwater.thirst.subtitle}"
+			tasks: [{
+				id: "06FDEED054657694"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.healthwater.thirst.title}"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["103C05E04D0AEB52"]
+			dependency_requirement: "one_started"
+			description: ["{quest.healthwater.wool.description_1}"]
+			id: "313201137C44FDB0"
+			rewards: [
+				{
+					id: "55F8CC44ACE08BAD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "04F31F78AAEC5320"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AFF6BB23CEF77C7"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			title: "{quest.healthwater.wool.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["313201137C44FDB0"]
+			dependency_requirement: "one_started"
+			description: ["{quest.healthwater.plaster.description_1}"]
+			id: "4523079E2318BD94"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4BD71099D74698F8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "53C7580935FC66E7"
+					item: "firstaid:plaster"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "{quest.healthwater.plaster.subtitle}"
+			tasks: [{
+				id: "7CE16FEEA03DBE1F"
+				item: "firstaid:plaster"
+				type: "item"
+			}]
+			title: "{quest.healthwater.plaster.title}"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["313201137C44FDB0"]
+			dependency_requirement: "one_started"
+			description: ["{quest.healthwater.bandages.description_1}"]
+			id: "1191928136871CA9"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "210F76E21CC857E9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "1B992C9A1E92681D"
+					item: "firstaid:bandage"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "{quest.healthwater.bandages.subtitle}"
+			tasks: [{
+				id: "1D17B12115255752"
+				item: "firstaid:bandage"
+				type: "item"
+			}]
+			title: "{quest.healthwater.bandages.title}"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F42F5255BB2A5CA"]
+			dependency_requirement: "one_started"
+			description: ["{quest.healthwater.campfire.description_1}"]
+			id: "73DFEE0495437E8B"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "491965925D4635E8"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{quest.healthwater.campfire.subtitle}"
+			tasks: [{
+				id: "55194943CDE3281C"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "{quest.healthwater.campfire.title}"
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F42F5255BB2A5CA"]
+			dependency_requirement: "one_started"
+			description: ["{quest.healthwater.furnace.description_1}"]
+			id: "6895B7261404F5C2"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "27B1E27F013FE404"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{quest.healthwater.furnace.subtitle}"
+			tasks: [{
+				id: "374417F635A81A95"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "{quest.healthwater.furnace.title}"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F42F5255BB2A5CA"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.healthwater.filter.description_1}"
+				"{quest.healthwater.filter.description_2}"
+			]
+			id: "7E20373C75B9F550"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "56EB019BB302D8A7"
+				type: "xp"
+				xp: 400
+			}]
+			subtitle: "{quest.healthwater.filter.subtitle}"
+			tasks: [{
+				id: "6BA7D450ED9FEF39"
+				item: "thirst:sand_filter"
+				type: "item"
+			}]
+			title: "{quest.healthwater.filter.title}"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"73DFEE0495437E8B"
+				"6895B7261404F5C2"
+				"7E20373C75B9F550"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{quest.healthwater.water.description_1}"]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+					Purity: -1
+				}
+			}
+			id: "2C6177EDC934F9DC"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 3
+				id: "6533B81F9E6B31F6"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "{quest.healthwater.water.subtitle}"
+			tasks: [{
+				id: "047C5CB3ED9A8E47"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.healthwater.water.title}"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			description: ["{quest.healthwater.medkit.description_1}"]
+			id: "273C809871E090F6"
+			rewards: [{
+				id: "4C81D586AFD63379"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{quest.healthwater.medkit.subtitle}"
+			tasks: [{
+				id: "79810C31012CA037"
+				item: "apocalypsenow:medicalkit"
+				type: "item"
+			}]
+			title: "{quest.healthwater.medkit.title}"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["{quest.healthwater.suturekit.description_1}"]
+			id: "54FE311D0FF66715"
+			rewards: [{
+				id: "13CDD52CA6C0FE9B"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{quest.healthwater.suturekit.subtitle}"
+			tasks: [{
+				id: "0574EC46149FBC03"
+				item: "apocalypsenow:suturekit"
+				type: "item"
+			}]
+			title: "{quest.healthwater.suturekit.title}"
+			x: 13.5d
+			y: 0.0d
+		}
+	]
+	title: "{quest.healthwater}"
+}

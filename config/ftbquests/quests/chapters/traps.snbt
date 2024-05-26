@@ -1,0 +1,514 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "traps"
+	group: "0CEF75605D0E77B3"
+	icon: "immersiveengineering:razor_wire"
+	id: "577EDD60C6A404FD"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C3681F3DD09F62E"]
+			dependency_requirement: "one_started"
+			description: ["{quest.defense.razor_wire.description_1}"]
+			id: "6DE10A494F77644A"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 15
+				id: "5C8968831E08584A"
+				item: "immersiveengineering:razor_wire"
+				type: "item"
+			}]
+			subtitle: "{quest.defense.razor_wire.subtitle}"
+			tasks: [{
+				id: "06685E9228C3B5D5"
+				item: "immersiveengineering:razor_wire"
+				type: "item"
+			}]
+			title: "{quest.defense.razor_wire.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.defense.barbed_wire.description_1}"]
+			id: "2C3681F3DD09F62E"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 15
+					id: "0B9988789BE524D2"
+					item: "createaddition:barbed_wire"
+					type: "item"
+				}
+				{
+					id: "7AFB5C1F5E94084A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.defense.barbed_wire.subtitle}"
+			tasks: [{
+				id: "3C183159B016CC24"
+				item: "createaddition:barbed_wire"
+				type: "item"
+			}]
+			title: "{quest.defense.barbed_wire.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27DEFB91E5E56287"]
+			dependency_requirement: "one_started"
+			description: ["{quest.defense.land_mine.description_1}"]
+			id: "5CDBCEB99909EF30"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "71C805F54948D4A6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "5D873D548E552F0C"
+					item: "apocalypsenow:land_mine"
+					type: "item"
+				}
+			]
+			subtitle: "{quest.defense.land_mine.subtitle}"
+			tasks: [{
+				id: "3C5641171C261DE2"
+				item: "apocalypsenow:land_mine"
+				type: "item"
+			}]
+			title: "{quest.defense.land_mine.title}"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.defense.bomb_defuse.description_1}"]
+			id: "58A7E63A31D4D38B"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "104B563A32DF5392"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2349A1140C8AE1FB"
+					item: {
+						Count: 1b
+						id: "apocalypsenow:bomb_defusing_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "{quest.defense.bomb_defuse.subtitle}"
+			tasks: [{
+				id: "03D737CC6D0D5049"
+				item: {
+					Count: 1b
+					id: "apocalypsenow:bomb_defusing_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.defense.bomb_defuse.title}"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{quest.defense.powder.description_1}"
+				"{quest.defense.powder.description_2}"
+			]
+			id: "27DEFB91E5E56287"
+			rewards: [
+				{
+					count: 3
+					id: "3EDFB36EACB3850C"
+					item: "apocalypsenow:gunpowder_can"
+					type: "item"
+				}
+				{
+					id: "0993D7FF3A1544BB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.defense.powder.subtitle}"
+			tasks: [{
+				id: "560C7A2A1AC37735"
+				item: "apocalypsenow:gunpowder_can"
+				type: "item"
+			}]
+			title: "{quest.defense.powder.title}"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CDBCEB99909EF30"]
+			description: ["{quest.defense.smart_mine.description_1}"]
+			id: "7E0402EA7A14A5DB"
+			rewards: [{
+				id: "2731F6BBC3961607"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{quest.defense.smart_mine.subtitle}"
+			tasks: [{
+				id: "2D62727B0AD200C9"
+				item: "securitycraft:mine"
+				type: "item"
+			}]
+			title: "{quest.defense.smart_mine.title}"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			description: ["{quest.defense.advance_bomb_defuse.description_1}"]
+			id: "1301A0C1396BE183"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12F7A4A1AA79F56C"
+				table_id: 3132227616718337425L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "{quest.defense.advance_bomb_defuse.subtitle}"
+			tasks: [{
+				id: "00685CF92F8042AB"
+				item: "securitycraft:remote_access_mine"
+				type: "item"
+			}]
+			title: "{quest.defense.advance_bomb_defuse.title}"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CDBCEB99909EF30"]
+			description: [
+				"{quest.defense.bouncy_mine.description_1}"
+				""
+			]
+			id: "06226808D4E4E109"
+			rewards: [{
+				id: "759DA3938F1ADD20"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{quest.defense.bouncy_mine.subtitle}"
+			tasks: [{
+				id: "0192E3E71E86C387"
+				item: "securitycraft:bouncing_betty"
+				type: "item"
+			}]
+			title: "{quest.defense.bouncy_mine.title}"
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{quest.defense.casing.description_1}"
+				""
+				"{quest.defense.casing.description_2}"
+			]
+			id: "2356E8170835B4AB"
+			rewards: [{
+				count: 8
+				id: "1578D2BBDA12B0BE"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "455EEF8B76FBCF99"
+				item: "immersiveengineering:mold_bullet_casing"
+				type: "item"
+			}]
+			title: "{quest.defense.casing.title}"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2356E8170835B4AB"]
+			description: [
+				"{quest.defense.empty_casing.description_1}"
+				"{quest.defense.empty_casing.description_2}"
+			]
+			id: "57E6B8957BE84A93"
+			rewards: [{
+				count: 16
+				id: "6B3D7CF14E02B824"
+				item: "immersiveengineering:empty_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B789B29917F11E8"
+				item: "immersiveengineering:empty_casing"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["57E6B8957BE84A93"]
+			dependency_requirement: "one_started"
+			description: ["{quest.defense.turret_ammunition.description_1}"]
+			id: "7564531B450221A8"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "771A18F10272A1D8"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "41E0E72A82B5924B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:turret_cartridge"
+					}
+				}
+				title: "Any #forge:turret_cartridge"
+				type: "item"
+			}]
+			title: "{quest.defense.turret_ammunition.title}"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.defense.automated_defense.description_1}"
+				""
+				"{quest.defense.automated_defense.description_2}"
+			]
+			id: "1A2A544C843B9643"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 3
+					id: "272B8F1CE6D9D06A"
+					item: "immersiveengineering:component_electronic_adv"
+					type: "item"
+				}
+				{
+					id: "78B7B3D07C62BCEB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.defense.automated_defense.subtitle}"
+			tasks: [{
+				id: "67E52BFEE2739E95"
+				item: "immersiveengineering:component_electronic_adv"
+				type: "item"
+			}]
+			title: "{quest.defense.automated_defense.title}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A2A544C843B9643"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.defense.flame_turret.description_1}"
+				"{quest.defense.flame_turret.description_2}"
+				""
+				"{quest.defense.flame_turret.description_3}"
+			]
+			id: "67E7EAB22901F74A"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 3
+				id: "1FE3BCE32407CA63"
+				item: "immersiveengineering:turret_chem"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "266F58E56C0B2084"
+				item: "immersiveengineering:turret_chem"
+				type: "item"
+			}]
+			title: "{quest.defense.flame_turret.title}"
+			x: 6.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1A2A544C843B9643"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.defense.gun_turret.description_1}"
+				"{quest.defense.gun_turret.description_2}"
+				""
+				"{quest.defense.gun_turret.description_3}"
+			]
+			id: "041779D84BF70FBD"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 3
+				id: "0EFAEF37280CE839"
+				item: "immersiveengineering:turret_gun"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "513BABA9DBEB5FE0"
+				item: "immersiveengineering:turret_gun"
+				type: "item"
+			}]
+			title: "{quest.defense.gun_turret.title}"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A2A544C843B9643"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.defense.tesla.description_1} "
+				""
+				"{quest.defense.tesla.description_2}"
+			]
+			id: "25C6295AC0F301F7"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 3
+				id: "53E831451147855F"
+				item: "immersiveengineering:tesla_coil"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "380CCBBC09F4E990"
+				item: "immersiveengineering:tesla_coil"
+				type: "item"
+			}]
+			title: "{quest.defense.tesla.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{quest.defense.bigcannon.description_1}"
+				""
+				"{quest.defense.bigcannon.description_2}"
+			]
+			icon: "createbigcannons:cannon_mount"
+			id: "3A5F9BABF4AF9650"
+			rewards: [{
+				id: "3D35E86C950126FA"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.defense.bigcannon.subtitle}"
+			tasks: [{
+				id: "0B7EE81E8F3C2F14"
+				title: "Create: Big Cannons"
+				type: "checkmark"
+			}]
+			title: "{quest.defense.bigcannon.title}"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "66486E0923AA334F"
+			tasks: [{
+				id: "27280C7FF1BA50FB"
+				item: "immersiveengineering:biodiesel_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "66B10A3CD94E3AD6"
+			tasks: [{
+				id: "62C74C10512026CB"
+				item: "immersivepetroleum:gasoline_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "303958BC1405D02A"
+			tasks: [{
+				id: "776AFBC496634CE1"
+				item: "immersivepetroleum:naphtha_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "09094ECFE2522FBA"
+			tasks: [{
+				id: "5BD2A8771C5A39C6"
+				item: "immersivepetroleum:benzene_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "75EFD79AD469490E"
+			tasks: [{
+				id: "339C9C67C05113B9"
+				item: "immersivepetroleum:napalm_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			description: ["{quest.defense.wirecutter.description_1}"]
+			id: "7B4B719C21EE7453"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66DF9B74BE61EF3A"
+				table_id: 3132227616718337425L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "{quest.defense.wirecutter.subtitle}"
+			tasks: [{
+				id: "3B87090BFDF71263"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.defense.wirecutter.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+	title: "{quest.defense}"
+}

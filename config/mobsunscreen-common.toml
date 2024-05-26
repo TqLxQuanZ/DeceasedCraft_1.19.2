@@ -1,0 +1,11 @@
+
+[General]
+	#Protects these mods from fire (any mobs with these namespaces)
+	mods = ["iceandfire", "zombiemobs", "undead_revamp2"]
+	#Protects these mobs from fire (any mobs with these ids (namespace:name))
+	mobs = ["minecraft:zombie", "minecraft:skeleton", "minecraft:stray"]
+	#Print all found mob IDS to the console, will cause spam
+	printIDs = false
+	#Protects all mobs from fire
+	protectAllMobs = false
+

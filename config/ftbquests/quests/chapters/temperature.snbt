@@ -1,0 +1,604 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "temperature"
+	group: "0CEF75605D0E77B3"
+	icon: "cold_sweat:thermometer"
+	id: "60EB6FF9A37336F1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.temperature.thermometer.description_1}"
+				"{quest.temperature.thermometer.description_2}"
+			]
+			icon: "cold_sweat:thermometer"
+			id: "310B9E0BA3951DD1"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5B0871417751A58D"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			subtitle: "{quest.temperature.thermometer.subtitle}"
+			tasks: [{
+				id: "6F0F843A1E33B3FA"
+				item: "cold_sweat:thermometer"
+				type: "item"
+			}]
+			title: "{quest.temperature.thermometer.title}"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5D153C60A43C563C"
+				"1C98F7FA473D46E9"
+				"42600842569C2F7F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{quest.temperature.waterskin.description_1}"
+				""
+				"{quest.temperature.waterskin.description_2}"
+				"{quest.temperature.waterskin.description_3}"
+			]
+			id: "717C651A2AC89DE9"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "568306CE4C0671D6"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{quest.temperature.waterskin.subtitle}"
+			tasks: [{
+				id: "6DAAB28D9529F746"
+				item: "cold_sweat:waterskin"
+				type: "item"
+			}]
+			title: "{quest.temperature.waterskin.title}"
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			description: ["{quest.temperature.icebox.description_1}"]
+			icon: "cold_sweat:icebox"
+			id: "5D153C60A43C563C"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5EE13FEFE04DE636"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{quest.temperature.icebox.subtitle}"
+			tasks: [{
+				id: "77848807007F68AD"
+				item: "cold_sweat:icebox"
+				type: "item"
+			}]
+			title: "{quest.temperature.icebox.title}"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"{quest.temperature.hearth.description_1}"
+				""
+				"{quest.temperature.hearth.description_2}"
+			]
+			icon: "cold_sweat:hearth"
+			id: "42600842569C2F7F"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "05B01F4E1E8CFFE3"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{quest.temperature.hearth.subtitle}"
+			tasks: [{
+				id: "4207F1FD13164EAB"
+				item: "cold_sweat:hearth"
+				type: "item"
+			}]
+			title: "{quest.temperature.hearth.title}"
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.temperature.boiler.description_1}"]
+			hide_dependency_lines: false
+			icon: "cold_sweat:boiler"
+			id: "1C98F7FA473D46E9"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "1735272CA583ED69"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "{quest.temperature.boiler.subtitle}"
+			tasks: [{
+				id: "54F54C00ECB5DA83"
+				item: "cold_sweat:boiler"
+				type: "item"
+			}]
+			title: "{quest.temperature.boiler.title}"
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.temperature.insulation.description_1}"
+				"{quest.temperature.insulation.description_2}"
+				""
+				"{quest.temperature.insulation.description_3}"
+			]
+			icon: "cold_sweat:sewing_table"
+			id: "2ED4C94026456CCA"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 4
+				id: "34578B05A0981115"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{quest.temperature.insulation.subtitle}"
+			tasks: [{
+				id: "2F107E3BC3FF0754"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			title: "{quest.temperature.insulation.title}"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2ED4C94026456CCA"]
+			dependency_requirement: "one_completed"
+			description: ["{quest.temperature.hot_1.description_1}"]
+			id: "327001B7DCC2B198"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "32DB1E627E7D0C34"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "06D1BF073808A480"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			title: "{quest.temperature.hot_1.title}"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2ED4C94026456CCA"]
+			description: ["{quest.temperature.adapt_1.description_1}"]
+			id: "1739FAC2E464132D"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "1B6B241952334107"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4BFD60E23FC48A96"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			title: "{quest.temperature.adapt_1.title}"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2ED4C94026456CCA"]
+			description: ["{quest.temperature.cold_1.description_1}"]
+			id: "757B167ADE8B315C"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "6321B42DE5F9410B"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "07BB5C86EFD7B392"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "{quest.temperature.cold_1.title}"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["757B167ADE8B315C"]
+			description: ["{quest.temperature.cold_2.description_1}"]
+			id: "3BF381A61D7A1571"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "1CDDAFBC081B620A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1608EF08A36A94F6"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			title: "{quest.temperature.cold_2.title}"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["327001B7DCC2B198"]
+			description: ["{quest.temperature.hot_2.description_1}"]
+			id: "2AD93A7F14B73FCE"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "358A7C2211A33BE0"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6B8BBDE449E43CA9"
+				item: "minecraft:honeycomb"
+				title: "Honeycomb"
+				type: "item"
+			}]
+			title: "{quest.temperature.hot_2.title}"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E8859952B83530D"]
+			description: ["{quest.temperature.adapt_3.description_1}"]
+			id: "6CEFD8CE72388FF2"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "53E5E35E7D607F9F"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "34B4D52A1B92E3B6"
+				item: "immersiveengineering:ersatz_leather"
+				type: "item"
+			}]
+			title: "{quest.temperature.adapt_3.title}"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3BF381A61D7A1571"]
+			description: ["{quest.temperature.cold_3.description_1}"]
+			id: "0A91E388646FCC8E"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "7CCD334B018895E8"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "523ACAFC811BB642"
+				item: "immersiveengineering:hemp_fabric"
+				type: "item"
+			}]
+			title: "{quest.temperature.cold_3.title}"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0A91E388646FCC8E"]
+			description: ["{quest.temperature.cold_4.description_1}"]
+			id: "6E8C8F609568F43D"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "49546BA279A453EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5B7FA7B72C01751C"
+				item: "cold_sweat:fur"
+				type: "item"
+			}]
+			title: "{quest.temperature.cold_4.title}"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["380FF30CAA4EBFD0"]
+			description: ["{quest.temperature.hot_4.description_1}"]
+			id: "1EEC985E3D28AF8D"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "6A893BA369FE28A3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02CE91325899D3BC"
+				item: "cold_sweat:hoglin_hide"
+				type: "item"
+			}]
+			title: "{quest.temperature.hot_4.title}"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2AD93A7F14B73FCE"]
+			description: ["{quest.temperature.hot_3.description_1}"]
+			id: "380FF30CAA4EBFD0"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "6339FF471C90B4E9"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "1ECB653F7B8EA759"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			title: "{quest.temperature.hot_3.title}"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1739FAC2E464132D"]
+			description: ["{quest.temperature.adapt_2.description_1}"]
+			id: "2E8859952B83530D"
+			rewards: [{
+				id: "3D943CF488847FDD"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "0F2700887E879205"
+				item: "cold_sweat:chameleon_molt"
+				type: "item"
+			}]
+			title: "{quest.temperature.adapt_2.title}"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			disable_toast: true
+			icon: {
+				Count: 1b
+				id: "cold_sweat:fur_parka"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1201A0894ED292CB"
+			rewards: [
+				{
+					count: 3
+					id: "07A60B0383ABC65D"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "cold_sweat:ice_resistance_long"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05F8AE9C380EF528"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{quest.temperature.cold_5.subtitle}"
+			tasks: [
+				{
+					id: "05B87CF525A773CF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "cold_sweat:fur_parka"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C3821476D9FD722"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "cold_sweat:fur_cap"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A5E9C996195C7B0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "cold_sweat:fur_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74AD44A0329710B1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "cold_sweat:fur_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{quest.temperature.cold_5.title}"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "cold_sweat:hoglin_tunic"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "34EFCA764E30B493"
+			rewards: [
+				{
+					count: 3
+					id: "42A12CE68F17CB32"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49BEC9CDDEAE44ED"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{quest.temperature.hot_5.subtitle}"
+			tasks: [
+				{
+					id: "0547E1CF723911AC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "cold_sweat:hoglin_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40C35CA63BF4C924"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "cold_sweat:hoglin_headpiece"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FBA50913EDD8D1A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "cold_sweat:hoglin_trousers"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "730C073C1D91E00E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "cold_sweat:hoglin_hooves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{quest.temperature.hot_5.title}"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2ED4C94026456CCA"]
+			description: ["{quest.temperature.insulation_removal.description_1}"]
+			id: "06F2AF285065F264"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31840097B3E894A2"
+				table_id: 3132227616718337425L
+				type: "random"
+			}]
+			subtitle: "{quest.temperature.insulation_removal.subtitle}"
+			tasks: [{
+				id: "7FEEEF9F0136F67D"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.temperature.insulation_removal.title}"
+			x: -6.0d
+			y: -3.5d
+		}
+	]
+	title: "{quest.temperature}"
+}

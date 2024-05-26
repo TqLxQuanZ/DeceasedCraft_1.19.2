@@ -1,0 +1,696 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bullet_automation"
+	group: "06797646CDBF2AAC"
+	icon: "tac:b_magnum"
+	id: "00ECEBAD70E0D42C"
+	order_index: 4
+	quest_links: [{
+		id: "622CEF3CA2F18158"
+		linked_quest: "4A1A36DD335F7F72"
+		x: 2.0d
+		y: 4.0d
+	}]
+	quests: [
+		{
+			dependencies: ["1AFE4EDF1E6EAC55"]
+			dependency_requirement: "one_started"
+			description: [""]
+			icon: "create:zinc_ore"
+			id: "6A146B82EDD36480"
+			progression_mode: "linear"
+			rewards: [{
+				id: "1D1B6EA0851F7E9E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{quest.bullet_automation.sphalerite.description_1}"
+			tasks: [{
+				id: "6899E3BB5288DA60"
+				type: "checkmark"
+			}]
+			title: "{quest.bullet_automation.sphalerite.title}"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4A1A36DD335F7F72"
+				"7F432CC747B372CA"
+				"3489C2D9EDEC651D"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.bullet_automation.excavator.description_1}"
+				""
+				"{quest.bullet_automation.excavator.description_2}"
+			]
+			id: "1AFE4EDF1E6EAC55"
+			progression_mode: "linear"
+			rewards: [{
+				id: "36A24DC500B6F694"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:survey_tools"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+				id: "7FA8FBFD29586B20"
+				type: "advancement"
+			}]
+			title: "{quest.bullet_automation.excavator.title}"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.mineral_survey.description_1}"]
+			id: "7F432CC747B372CA"
+			progression_mode: "linear"
+			rewards: [{
+				id: "4FF1312E99834CEB"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:survey_tools"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "367E38A31DFBFFFD"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:survey_tools"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1AFE4EDF1E6EAC55"]
+			dependency_requirement: "one_started"
+			description: [""]
+			icon: "minecraft:copper_ore"
+			id: "57661E0767AF889C"
+			progression_mode: "linear"
+			rewards: [{
+				id: "5BD6EF7CC16D0510"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{quest.bullet_automation.auricupride.description_1}"
+			tasks: [{
+				id: "7B4527480D3B5955"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "{quest.bullet_automation.auricupride.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.veins.description_1}"]
+			icon: "immersiveengineering:manual"
+			id: "3489C2D9EDEC651D"
+			progression_mode: "linear"
+			rewards: [{
+				id: "23CF7199874397D4"
+				item: {
+					Count: 1b
+					id: "farmersdelight:apple_cider"
+					tag: {
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AB39A62D2D6AD40"
+				title: "Mineral Veins"
+				type: "checkmark"
+			}]
+			title: "{quest.bullet_automation.veins.title}"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6A146B82EDD36480"
+				"57661E0767AF889C"
+			]
+			description: [
+				"{quest.bullet_automation.brass.description_1}"
+				"{quest.bullet_automation.brass.description_2}"
+				"{quest.bullet_automation.brass.description_3}"
+				"{quest.bullet_automation.brass.description_4}"
+			]
+			id: "5CA0A7BB8088CC04"
+			progression_mode: "linear"
+			rewards: [{
+				id: "60E069A3DAADEC05"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{quest.bullet_automation.brass.subtitle}"
+			tasks: [{
+				id: "64B1EC482DDC3585"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5CA0A7BB8088CC04"]
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.molds.description_1}"]
+			id: "7A0D88FD05C79544"
+			progression_mode: "linear"
+			rewards: [{
+				id: "616F8CE968DB3485"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{quest.bullet_automation.molds.subtitle}"
+			tasks: [{
+				id: "5D6C7C5D83C5DCD1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bullet_molds"
+					}
+				}
+				title: "Any #forge:bullet_molds"
+				type: "item"
+			}]
+			title: "{quest.bullet_automation.molds.title}"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1B552AB170A166EA"
+				"4F204B23AAD4BA49"
+				"13E07BBCEEF7F142"
+			]
+			description: [
+				"{quest.bullet_automation.assemble.description_1}"
+				""
+				"{quest.bullet_automation.assemble.description_2}"
+			]
+			id: "25C6189E8ABA6FCA"
+			progression_mode: "linear"
+			rewards: [{
+				count: 3
+				id: "00843A09BA6F294A"
+				item: "create:deployer"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "50A6D2EEE4AEF772"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "{quest.bullet_automation.assemble.title}"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"788649D1405AB54D"
+				"2A5165F4D020F832"
+			]
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.cobblestone.description_1}"]
+			id: "6EE07F1F93C9C62F"
+			progression_mode: "linear"
+			rewards: [{
+				id: "30B2BCD3ACC7B97F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{quest.bullet_automation.cobblestone.subtitle}"
+			tasks: [{
+				id: "3C6062E3EC42491D"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.water.description_1}"]
+			id: "2A5165F4D020F832"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "5EA9D8262CE98BA2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "158D171DA7E7924C"
+				item: {
+					Count: 1b
+					id: "minecraft:water_bucket"
+					tag: {
+						Purity: -1
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.bullet_automation.water.title}"
+			x: -6.75d
+			y: -7.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.lava.description_1}"]
+			id: "788649D1405AB54D"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "44DE44E5890778A6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0D349D0B3927FF91"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "{quest.bullet_automation.lava.title}"
+			x: -6.75d
+			y: -10.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.treated.sandstone.description_1}"]
+			id: "07EC69DFF4EBD8DC"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "7778AC0D5B9A4F7E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "{quest.treated.sandstone.subtitle}"
+			tasks: [{
+				id: "257735349E8955CC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:sandstone"
+					}
+				}
+				title: "Any #forge:sandstone"
+				type: "item"
+			}]
+			title: "{quest.treated.sandstone.title}"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["07EC69DFF4EBD8DC"]
+			dependency_requirement: "one_started"
+			description: [""]
+			id: "55055E45DEEAC9D8"
+			progression_mode: "linear"
+			rewards: [{
+				id: "3EF752EAF732062C"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "{quest.bullet_automation.nitrate.subtitle}"
+			tasks: [{
+				id: "32483EA58CD3B6D6"
+				item: "immersiveengineering:dust_saltpeter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1BC7BCAF9B652406"]
+			dependency_requirement: "one_started"
+			description: [""]
+			id: "0059B1B5D5101AEB"
+			progression_mode: "linear"
+			rewards: [{
+				id: "5E640E2381B20553"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{quest.bullet_automation.blaze_powder.subtitle}"
+			tasks: [{
+				id: "7331F36A1DF4F12F"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.blaze_rod.description_1}"]
+			id: "1BC7BCAF9B652406"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 6
+				id: "582DC0CA69636629"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "024CCAD454DCC7A3"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0059B1B5D5101AEB"]
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.recycle_rod.description_1}"]
+			id: "6358C1DED08C744A"
+			progression_mode: "linear"
+			rewards: [{
+				id: "719364AA6761CEC1"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "{quest.bullet_automation.recycle_rod.subtitle}"
+			tasks: [{
+				id: "3DD2089C41E5F687"
+				item: "immersiveengineering:mold_rod"
+				type: "item"
+			}]
+			title: "{quest.bullet_automation.recycle_rod.title}"
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1BC7BCAF9B652406"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.bullet_automation.sulfur.description_1}"
+				""
+				"{quest.bullet_automation.sulfur.description_2}"
+			]
+			id: "5285CFF062ADCC60"
+			progression_mode: "linear"
+			rewards: [{
+				count: 12
+				id: "5845C117D9257CFC"
+				item: "immersiveengineering:dust_sulfur"
+				type: "item"
+			}]
+			subtitle: "{quest.bullet_automation.sulfur.subtitle}"
+			tasks: [{
+				id: "7F6F0165897856D1"
+				item: "immersiveengineering:dust_sulfur"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6EE07F1F93C9C62F"]
+			dependency_requirement: "one_started"
+			description: [""]
+			id: "0327652F32B66116"
+			progression_mode: "linear"
+			rewards: [{
+				id: "4E478872F591F600"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{quest.bullet_automation.gravel.subtitle}"
+			tasks: [{
+				id: "05D4D48D9C15E430"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0327652F32B66116"]
+			dependency_requirement: "one_started"
+			description: [""]
+			id: "0F5AF0C0223B7331"
+			progression_mode: "linear"
+			rewards: [{
+				id: "60741AE9D8B7516C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{quest.bullet_automation.sand.subtitle}"
+			tasks: [{
+				id: "19FB5F85A3BC0881"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"55055E45DEEAC9D8"
+				"5285CFF062ADCC60"
+				"7E3D9766C0095559"
+			]
+			description: ["{quest.bullet_automation.gunpowder.description_1}"]
+			id: "1B552AB170A166EA"
+			progression_mode: "linear"
+			rewards: [{
+				id: "13A17B6532BB71E0"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "4F92521F2CF43B47"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "{quest.bullet_automation.gunpowder.title}"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25C6189E8ABA6FCA"]
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.bullets.description_1}"]
+			id: "6AB224557AE83C52"
+			progression_mode: "linear"
+			rewards: [{
+				id: "0A51BE97F333BF28"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [
+				{
+					id: "435A3F346F99C8B0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bullets"
+						}
+					}
+					title: "Any #forge:bullets"
+					type: "item"
+				}
+				{
+					id: "17F6C9A208D48276"
+					type: "checkmark"
+				}
+			]
+			title: "{quest.bullet_automation.bullets.title}"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7A0D88FD05C79544"]
+			dependency_requirement: "one_started"
+			description: [""]
+			id: "4F204B23AAD4BA49"
+			progression_mode: "linear"
+			rewards: [{
+				id: "2CDE6224B31F7179"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "circle"
+			subtitle: "{quest.bullet_automation.casings.subtitle}"
+			tasks: [{
+				id: "6C85B3685DDDAF3C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bullet_casing"
+					}
+				}
+				title: "Any #forge:bullet_casing"
+				type: "item"
+			}]
+			title: "{quest.bullet_automation.casings.title}"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B1A5E3AC216D89C"]
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.charcoal.description_1}"]
+			id: "7E3D9766C0095559"
+			progression_mode: "linear"
+			rewards: [{
+				id: "673B48CDCD7096B3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{quest.bullet_automation.charcoal.subtitle}"
+			tasks: [{
+				id: "7BF2B328C08362FF"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["48C6750F3C42F884"]
+			dependency_requirement: "one_started"
+			description: [""]
+			id: "13E07BBCEEF7F142"
+			progression_mode: "linear"
+			rewards: [{
+				id: "55950C45DEB2E3C1"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "circle"
+			subtitle: "{quest.bullet_automation.lead_nugget.subtitle}"
+			tasks: [{
+				id: "7F3DE0BCCDF62E95"
+				item: "immersiveengineering:nugget_lead"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65A783F254EA6F95"]
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.logs.description_1}"]
+			id: "6B1A5E3AC216D89C"
+			progression_mode: "linear"
+			rewards: [{
+				id: "257CABF6318C51E8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{quest.bullet_automation.logs.subtitle}"
+			tasks: [{
+				id: "2ED3E2DB0B4FB4BA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "{quest.bullet_automation.logs.title}"
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.bullet_automation.tree.description_1}"]
+			id: "65A783F254EA6F95"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "1BCEE20867419E14"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "29760A1BED2C8A07"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				title: "Any #minecraft:saplings"
+				type: "item"
+			}]
+			title: "{quest.bullet_automation.tree.title}"
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1AFE4EDF1E6EAC55"]
+			dependency_requirement: "one_started"
+			description: [""]
+			icon: "immersiveengineering:ore_lead"
+			id: "48C6750F3C42F884"
+			progression_mode: "linear"
+			rewards: [{
+				id: "4411CB5C56780A04"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			subtitle: "{quest.bullet_automation.galena.description_1}"
+			tasks: [{
+				id: "79A25FE6726BAFE1"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "{quest.bullet_automation.galena.title}"
+			x: 3.5d
+			y: 0.5d
+		}
+	]
+	title: "{quest.bullet_automation}"
+}

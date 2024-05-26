@@ -1,0 +1,625 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_first_cure"
+	group: "410F2D717CE3690A"
+	icon: "minecraft:golden_apple"
+	id: "46768BDCC2DA92F3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["234FD0A856DE12A0"]
+			description: [
+				"{quest.cure.cure.description_1}"
+				""
+				"{quest.cure.cure.description_2}"
+				""
+				"{quest.cure.cure.description_3}"
+			]
+			hide: false
+			hide_details_until_startable: true
+			hide_text_until_complete: false
+			icon: "minecraft:golden_apple"
+			id: "3868EB3CF99FB29F"
+			progression_mode: "linear"
+			rewards: [{
+				id: "37A7BFC0625C638A"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "{quest.cure.cure.subtitle}"
+			tasks: [{
+				id: "6FE00233194EF2D2"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "{quest.cure.cure.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"22113D22B765DBDB"
+				"7F507AF34DA3B2BC"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.x_factor.description_1}"
+				""
+				"{quest.cure.x_factor.description_2}"
+				""
+				"{quest.cure.x_factor.description_3}"
+			]
+			hide_details_until_startable: true
+			id: "098A5B821B569511"
+			progression_mode: "linear"
+			rewards: [{
+				id: "66FDE3F7FD8FC183"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.cure.x_factor.subtitle}"
+			tasks: [{
+				id: "75D8259DD92C4BD0"
+				item: {
+					Count: 1b
+					id: "contenttweaker:x_factor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.cure.x_factor.title}"
+			x: -3.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F3B97A92A7071E4"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.find_wooded_wasteland.description_1}"
+				""
+				"{quest.cure.find_wooded_wasteland.description_2}"
+			]
+			hide_details_until_startable: true
+			id: "7F507AF34DA3B2BC"
+			progression_mode: "linear"
+			rewards: [{
+				id: "1A89066C9A338478"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				biome: "biomesoplenty:wooded_wasteland"
+				icon: "biomesoplenty:dried_salt"
+				id: "2207FBD5CE85F8AB"
+				type: "biome"
+			}]
+			title: "{quest.cure.find_wooded_wasteland.title}"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F3B97A92A7071E4"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.find_wasteland.description_1}"
+				""
+				"{quest.cure.find_wasteland.description_2}"
+			]
+			hide_details_until_startable: true
+			id: "22113D22B765DBDB"
+			progression_mode: "linear"
+			rewards: [{
+				id: "18C0A4F7FAB52881"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				biome: "biomesoplenty:wasteland"
+				icon: "biomesoplenty:dried_salt"
+				id: "2400C8391D10316E"
+				type: "biome"
+			}]
+			title: "{quest.cure.find_wasteland.title}"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F5B6A50948691EE"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.source.description_1}"
+				""
+				"{quest.cure.source.description_2}"
+				""
+				"{quest.cure.source.description_3}"
+			]
+			hide_details_until_startable: true
+			id: "7F3B97A92A7071E4"
+			progression_mode: "linear"
+			rewards: [{
+				id: "761FC8E9287093A5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.cure.source.subtitle}"
+			tasks: [{
+				id: "1E082A3D0F33ED6B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "apocalypsenow:gasmask_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.cure.source.title}"
+			x: -8.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C0B6C51FE103AD3"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.origin.description_1}"
+				""
+				"{quest.cure.origin.description_2}"
+				""
+				"{quest.cure.origin.description_3}"
+			]
+			hide: true
+			hide_text_until_complete: false
+			id: "7B087BEE5A6B47E1"
+			progression_mode: "linear"
+			rewards: [{
+				id: "665F2C8BD060D5FD"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.cure.origin.subtitle}"
+			tasks: [{
+				dimension: "deceasedcraft:abyss"
+				id: "38A042A05041BC62"
+				title: "Enter the Unknown Portal"
+				type: "dimension"
+			}]
+			title: "{quest.cure.origin.title}"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B087BEE5A6B47E1"]
+			dependency_requirement: "one_started"
+			description: ["{quest.cure.brain.description_1}"]
+			hide: true
+			id: "4A348EF15453D3CC"
+			progression_mode: "linear"
+			rewards: [{
+				id: "3EBA7034192B93F1"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "2707E132BE364DF4"
+				item: "mutationcraft:putrid_brain"
+				type: "item"
+			}]
+			title: "{quest.cure.brain.title}"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B087BEE5A6B47E1"]
+			dependency_requirement: "one_started"
+			description: ["{quest.cure.heart.description_1}"]
+			hide: true
+			id: "6838251D2EF2E5F0"
+			progression_mode: "linear"
+			rewards: [{
+				id: "07BA1BC4BB104933"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "5C44AEAC9E2E97D8"
+				item: "mutationcraft:putrid_heart"
+				type: "item"
+			}]
+			title: "{quest.cure.heart.title}"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B087BEE5A6B47E1"]
+			dependency_requirement: "one_started"
+			description: ["{quest.cure.flesh.description_1}"]
+			hide: true
+			id: "4DD4F343EDE03316"
+			progression_mode: "linear"
+			rewards: [{
+				id: "65A924E37C1B7C61"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "0443484A94BD7257"
+				item: "mutationcraft:putrid_claw"
+				type: "item"
+			}]
+			title: "{quest.cure.flesh.title}"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4A348EF15453D3CC"
+				"4DD4F343EDE03316"
+				"6838251D2EF2E5F0"
+			]
+			description: ["{quest.cure.membrane.description_1}"]
+			hide: true
+			hide_details_until_startable: true
+			id: "17FED0C0673B0743"
+			progression_mode: "linear"
+			rewards: [{
+				count: 2
+				id: "56C862283B365C5C"
+				item: "mutationcraft:necroptor_membrane"
+				type: "item"
+			}]
+			subtitle: "{quest.cure.membrane.subtitle}"
+			tasks: [{
+				id: "18DA01C00E71F523"
+				item: "mutationcraft:necroptor_membrane"
+				type: "item"
+			}]
+			title: "{quest.cure.membrane.title}"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"17FED0C0673B0743"
+				"3868EB3CF99FB29F"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.finale.description_1}"
+				""
+				"{quest.cure.finale.description_2}"
+				""
+				"{quest.cure.finale.description_3}"
+			]
+			hide_details_until_startable: true
+			id: "195BAE89C6E027D4"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 3
+					id: "4B62E44883F0BDD3"
+					item: {
+						Count: 1b
+						id: "mutationcraft:mutagen_serum"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28CE3756B53C68E3"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "{quest.cure.finale.subtitle}"
+			tasks: [{
+				id: "6E38B950132B3DB4"
+				item: {
+					Count: 1b
+					id: "mutationcraft:mutagen_serum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.cure.finale.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{quest.cure.beginning.description_1}"
+				"---"
+				"{quest.cure.beginning.description_2}"
+				""
+				"{quest.cure.beginning.description_3}"
+			]
+			icon: "minecraft:writable_book"
+			id: "4F5B6A50948691EE"
+			rewards: [{
+				id: "20780DCA5581CC3C"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "{quest.cure.beginning.subtitle}"
+			tasks: [{
+				id: "2AF84E9B77701359"
+				type: "checkmark"
+			}]
+			title: "{quest.cure.beginning.title}"
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40A8DA280F2434B5"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.info_residential.description_1}"
+				""
+				"{quest.cure.info_residential.description_2}"
+			]
+			hide_details_until_startable: true
+			id: "4B0AB2212F4EFC57"
+			progression_mode: "linear"
+			tasks: [{
+				id: "31FDD6FD7A363256"
+				item: "contenttweaker:research_paper_3"
+				type: "item"
+			}]
+			title: "{quest.cure.info_residential.title}"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40A8DA280F2434B5"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.info_police.description_1}"
+				""
+				"{quest.cure.info_police.description_2}"
+			]
+			hide_details_until_startable: true
+			id: "498A69A82C40A1AC"
+			progression_mode: "linear"
+			tasks: [{
+				id: "5EF1FBD07C7FECB9"
+				item: "contenttweaker:research_paper_4"
+				type: "item"
+			}]
+			title: "{quest.cure.info_police.title}"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40A8DA280F2434B5"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.info_military.description_1}"
+				""
+				"{quest.cure.info_military.description_2}"
+			]
+			hide_details_until_startable: true
+			id: "7FD4332FA85977DA"
+			progression_mode: "linear"
+			tasks: [{
+				id: "7533CAADDD31CB9B"
+				item: "contenttweaker:research_paper_5"
+				type: "item"
+			}]
+			title: "{quest.cure.info_military.title}"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40A8DA280F2434B5"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.info_megatower.description_1}"
+				""
+				"{quest.cure.info_megatower.description_2}"
+			]
+			hide_details_until_startable: true
+			id: "5854BB940F8A1E4E"
+			progression_mode: "linear"
+			tasks: [{
+				id: "4253EEF6C734C452"
+				item: "contenttweaker:research_paper_2"
+				type: "item"
+			}]
+			title: "{quest.cure.info_megatower.title}"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["40A8DA280F2434B5"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.info_hospital.description_1}"
+				""
+				"{quest.cure.info_hospital.description_2}"
+			]
+			hide_details_until_startable: true
+			id: "5A6BB344DC912E24"
+			progression_mode: "linear"
+			tasks: [{
+				id: "0F8BA824D84AA686"
+				item: "contenttweaker:research_paper_1"
+				type: "item"
+			}]
+			title: "{quest.cure.info_hospital.title}"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5A6BB344DC912E24"
+				"5854BB940F8A1E4E"
+				"4B0AB2212F4EFC57"
+				"498A69A82C40A1AC"
+				"7FD4332FA85977DA"
+			]
+			description: [
+				"{quest.cure.catalog.description_1}"
+				""
+				"{quest.cure.catalog.description_2}"
+				""
+				"{quest.cure.catalog.description_3}"
+			]
+			hide: false
+			hide_details_until_startable: true
+			id: "439104536CFD56F4"
+			progression_mode: "linear"
+			rewards: [{
+				id: "2062985C2280AD21"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.cure.catalog.subtitle}"
+			tasks: [{
+				id: "019672FE010FE29A"
+				item: {
+					Count: 1b
+					id: "contenttweaker:research_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.cure.catalog.title}"
+			x: -3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"439104536CFD56F4"
+				"098A5B821B569511"
+				"4F5B6A50948691EE"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.precursor.description_1}"
+				""
+				"{quest.cure.precursor.description_2}"
+			]
+			hide: false
+			hide_details_until_startable: true
+			hide_text_until_complete: false
+			id: "234FD0A856DE12A0"
+			progression_mode: "linear"
+			rewards: [{
+				id: "750409B4EB0A06DD"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "{quest.cure.precursor.subtitle}"
+			tasks: [{
+				id: "1FD34483A8D2B46A"
+				item: "contenttweaker:formula_x"
+				type: "item"
+			}]
+			title: "{quest.cure.precursor.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F5B6A50948691EE"]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.basic.description_1}"
+				""
+				"{quest.cure.basic.description_2}"
+			]
+			hide_details_until_startable: true
+			hide_text_until_complete: false
+			id: "40A8DA280F2434B5"
+			progression_mode: "linear"
+			rewards: [
+				{
+					count: 2
+					id: "55485C3EDD08654C"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "25776BFD9485A9C2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.cure.basic.subtitle}"
+			tasks: [{
+				count: 2L
+				id: "5747F9E4418F5F10"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "{quest.cure.basic.title}"
+			x: -8.25d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"22113D22B765DBDB"
+				"7F507AF34DA3B2BC"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"{quest.cure.keycard.description_1}"
+				""
+				"{quest.cure.keycard.description_2}"
+				""
+				"{quest.cure.keycard.description_3}"
+			]
+			hide_details_until_startable: true
+			id: "6C0B6C51FE103AD3"
+			progression_mode: "linear"
+			rewards: [{
+				id: "73B4F7A031C2CB68"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{quest.cure.keycard.subtitle}"
+			tasks: [{
+				id: "33C37FD86E71315A"
+				item: "zombie_extreme:magnetic_card"
+				type: "item"
+			}]
+			title: "{quest.cure.keycard.title}"
+			x: -3.75d
+			y: 4.5d
+		}
+	]
+	title: "{quest.cure}"
+}

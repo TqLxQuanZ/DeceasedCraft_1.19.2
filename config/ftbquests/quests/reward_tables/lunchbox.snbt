@@ -1,0 +1,31 @@
+{
+	icon: "create:red_toolbox"
+	id: "2B77E86C122A3591"
+	loot_size: 2
+	order_index: 0
+	rewards: [
+		{ item: "apocalypsenow:orange_juice", random_bonus: 3, weight: 20.0f }
+		{ item: "apocalypsenow:grape_juice", random_bonus: 3, weight: 20.0f }
+		{ item: "apocalypsenow:apple_juice", random_bonus: 3, weight: 20.0f }
+		{ item: "apocalypsenow:peach_juice", weight: 20.0f }
+		{ item: "farmersdelight:sweet_berry_cookie", random_bonus: 3, weight: 30.0f }
+		{ item: "farmersdelight:honey_cookie", random_bonus: 3, weight: 30.0f }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+					Purity: 3
+				}
+			}
+			random_bonus: 5
+			weight: 60.0f
+		}
+		{ item: "farmersdelight:chicken_sandwich", weight: 10.0f }
+		{ item: "farmersdelight:bacon_sandwich", weight: 10.0f }
+		{ item: "minecraft:golden_apple" }
+	]
+	title: "Lunchbox"
+	use_title: true
+}
