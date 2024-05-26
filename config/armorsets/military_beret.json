@@ -27,7 +27,7 @@
     },
     {
       "type": "attribute",
-      "name": "puffish_skills:player.jump",
+      "name": "puffish_attributes:player.jump",
       "value": 0.1,
       "interactionType": "self",
       "attributeOperation": 1,

@@ -55,7 +55,7 @@
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "puffish_skills:player.ranged_damage",
+      "name": "puffish_attributes:player.ranged_damage",
       "value": 0.25,
       "interactionType": "self",
       "attributeOperation": 1,

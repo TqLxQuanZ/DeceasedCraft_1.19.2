@@ -28,7 +28,7 @@
     },
     {
       "type": "attribute",
-      "name": "puffish_skills:player.stamina",
+      "name": "puffish_attributes:player.stamina",
       "value": 0.2,
       "interactionType": "self",
       "attributeOperation": 2,
