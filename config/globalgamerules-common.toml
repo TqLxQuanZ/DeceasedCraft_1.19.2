@@ -16,37 +16,37 @@
 		#Whether death messages are put into chat when a player dies. Also affects whether a message is sent to the pet's owner when the pet dies.
 		show_death_messages = true
 		#Non Vanilla gamerule: 'stagesshowup'
-		stagesshowup = true
+		stagesshowup = false
 
 	[gamerules.spawning]
 		#Non Vanilla gamerule: 'assimilatedRoamerDevelops'
 		assimilated_roamer_develops = true
 		#Whether phantoms can spawn in the nighttime.
-		do_insomnia = true
+		do_insomnia = false
 		#Whether mobs should naturally spawn. Does not affect monster spawners.
 		do_mob_spawning = true
 		#Whether patrols can spawn.
-		do_patrol_spawning = true
+		do_patrol_spawning = false
 		#Whether wandering traders can spawn.
 		do_trader_spawning = true
 		#Whether wardens can spawn.
-		do_warden_spawning = true
+		do_warden_spawning = false
 		#Non Vanilla gamerule: 'doambientspawn'
-		doambientspawn = true
+		doambientspawn = false
 		#Non Vanilla gamerule: 'dostructuresspawn'
-		dostructuresspawn = true
+		dostructuresspawn = false
 		#Non Vanilla gamerule: 'flamethrowerNaturalSpawn'
-		flamethrower_natural_spawn = true
+		flamethrower_natural_spawn = false
 		#Non Vanilla gamerule: 'helicopterNaturalSpawn'
-		helicopter_natural_spawn = true
+		helicopter_natural_spawn = false
 		#Non Vanilla gamerule: 'humanStagesEvolution'
-		human_stages_evolution = true
+		human_stages_evolution = false
 		#Non Vanilla gamerule: 'miterEvolvesIntoNecroptor'
-		miter_evolves_into_necroptor = true
+		miter_evolves_into_necroptor = false
 		#Non Vanilla gamerule: 'mobsSpawningNaturally'
-		mobs_spawning_naturally = true
+		mobs_spawning_naturally = false
 		#Non Vanilla gamerule: 'necropterEvolves'
-		necropter_evolves = true
+		necropter_evolves = false
 
 	[gamerules.player]
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.
@@ -56,13 +56,13 @@
 		#Whether players can craft only those recipes that they have unlocked.
 		do_limited_crafting = false
 		#Non Vanilla gamerule: 'doarmoreffect'
-		doarmoreffect = true
+		doarmoreffect = false
 		#Non Vanilla gamerule: 'dohumanfleshdrop'
 		dohumanfleshdrop = true
 		#Non Vanilla gamerule: 'dohumansspawn'
-		dohumansspawn = true
+		dohumansspawn = false
 		#Non Vanilla gamerule: 'doplayerbreaklegs'
-		doplayerbreaklegs = true
+		doplayerbreaklegs = false
 		#Whether the player should take damage when drowning.
 		drowning_damage = true
 		#Whether the player should take fall damage.
@@ -74,9 +74,9 @@
 		#Whether the player should keep items and experience in their inventory after death .
 		keep_inventory = false
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
-		natural_regeneration = true
+		natural_regeneration = false
 		#Non Vanilla gamerule: 'playerconvertstoroamer'
-		playerconvertstoroamer = true
+		playerconvertstoroamer = false
 		#What percentage of players must sleep to skip the night.
 		#Range: > 0
 		players_sleeping_percentage = 100
@@ -90,37 +90,37 @@
 		#Whether raids are disabled.
 		disable_raids = false
 		#Non Vanilla gamerule: 'doWalkersEffect'
-		do_walkers_effect = true
+		do_walkers_effect = false
 		#Non Vanilla gamerule: 'doWalkersSpawn'
-		do_walkers_spawn = true
+		do_walkers_spawn = false
 		#Non Vanilla gamerule: 'dobiteffecton'
-		dobiteffecton = true
+		dobiteffecton = false
 		#Non Vanilla gamerule: 'dohordesspawn'
-		dohordesspawn = true
+		dohordesspawn = false
 		#Non Vanilla gamerule: 'doinfectionoff'
-		doinfectionoff = true
+		doinfectionoff = false
 		#Non Vanilla gamerule: 'dorunnersspawn'
-		dorunnersspawn = true
+		dorunnersspawn = false
 		#Non Vanilla gamerule: 'dozombiesgetarmor'
-		dozombiesgetarmor = true
+		dozombiesgetarmor = false
 		#Non Vanilla gamerule: 'endermanTeleportToYouWithEntities'
-		enderman_teleport_to_you_with_entities = true
+		enderman_teleport_to_you_with_entities = false
 		#Non Vanilla gamerule: 'endermanTeleportsOverYou'
-		enderman_teleports_over_you = true
+		enderman_teleports_over_you = false
 		#Makes angered neutral mobs stop being angry when the targeted player dies nearby.
 		forgive_dead_players = true
 		#Non Vanilla gamerule: 'hookEvolves'
-		hook_evolves = true
+		hook_evolves = false
 		#Non Vanilla gamerule: 'hookSpawnsOnNecroptorDeath'
-		hook_spawns_on_necroptor_death = true
+		hook_spawns_on_necroptor_death = false
 		#Non Vanilla gamerule: 'hooksSummonMobs'
-		hooks_summon_mobs = true
+		hooks_summon_mobs = false
 		#Non Vanilla gamerule: 'hordeMultiplying'
-		horde_multiplying = true
+		horde_multiplying = false
 		#Non Vanilla gamerule: 'hordeStacking'
 		horde_stacking = true
 		#Non Vanilla gamerule: 'hunternibling'
-		hunternibling = true
+		hunternibling = false
 		#Non Vanilla gamerule: 'ironGolemRegenPower'
 		#Range: > 0
 		iron_golem_regen_power = 4
@@ -130,9 +130,9 @@
 		#Whether creepers, zombies, endermen, ghasts, withers, ender dragons, rabbits, sheep, villagers, silverfish, snow golems, and end crystals should be able to change blocks, and whether mobs can pick up items. When mobGriefing is disabled, piglins do not pick up gold ingots, but a player can still barter with them by using the item on the mob. Similarly, villagers do not pick up food items but can still breed until they run out of any food already in their inventory. This also affects the capability of zombie-like creatures like zombified piglins and drowned to pathfind to turtle eggs.
 		mob_griefing = true
 		#Non Vanilla gamerule: 'putridBlockOnHookSpawn'
-		putrid_block_on_hook_spawn = true
+		putrid_block_on_hook_spawn = false
 		#Non Vanilla gamerule: 'sunray'
-		sunray = true
+		sunray = false
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 		universal_anger = false
 		#Non Vanilla gamerule: 'zomobsAttackAnimals'
@@ -143,7 +143,7 @@
 		#Non Vanilla gamerule: 'zomobsHealing'
 		zomobs_healing = true
 		#Non Vanilla gamerule: 'zomobsSunBurn'
-		zomobs_sun_burn = true
+		zomobs_sun_burn = false
 		#Non Vanilla gamerule: 'zomobsTurnChance'
 		#Range: > 0
 		zomobs_turn_chance = 50
@@ -158,9 +158,9 @@
 		#Whether the weather can change naturally. The /weather command can still change weather.
 		do_weather_cycle = true
 		#Non Vanilla gamerule: 'mutationcraftDrops'
-		mutationcraft_drops = true
+		mutationcraft_drops = false
 		#Non Vanilla gamerule: 'putridblockspreading'
-		putridblockspreading = true
+		putridblockspreading = false
 		#How often a random block tick occurs (such as plant growth, leaf decay, etc.) per chunk section per game tick. 0 and negative values disables random ticks, higher numbers increase random ticks. Setting to a high integer results in high speeds of decay and growth. Numbers over 4096 make plant growth or leaf decay instantaneous.
 		#Range: > 0
 		random_tick_speed = 3
@@ -168,7 +168,7 @@
 		#Range: > 0
 		setspawningstage = 0
 		#Non Vanilla gamerule: 'stagesadvance'
-		stagesadvance = true
+		stagesadvance = false
 
 	[gamerules.drops]
 		#Whether entities that are not mobs should have drops.
@@ -180,7 +180,7 @@
 
 	[gamerules.misc]
 		#Non Vanilla gamerule: 'doblockseffect'
-		doblockseffect = true
+		doblockseffect = false
 		#The maximum length of a chain of commands that can be executed during one tick. Applies to command blocks and functions.
 		#Range: > 0
 		max_command_chain_length = 65536
@@ -191,7 +191,7 @@
 [difficulty]
 	#If the difficulty should be set on world load
 	#If true difficulty changes in game will also be saved to the config
-	set_difficulty = true
+	set_difficulty = false
 	#The difficulty to set if 'set_difficulty' is true, respects if the difficulty is locked or not for the world
 	#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
 	difficulty = "NORMAL"
