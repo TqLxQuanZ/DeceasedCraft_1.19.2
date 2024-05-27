@@ -1349,6 +1349,11 @@
       "result": "deny"
     },
     {
+      "mod": "spore",
+      "dimension": "minecraft:overworld",
+      "result": "deny"
+    },
+    {
       "mod": "apocalypsenow",
       "dimension": "minecraft:overworld",
       "result": "deny"
