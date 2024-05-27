@@ -9,11 +9,11 @@
 
 ["Walkers and Runners spawn"]
 	#disables the spawn of walkers and runners in this mod
-	walkers_runners_spawn = true
+	walkers_runners_spawn = false
 
 ["Humans Spawn"]
 	#disables the spawn of humans in this mod
-	humans_spawn = true
+	humans_spawn = false
 
 ["Ambient Spawn"]
 	#disables the spawn of ambient creatures spawn in this mod
