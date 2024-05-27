@@ -7,5 +7,5 @@
 	#Print all found mob IDS to the console, will cause spam
 	printIDs = false
 	#Protects all mobs from fire
-	protectAllMobs = false
+	protectAllMobs = true
 
