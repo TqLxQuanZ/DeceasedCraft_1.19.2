@@ -69,7 +69,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "contenttweaker:resistant_fabric",
+          "name": "kubejs:resistant_fabric",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -83,7 +83,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "contenttweaker:resistant_fiber",
+          "name": "kubejs:resistant_fiber",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -14,7 +14,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "contenttweaker:rubber"
+          "name": "kubejs:rubber"
         },
         {
           "type": "minecraft:item",

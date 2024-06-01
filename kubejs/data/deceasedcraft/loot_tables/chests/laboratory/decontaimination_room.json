@@ -241,7 +241,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "contenttweaker:rubber",
+          "name": "kubejs:rubber",
           "functions": [
             {
               "function": "minecraft:set_count",

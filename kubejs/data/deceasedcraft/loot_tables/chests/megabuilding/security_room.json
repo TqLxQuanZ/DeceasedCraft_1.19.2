@@ -35,7 +35,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "contenttweaker:resistant_fabric"
+          "name": "kubejs:resistant_fabric"
         }
       ]
     },

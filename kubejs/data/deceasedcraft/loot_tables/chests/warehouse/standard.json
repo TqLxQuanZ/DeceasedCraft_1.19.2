@@ -247,7 +247,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "contenttweaker:resistant_fabric",
+          "name": "kubejs:resistant_fabric",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

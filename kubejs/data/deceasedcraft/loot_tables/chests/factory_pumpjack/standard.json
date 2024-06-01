@@ -103,7 +103,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "contenttweaker:rubber",
+          "name": "kubejs:rubber",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -133,7 +133,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "contenttweaker:resistant_fabric",
+          "name": "kubejs:resistant_fabric",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -198,7 +198,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:resistant_fiber",
+          "name": "kubejs:resistant_fiber",
           "functions": [
             {
               "function": "minecraft:set_count",

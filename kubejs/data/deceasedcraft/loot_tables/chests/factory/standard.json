@@ -148,7 +148,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:resistant_fabric",
+          "name": "kubejs:resistant_fabric",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -213,7 +213,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:resistant_fabric",
+          "name": "kubejs:resistant_fabric",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

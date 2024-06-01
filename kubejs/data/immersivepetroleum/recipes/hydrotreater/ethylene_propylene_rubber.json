@@ -15,7 +15,7 @@
     "amount": 60
   },
   "secondary_result": {
-    "item": "contenttweaker:rubber",
+    "item": "kubejs:rubber",
     "chance": "1.0"
   }
 }

@@ -177,7 +177,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "contenttweaker:resistant_fiber",
+          "name": "kubejs:resistant_fiber",
           "functions": [
             {
               "function": "minecraft:set_count",
