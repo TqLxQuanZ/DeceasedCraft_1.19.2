@@ -14,18 +14,13 @@ StartupEvents.registry('item', event => {
 		.maxStackSize(64)
 		.rarity('rare')
 		
-	event.create('mold_bullet_casing_9mm_round')
-		.texture('deceasedcraft:item/mold_bullet_casing_9mm_round') 
+	event.create('mold_bullet_casing_9mm')
+		.texture('deceasedcraft:item/mold_bullet_casing_9mm') 
 		.maxStackSize(64)
 		.rarity('rare')
 		
-	event.create('mold_bullet_casing_12g')
-		.texture('deceasedcraft:item/mold_bullet_casing_12g') 
-		.maxStackSize(64)
-		.rarity('rare')
-		
-	event.create('mold_bullet_casing_50bmg')
-		.texture('deceasedcraft:item/mold_bullet_casing_50bmg') 
+	event.create('mold_bullet_casing_45acp')
+		.texture('deceasedcraft:item/mold_bullet_casing_45acp') 
 		.maxStackSize(64)
 		.rarity('rare')
 		
@@ -34,8 +29,8 @@ StartupEvents.registry('item', event => {
 		.maxStackSize(64)
 		.rarity('rare')
 		
-	event.create('mold_bullet_casing_45acp')
-		.texture('deceasedcraft:item/mold_bullet_casing_45acp') 
+	event.create('mold_bullet_casing_12g')
+		.texture('deceasedcraft:item/mold_bullet_casing_12g') 
 		.maxStackSize(64)
 		.rarity('rare')
 		
@@ -56,6 +51,11 @@ StartupEvents.registry('item', event => {
 		
 	event.create('mold_bullet_casing_308')
 		.texture('deceasedcraft:item/mold_bullet_casing_308') 
+		.maxStackSize(64)
+		.rarity('rare')
+		
+	event.create('mold_bullet_casing_50bmg')
+		.texture('deceasedcraft:item/mold_bullet_casing_50bmg') 
 		.maxStackSize(64)
 		.rarity('rare')
 })
