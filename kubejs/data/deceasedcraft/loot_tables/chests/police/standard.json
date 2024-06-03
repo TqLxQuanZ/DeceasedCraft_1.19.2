@@ -461,7 +461,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:research_paper_4",
+          "name": "kubejs:research_paper_4",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

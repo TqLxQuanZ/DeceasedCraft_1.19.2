@@ -222,7 +222,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:high_carbon_steel_alloy",
+          "name": "kubejs:high_carbon_steel_alloy",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

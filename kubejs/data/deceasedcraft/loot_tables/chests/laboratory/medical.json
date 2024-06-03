@@ -194,7 +194,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:x_factor"
+          "name": "kubejs:x_factor"
         }
       ]
     }

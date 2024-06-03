@@ -202,42 +202,42 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "contenttweaker:mold_basic_processor"
+          "name": "kubejs:mold_basic_processor"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "contenttweaker:mold_improved_processor"
+          "name": "kubejs:mold_improved_processor"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "contenttweaker:mold_advanced_processor"
+          "name": "kubejs:mold_advanced_processor"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "contenttweaker:mold_bullet_casing_9mm_round"
+          "name": "kubejs:mold_bullet_casing_9mm_round"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "contenttweaker:mold_bullet_casing_10_gauge_round"
+          "name": "kubejs:mold_bullet_casing_10_gauge_round"
         },
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "contenttweaker:mold_bullet_casing_round45"
+          "name": "kubejs:mold_bullet_casing_round45"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:mold_bullet_casing_ae50"
+          "name": "kubejs:mold_bullet_casing_ae50"
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "contenttweaker:mold_bullet_casing_bmagnum"
+          "name": "kubejs:mold_bullet_casing_bmagnum"
         }
       ]
     },
