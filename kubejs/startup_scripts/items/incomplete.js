@@ -64,4 +64,9 @@ StartupEvents.registry('item', event => {
 		.texture('deceasedcraft:item/incomplete_4096k_fluid_storage_part') 
 		.maxStackSize(64)
 		.rarity('common')
+		
+	event.create('incomplete_bullet')
+		.texture('deceasedcraft:item/incomplete_bullet') 
+		.maxStackSize(64)
+		.rarity('common')
 })
