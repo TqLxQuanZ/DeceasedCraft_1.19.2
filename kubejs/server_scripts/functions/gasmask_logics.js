@@ -36,7 +36,7 @@ ItemEvents.rightClicked(event => {
 
 function TickEquipment(event)
 {
-	event.server.scheduleInTicks(100, event, (callback) => {
+	Utils.server.scheduleInTicks(100, event, (callback) => {	
 		if (event.entity.block.biomeId == "biomesoplenty:wasteland" || 
 			event.entity.block.biomeId == "biomesoplenty:wooded_wasteland")
 		{
