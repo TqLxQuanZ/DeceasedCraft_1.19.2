@@ -35,19 +35,19 @@
     },
     {
       "char": "i",
-      "block": "cfm:andesite_table[waterlogged=false]"
+      "block": "cfm:andesite_table"
     },
     {
       "char": "j",
-      "block": "cfm:stripped_spruce_park_bench[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_spruce_park_bench[type=left,facing=south]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_spruce_park_bench[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_spruce_park_bench[type=right,facing=south]"
     },
     {
       "char": "l",
-      "block": "cfm:stripped_spruce_park_bench[type=middle,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_spruce_park_bench[type=middle,facing=south]"
     },
     {
       "char": "m",

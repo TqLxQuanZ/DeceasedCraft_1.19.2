@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "rocks:end_stone_rock[variation=large]"
+      "block": "rocks:end_stone_rock[waterlogged=false,variation=large]"
     },
     {
       "char": "m",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "apocalypsenow:iron_locker[facing=north]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       "char": "w",
-      "block": "apocalypsenow:iron_locker[facing=south]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "char": "B",
-      "block": "rocks:netherrack_rock[variation=medium]"
+      "block": "rocks:netherrack_rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "C",
@@ -131,7 +131,7 @@
     },
     {
       "char": "J",
-      "block": "rocks:netherrack_rock[variation=large]"
+      "block": "rocks:netherrack_rock[waterlogged=false,variation=large]"
     },
     {
       "char": "K",
@@ -160,7 +160,7 @@
     },
     {
       "char": "Q",
-      "block": "rocks:end_stone_rock[variation=medium]"
+      "block": "rocks:end_stone_rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "R",
@@ -220,7 +220,7 @@
     },
     {
       "char": "4",
-      "block": "rocks:netherrack_rock[variation=small]"
+      "block": "rocks:netherrack_rock[waterlogged=false,variation=small]"
     },
     {
       "char": "5",

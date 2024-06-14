@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=west]"
+      "block": "createdeco:andesite_catwalk_stair"
     },
     {
       "char": "e",

@@ -73,116 +73,111 @@
     },
     {
       "char": "q",
-      "block": "cfm:andesite_desk_cabinet[type=right,waterlogged=false,open=false,facing=south]",
+      "block": "cfm:andesite_desk_cabinet",
       "loot": "chestloot"
     },
     {
       "char": "r",
-      "block": "cfm:andesite_desk[type=middle,waterlogged=false,facing=south]"
+      "block": "cfm:andesite_desk"
     },
     {
       "char": "s",
-      "block": "cfm:andesite_desk_cabinet[type=left,waterlogged=false,open=false,facing=south]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "t",
       "block": "pfm:dark_wood_modern_stool[facing=east]"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "minecraft:black_stained_glass"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "create:train_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "create:train_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "quark:iron_button[facing=west,face=wall]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "securitycraft:key_panel[waterlogged=false,facing=west,face=wall]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "buildersdelight:spruce_glass_pane_8[waterlogged=false]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "create:analog_lever[facing=east,face=wall]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "create:display_board[waterlogged=false,up=false,facing=south,down=false]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=north]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "another_furniture:service_bell[waterlogged=false]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "create:train_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "create:train_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "minecraft:polished_andesite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "simplylight:wall_lamp[waterlogged=false,facing=down]"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "create:nixie_tube[waterlogged=false,double_face=ceiling,facing=south]",
       "tag": {
         "id": "create:nixie_tube"
       }
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "embellishcraft:polished_marble_wall[waterlogged=false,up=true]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "embellishcraft:air_duct"
     }
   ]

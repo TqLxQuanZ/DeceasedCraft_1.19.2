@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "minecraft:oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "i",

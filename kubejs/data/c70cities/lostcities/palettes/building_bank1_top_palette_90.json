@@ -53,7 +53,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:white_sofa[type=single,waterlogged=false,facing=south]"
+      "block": "cfm:white_sofa[type=single,facing=south]"
     },
     {
       "char": "n",
@@ -90,7 +90,7 @@
     },
     {
       "char": "w",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "minecraft:oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "x",

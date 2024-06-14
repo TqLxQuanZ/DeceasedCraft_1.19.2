@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "minecraft:dark_oak_leaves[persistent=true]"
+      "block": "minecraft:dark_oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "d",

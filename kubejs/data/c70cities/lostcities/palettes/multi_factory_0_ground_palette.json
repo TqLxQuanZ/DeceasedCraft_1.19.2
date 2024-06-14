@@ -68,7 +68,7 @@
     },
     {
       "char": "q",
-      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
+      "block": "cfm:stone_chair"
     },
     {
       "char": "r",
@@ -80,39 +80,35 @@
     },
     {
       "char": "t",
-      "block": "cfm:stone_chair[waterlogged=false,facing=north]"
-    },
-    {
-      "char": "u",
       "block": "embellishcraft:steel_rungs[waterlogged=false,facing=west]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "minecraft:stonecutter[facing=north]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "cfm:cyan_kitchen_counter[type=default,facing=south]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "minecraft:grindstone[facing=south,face=floor]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "embellishcraft:steel_door[half=lower,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "immersiveengineering:rs_engineering"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "minecraft:repeating_command_block[facing=up,conditional=false]",
       "tag": {
         "conditionMet": 1,
@@ -121,61 +117,61 @@
       }
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "embellishcraft:steel_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "biomesoplenty:dead_door[half=upper,open=false,hinge=right,facing=east]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=bottom,open=true,facing=west]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "create:vertical_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "minecraft:redstone_torch[lit=true]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "biomesoplenty:dead_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "minecraft:comparator[facing=east]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "minecraft:repeater[facing=west]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "embellishcraft:steel_door[half=upper,open=false,hinge=right,facing=north]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "immersiveengineering:conveyor_basic[waterlogged=false,facing=west]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "minecraft:piston[facing=down]"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "clickmachine:auto_clicker[facing=north]",
       "tag": {
         "speed_index": 8,
@@ -194,51 +190,51 @@
       }
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "embellishcraft:light_gray_corrugated_metal_plate_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "immersiveengineering:heavy_engineering"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "createdeco:white_decal[waterlogged=false,facing=north]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "createdeco:magenta_decal[waterlogged=false,facing=east]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "quark:smooth_stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "1",
+      "char": "0",
       "block": "embellishcraft:gray_corrugated_metal_plate_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "immersiveengineering:connector_mv[waterlogged=false,facing=down]"
     },
     {
-      "char": "3",
+      "char": "2",
       "block": "biomesoplenty:stripped_dead_log[axis=z]"
     },
     {
-      "char": "4",
+      "char": "3",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "minecraft:cobweb"
     }
   ]

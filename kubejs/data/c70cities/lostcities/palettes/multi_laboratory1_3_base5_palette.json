@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=south]"
+      "block": "createdeco:cast_iron_catwalk_stair"
     },
     {
       "char": "k",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "apocalypsenow:iron_locker[facing=north]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {

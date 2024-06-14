@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "rocks:acacia_stick[variation=small]"
+      "block": "rocks:acacia_stick[waterlogged=false,variation=small]"
     },
     {
       "char": "i",
@@ -71,7 +71,7 @@
     },
     {
       "char": "r",
-      "block": "rocks:acacia_stick[variation=large]"
+      "block": "rocks:acacia_stick[waterlogged=false,variation=large]"
     },
     {
       "char": "s",
@@ -92,7 +92,7 @@
     },
     {
       "char": "x",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
+      "block": "biomesoplenty:dead_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "y",
@@ -121,7 +121,7 @@
     },
     {
       "char": "F",
-      "block": "rocks:acacia_stick[variation=medium]"
+      "block": "rocks:acacia_stick[waterlogged=false,variation=medium]"
     },
     {
       "char": "I",

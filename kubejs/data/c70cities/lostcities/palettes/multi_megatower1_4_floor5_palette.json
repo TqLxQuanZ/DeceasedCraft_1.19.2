@@ -46,7 +46,7 @@
     },
     {
       "char": "k",
-      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:brown_sofa[type=right,facing=west]"
     },
     {
       "char": "l",
@@ -54,7 +54,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:brown_sofa[type=left,facing=east]"
     },
     {
       "char": "n",
@@ -70,11 +70,11 @@
     },
     {
       "char": "q",
-      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:brown_sofa[type=left,facing=west]"
     },
     {
       "char": "r",
-      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:brown_sofa[type=right,facing=east]"
     },
     {
       "char": "s",

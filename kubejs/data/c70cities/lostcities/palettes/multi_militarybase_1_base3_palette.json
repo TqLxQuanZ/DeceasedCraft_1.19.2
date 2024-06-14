@@ -68,11 +68,11 @@
     },
     {
       "char": "q",
-      "block": "cfm:stripped_spruce_park_bench[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_spruce_park_bench[type=right,facing=south]"
     },
     {
       "char": "r",
-      "block": "cfm:stripped_spruce_park_bench[type=middle,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_spruce_park_bench[type=middle,facing=south]"
     },
     {
       "char": "s",

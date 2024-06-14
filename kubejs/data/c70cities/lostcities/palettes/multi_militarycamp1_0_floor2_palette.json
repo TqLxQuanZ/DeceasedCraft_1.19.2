@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "railways:smokestack_diesel[waterlogged=false]"
+      "block": "railways:smokestack_diesel[waterlogged=false,facing=down]"
     },
     {
       "char": "b",

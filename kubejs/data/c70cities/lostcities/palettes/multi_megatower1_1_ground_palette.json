@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "cfm:andesite_chair[waterlogged=false,facing=north]"
+      "block": "cfm:andesite_chair"
     },
     {
       "char": "j",

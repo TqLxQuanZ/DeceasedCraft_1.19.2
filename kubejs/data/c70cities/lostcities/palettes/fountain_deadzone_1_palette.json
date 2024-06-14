@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
+      "block": "biomesoplenty:dead_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "c",
@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "rocks:rock[variation=small]"
+      "block": "rocks:rock[waterlogged=false,variation=small]"
     },
     {
       "char": "e",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "rocks:rock[variation=tiny]"
+      "block": "rocks:rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "j",

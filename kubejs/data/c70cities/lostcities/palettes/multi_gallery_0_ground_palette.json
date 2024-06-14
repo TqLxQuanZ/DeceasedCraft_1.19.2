@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:oak_park_bench[type=right,facing=west]"
     },
     {
       "char": "t",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:oak_park_bench[type=left,facing=west]"
     },
     {
       "char": "w",

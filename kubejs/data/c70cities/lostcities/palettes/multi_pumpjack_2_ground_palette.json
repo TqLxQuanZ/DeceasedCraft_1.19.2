@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "rocks:rock[variation=medium]"
+      "block": "rocks:rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "f",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "rocks:rock[variation=tiny]"
+      "block": "rocks:rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "k",
@@ -56,7 +56,7 @@
     },
     {
       "char": "m",
-      "block": "rocks:andesite_rock[variation=tiny]"
+      "block": "rocks:andesite_rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "n",

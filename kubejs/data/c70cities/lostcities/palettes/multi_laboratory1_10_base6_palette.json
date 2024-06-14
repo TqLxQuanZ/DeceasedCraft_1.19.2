@@ -105,11 +105,11 @@
     },
     {
       "char": "A",
-      "block": "rocks:andesite_rock[variation=small]"
+      "block": "rocks:andesite_rock[waterlogged=false,variation=small]"
     },
     {
       "char": "B",
-      "block": "apocalypsenow:iron_locker[facing=south]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "char": "D",
-      "block": "rocks:rock[variation=medium]"
+      "block": "rocks:rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "E",
@@ -135,11 +135,11 @@
     },
     {
       "char": "J",
-      "block": "rocks:rock[variation=large]"
+      "block": "rocks:rock[waterlogged=false,variation=large]"
     },
     {
       "char": "K",
-      "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=south]"
+      "block": "createdeco:cast_iron_catwalk_stair"
     },
     {
       "char": "L",
@@ -155,11 +155,11 @@
     },
     {
       "char": "O",
-      "block": "rocks:andesite_rock[variation=medium]"
+      "block": "rocks:andesite_rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "P",
-      "block": "rocks:rock[variation=tiny]"
+      "block": "rocks:rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "Q",
@@ -167,7 +167,7 @@
     },
     {
       "char": "R",
-      "block": "rocks:rock[variation=small]"
+      "block": "rocks:rock[waterlogged=false,variation=small]"
     },
     {
       "char": "S",
@@ -283,10 +283,6 @@
     },
     {
       "char": "+",
-      "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=west]"
-    },
-    {
-      "char": "-",
       "block": "minecraft:smooth_stone"
     }
   ]

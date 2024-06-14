@@ -95,7 +95,7 @@
     },
     {
       "char": "y",
-      "block": "cfm:stone_table[waterlogged=false]"
+      "block": "cfm:stone_table"
     },
     {
       "char": "A",

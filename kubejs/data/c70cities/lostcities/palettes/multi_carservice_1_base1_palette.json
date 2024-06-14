@@ -80,7 +80,7 @@
     },
     {
       "char": "t",
-      "block": "cfm:stone_coffee_table[waterlogged=false]"
+      "block": "cfm:stone_coffee_table"
     },
     {
       "char": "u",

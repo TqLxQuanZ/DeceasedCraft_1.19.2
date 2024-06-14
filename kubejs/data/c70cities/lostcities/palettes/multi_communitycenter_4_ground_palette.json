@@ -91,7 +91,7 @@
     },
     {
       "char": "x",
-      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=north]"
+      "block": "cfm:stripped_oak_chair[facing=north]"
     },
     {
       "char": "y",
@@ -155,7 +155,7 @@
     },
     {
       "char": "Q",
-      "block": "minecraft:dark_oak_leaves[persistent=true]"
+      "block": "minecraft:dark_oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "R",

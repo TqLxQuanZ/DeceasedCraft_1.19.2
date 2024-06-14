@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "cfm:andesite_table[waterlogged=false]"
+      "block": "cfm:andesite_table"
     },
     {
       "char": "h",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "minecraft:dark_oak_leaves[persistent=true]"
+      "block": "minecraft:dark_oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "n",

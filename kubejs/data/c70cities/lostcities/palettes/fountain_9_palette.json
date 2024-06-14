@@ -43,95 +43,91 @@
     },
     {
       "char": "k",
-      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stone_chair"
     },
     {
       "char": "l",
-      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
-    },
-    {
-      "char": "m",
       "block": "apocalypsenow:corpsecloth[facing=north]"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "biomesoplenty:cherry_button[facing=south,face=floor]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "biomesoplenty:cherry_pressure_plate"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "zombie_extreme:dead_body[facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "embellishcraft:light_gray_couch[waterlogged=false,facing=north,shape=straight]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "minecraft:smooth_quartz_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "simplylight:wall_lamp[waterlogged=false,facing=south]"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "embellishcraft:steel_wall_ladder[waterlogged=false,facing=south]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "quark:jasper_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "quark:jasper_vertical_slab[type=south,waterlogged=false]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "createdeco:locked_cast_iron_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "quark:jasper_vertical_slab[type=east,waterlogged=false]"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "minecraft:redstone_wall_torch[facing=north,lit=true]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "biomesoplenty:dead_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "create:horizontal_framed_glass"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "create:polished_cut_limestone_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "embellishcraft:red_pillow[waterlogged=false,occupied=false,part=head,facing=north]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "embellishcraft:blue_pillow[waterlogged=false,occupied=false,part=head,facing=north]"
     }
   ]

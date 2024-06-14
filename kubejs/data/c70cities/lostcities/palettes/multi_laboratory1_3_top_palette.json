@@ -43,15 +43,15 @@
     },
     {
       "char": "k",
-      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:oak_park_bench[type=right,facing=west]"
     },
     {
       "char": "l",
-      "block": "cfm:oak_park_bench[type=middle,waterlogged=false,facing=west]"
+      "block": "cfm:oak_park_bench[type=middle,facing=west]"
     },
     {
       "char": "m",
-      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:oak_park_bench[type=left,facing=west]"
     },
     {
       "char": "n",

@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "cfm:stone_coffee_table[waterlogged=false]"
+      "block": "cfm:stone_coffee_table"
     },
     {
       "char": "i",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "cfm:stripped_dark_oak_mail_box[waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_mail_box[facing=east]"
     },
     {
       "char": "w",
@@ -139,7 +139,7 @@
     },
     {
       "char": "M",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=south]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "N",
@@ -199,7 +199,7 @@
     },
     {
       "char": "1",
-      "block": "cfm:stripped_dark_oak_desk[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_desk[type=right,facing=west]"
     },
     {
       "char": "2",
@@ -207,11 +207,11 @@
     },
     {
       "char": "3",
-      "block": "cfm:stripped_dark_oak_desk[type=middle,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_desk[type=middle,facing=west]"
     },
     {
       "char": "4",
-      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
+      "block": "cfm:stone_chair"
     },
     {
       "char": "5",
@@ -219,7 +219,7 @@
     },
     {
       "char": "6",
-      "block": "cfm:stripped_dark_oak_desk[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_desk[type=left,facing=west]"
     },
     {
       "char": "7",

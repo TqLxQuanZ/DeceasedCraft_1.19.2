@@ -136,11 +136,11 @@
     },
     {
       "char": "L",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "minecraft:oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "M",
-      "block": "rocks:rock[variation=medium]"
+      "block": "rocks:rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "N",
@@ -152,7 +152,7 @@
     },
     {
       "char": "P",
-      "block": "rocks:oak_stick[variation=medium]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=medium]"
     },
     {
       "char": "Q",
@@ -160,7 +160,7 @@
     },
     {
       "char": "R",
-      "block": "rocks:oak_stick[variation=large]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=large]"
     },
     {
       "char": "S",
@@ -168,11 +168,11 @@
     },
     {
       "char": "T",
-      "block": "rocks:sand_rock[variation=large]"
+      "block": "rocks:sand_rock[waterlogged=false,variation=large]"
     },
     {
       "char": "U",
-      "block": "rocks:sand_rock[variation=tiny]"
+      "block": "rocks:sand_rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "V",

@@ -76,7 +76,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:light_gray_sofa[type=single,waterlogged=false,facing=east]"
+      "block": "cfm:light_gray_sofa[type=single,facing=east]"
     },
     {
       "char": "t",
@@ -120,7 +120,7 @@
     },
     {
       "char": "F",
-      "block": "minecraft:dark_oak_leaves[persistent=true]"
+      "block": "minecraft:dark_oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "I",

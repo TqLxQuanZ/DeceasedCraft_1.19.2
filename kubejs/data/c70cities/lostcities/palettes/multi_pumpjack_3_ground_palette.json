@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "immersivepetroleum:crudeoil[level=0]"
+      "block": "immersivepetroleum:crudeoil"
     },
     {
       "char": "b",
@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "rocks:andesite_rock[variation=medium]"
+      "block": "rocks:andesite_rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "g",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "rocks:andesite_rock[variation=small]"
+      "block": "rocks:andesite_rock[waterlogged=false,variation=small]"
     },
     {
       "char": "k",

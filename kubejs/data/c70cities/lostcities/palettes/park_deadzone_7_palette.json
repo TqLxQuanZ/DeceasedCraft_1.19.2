@@ -3,7 +3,7 @@
   "palette": [
     {
       "char": "a",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_birch_park_bench[type=left,facing=east]"
     },
     {
       "char": "b",
@@ -11,39 +11,39 @@
     },
     {
       "char": "c",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_birch_park_bench[type=right,facing=east]"
     },
     {
       "char": "d",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=north]"
+      "block": "cfm:stripped_birch_park_bench[type=left,facing=north]"
     },
     {
       "char": "e",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=north]"
+      "block": "cfm:stripped_birch_park_bench[type=right,facing=north]"
     },
     {
       "char": "f",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_birch_park_bench[type=right,facing=south]"
     },
     {
       "char": "g",
-      "block": "cfm:stripped_birch_park_bench[type=middle,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_birch_park_bench[type=middle,facing=south]"
     },
     {
       "char": "h",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_birch_park_bench[type=left,facing=south]"
     },
     {
       "char": "i",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_birch_park_bench[type=right,facing=west]"
     },
     {
       "char": "j",
-      "block": "cfm:stripped_birch_park_bench[type=middle,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_birch_park_bench[type=middle,facing=west]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_birch_park_bench[type=left,facing=west]"
     },
     {
       "char": "l",

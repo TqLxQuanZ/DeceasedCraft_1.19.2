@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
+      "block": "biomesoplenty:dead_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "d",
@@ -38,7 +38,7 @@
     },
     {
       "char": "i",
-      "block": "rocks:granite_rock[variation=tiny]"
+      "block": "rocks:granite_rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "j",
@@ -75,7 +75,7 @@
     },
     {
       "char": "r",
-      "block": "rocks:rock[variation=medium]"
+      "block": "rocks:rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "s",
@@ -98,7 +98,7 @@
     },
     {
       "char": "x",
-      "block": "rocks:gravel_rock[variation=medium]"
+      "block": "rocks:gravel_rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "y",
@@ -106,7 +106,7 @@
     },
     {
       "char": "A",
-      "block": "rocks:granite_rock[variation=large]"
+      "block": "rocks:granite_rock[waterlogged=false,variation=large]"
     },
     {
       "char": "B",
@@ -114,11 +114,11 @@
     },
     {
       "char": "C",
-      "block": "rocks:gravel_rock[variation=large]"
+      "block": "rocks:gravel_rock[waterlogged=false,variation=large]"
     },
     {
       "char": "D",
-      "block": "rocks:andesite_rock[variation=small]"
+      "block": "rocks:andesite_rock[waterlogged=false,variation=small]"
     },
     {
       "char": "E",

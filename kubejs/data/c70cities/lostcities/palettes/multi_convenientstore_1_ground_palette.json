@@ -23,15 +23,15 @@
     },
     {
       "char": "f",
-      "block": "rocks:rock[variation=tiny]"
+      "block": "rocks:rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "g",
-      "block": "rocks:oak_stick[variation=small]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=small]"
     },
     {
       "char": "h",
-      "block": "rocks:rock[variation=medium]"
+      "block": "rocks:rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "i",

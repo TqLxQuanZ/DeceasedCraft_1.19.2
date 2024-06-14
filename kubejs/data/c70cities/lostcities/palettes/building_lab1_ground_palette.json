@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
+      "block": "biomesoplenty:dead_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "i",
@@ -39,11 +39,11 @@
     },
     {
       "char": "j",
-      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[type=left,facing=north]"
     },
     {
       "char": "k",
-      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[type=right,facing=north]"
     },
     {
       "char": "l",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_oak_park_bench[type=left,facing=east]"
     },
     {
       "char": "w",
@@ -95,7 +95,7 @@
     },
     {
       "char": "y",
-      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_oak_park_bench[type=right,facing=east]"
     },
     {
       "char": "A",
@@ -113,7 +113,7 @@
     },
     {
       "char": "C",
-      "block": "apocalypsenow:petrol_barrel"
+      "block": "apocalypsenow:petrol_barrel[waterlogged=false]"
     },
     {
       "char": "D",

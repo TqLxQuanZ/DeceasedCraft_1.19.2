@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "cfm:stripped_dark_oak_mail_box[waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_mail_box[facing=west]"
     },
     {
       "char": "j",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:stone_coffee_table[waterlogged=false]"
+      "block": "cfm:stone_coffee_table"
     },
     {
       "char": "n",
@@ -160,7 +160,7 @@
     },
     {
       "char": "R",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=west]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "S",
@@ -236,11 +236,11 @@
     },
     {
       "char": "@",
-      "block": "cfm:stripped_dark_oak_desk[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_desk[type=left,facing=west]"
     },
     {
       "char": "#",
-      "block": "cfm:stripped_dark_oak_desk[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_desk[type=right,facing=east]"
     },
     {
       "char": "$",
@@ -262,23 +262,23 @@
     },
     {
       "char": "&",
-      "block": "cfm:stripped_dark_oak_desk[type=middle,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_desk[type=middle,facing=west]"
     },
     {
       "char": "*",
-      "block": "cfm:stripped_dark_oak_desk[type=middle,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_desk[type=middle,facing=east]"
     },
     {
       "char": "(",
-      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stone_chair"
     },
     {
       "char": ")",
-      "block": "cfm:stripped_dark_oak_desk[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_desk[type=right,facing=west]"
     },
     {
       "char": "+",
-      "block": "cfm:stripped_dark_oak_desk[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_desk[type=left,facing=east]"
     },
     {
       "char": "-",

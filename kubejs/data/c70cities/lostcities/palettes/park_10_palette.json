@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "minecraft:oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "j",
@@ -51,19 +51,19 @@
     },
     {
       "char": "m",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=north]"
+      "block": "cfm:stripped_birch_park_bench[type=left,facing=north]"
     },
     {
       "char": "n",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=north]"
+      "block": "cfm:stripped_birch_park_bench[type=right,facing=north]"
     },
     {
       "char": "o",
-      "block": "cfm:stripped_birch_park_bench[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_birch_park_bench[type=right,facing=south]"
     },
     {
       "char": "p",
-      "block": "cfm:stripped_birch_park_bench[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_birch_park_bench[type=left,facing=south]"
     },
     {
       "char": "q",

@@ -47,15 +47,15 @@
     },
     {
       "char": "l",
-      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:brown_sofa[type=right,facing=south]"
     },
     {
       "char": "m",
-      "block": "cfm:brown_sofa[type=middle,waterlogged=false,facing=south]"
+      "block": "cfm:brown_sofa[type=middle,facing=south]"
     },
     {
       "char": "n",
-      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:brown_sofa[type=left,facing=south]"
     },
     {
       "char": "o",

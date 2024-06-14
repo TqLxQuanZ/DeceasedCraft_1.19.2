@@ -91,7 +91,7 @@
     },
     {
       "char": "t",
-      "block": "apocalypsenow:iron_locker[facing=north]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -150,7 +150,7 @@
     },
     {
       "char": "K",
-      "block": "apocalypsenow:petrol_barrel"
+      "block": "apocalypsenow:petrol_barrel[waterlogged=false]"
     },
     {
       "char": "L",
@@ -261,7 +261,7 @@
     },
     {
       "char": "@",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=south]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "#",

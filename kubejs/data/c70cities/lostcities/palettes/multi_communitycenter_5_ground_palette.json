@@ -84,11 +84,11 @@
     },
     {
       "char": "u",
-      "block": "cfm:spruce_desk[type=single,waterlogged=false,facing=east]"
+      "block": "cfm:spruce_desk[type=single,facing=east]"
     },
     {
       "char": "w",
-      "block": "cfm:spruce_desk[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:spruce_desk[type=left,facing=east]"
     },
     {
       "char": "x",
@@ -96,11 +96,11 @@
     },
     {
       "char": "y",
-      "block": "cfm:stripped_spruce_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stripped_spruce_chair[facing=west]"
     },
     {
       "char": "A",
-      "block": "cfm:spruce_desk[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:spruce_desk[type=right,facing=east]"
     },
     {
       "char": "B",

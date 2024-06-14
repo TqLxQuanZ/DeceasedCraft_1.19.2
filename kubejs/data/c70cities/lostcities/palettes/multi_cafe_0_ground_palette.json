@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "minecraft:dark_oak_leaves[persistent=true]"
+      "block": "minecraft:dark_oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "l",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "cfm:light_gray_sofa[type=single,waterlogged=false,facing=west]"
+      "block": "cfm:light_gray_sofa[type=single,facing=west]"
     },
     {
       "char": "r",

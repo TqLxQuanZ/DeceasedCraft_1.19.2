@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "rocks:acacia_stick[variation=small]"
+      "block": "rocks:acacia_stick[waterlogged=false,variation=small]"
     },
     {
       "char": "t",
@@ -127,7 +127,7 @@
     },
     {
       "char": "J",
-      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
+      "block": "minecraft:dark_oak_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
       "char": "K",

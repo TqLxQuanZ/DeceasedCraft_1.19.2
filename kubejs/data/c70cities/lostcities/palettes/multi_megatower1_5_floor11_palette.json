@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "cfm:stone_table[waterlogged=false]"
+      "block": "cfm:stone_table"
     },
     {
       "char": "l",

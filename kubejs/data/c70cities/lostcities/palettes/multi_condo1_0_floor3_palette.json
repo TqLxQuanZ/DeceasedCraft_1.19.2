@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "e",
@@ -95,7 +95,7 @@
     },
     {
       "char": "y",
-      "block": "cfm:stripped_oak_bedside_cabinet[waterlogged=false,open=false,facing=south]",
+      "block": "cfm:stripped_oak_bedside_cabinet[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "char": "P",
-      "block": "cfm:stripped_oak_desk_cabinet[type=single,waterlogged=false,open=false,facing=south]",
+      "block": "cfm:stripped_oak_desk_cabinet[type=single,open=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "char": "5",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "6",

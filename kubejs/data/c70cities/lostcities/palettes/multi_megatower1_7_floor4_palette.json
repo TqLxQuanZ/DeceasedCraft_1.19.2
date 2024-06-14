@@ -77,7 +77,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:cyan_cooler[waterlogged=false,open=false,facing=east]",
+      "block": "cfm:cyan_cooler[open=false,facing=east]",
       "loot": "chestloot"
     },
     {

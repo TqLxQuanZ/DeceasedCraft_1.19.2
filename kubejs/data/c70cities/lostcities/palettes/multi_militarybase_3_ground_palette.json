@@ -107,7 +107,7 @@
     },
     {
       "char": "C",
-      "block": "apocalypsenow:iron_locker[facing=north]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "char": "I",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=east]"
+      "block": "createdeco:andesite_catwalk_stair"
     },
     {
       "char": "J",
@@ -197,42 +197,34 @@
     },
     {
       "char": "0",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=west]"
-    },
-    {
-      "char": "1",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "3",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=south]"
-    },
-    {
-      "char": "4",
+      "char": "2",
       "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=true]"
     },
     {
-      "char": "5",
+      "char": "3",
       "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=false]"
     },
     {
-      "char": "6",
+      "char": "4",
       "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
     },
     {
-      "char": "7",
+      "char": "5",
       "block": "createbigcannons:cannon_mount[facing=south]"
     },
     {
-      "char": "8",
+      "char": "6",
       "block": "minecraft:hopper[facing=down]"
     },
     {
-      "char": "9",
+      "char": "7",
       "block": "immersiveengineering:razor_wire[waterlogged=false,facing=south]"
     }
   ]

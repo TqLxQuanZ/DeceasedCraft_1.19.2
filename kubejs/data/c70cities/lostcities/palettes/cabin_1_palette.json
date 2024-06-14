@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "cfm:stripped_birch_blinds[waterlogged=false,open=false,facing=north]"
+      "block": "cfm:stripped_birch_blinds[open=false,facing=north]"
     },
     {
       "char": "w",

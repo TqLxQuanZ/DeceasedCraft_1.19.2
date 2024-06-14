@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stone_chair"
     },
     {
       "char": "r",
@@ -95,7 +95,7 @@
     },
     {
       "char": "y",
-      "block": "rocks:oak_stick[variation=large]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=large]"
     },
     {
       "char": "A",
@@ -184,7 +184,7 @@
     },
     {
       "char": "X",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "Y",

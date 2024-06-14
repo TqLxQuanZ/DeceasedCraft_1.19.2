@@ -70,7 +70,7 @@
     },
     {
       "char": "q",
-      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:brown_sofa[type=right,facing=west]"
     },
     {
       "char": "r",
@@ -91,7 +91,7 @@
     },
     {
       "char": "w",
-      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:brown_sofa[type=left,facing=west]"
     },
     {
       "char": "x",
@@ -144,7 +144,7 @@
     },
     {
       "char": "M",
-      "block": "cfm:stone_table[waterlogged=false]"
+      "block": "cfm:stone_table"
     },
     {
       "char": "N",

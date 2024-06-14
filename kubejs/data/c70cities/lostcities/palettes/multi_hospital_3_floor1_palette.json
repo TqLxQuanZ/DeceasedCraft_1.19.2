@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "cfm:stone_coffee_table[waterlogged=false]"
+      "block": "cfm:stone_coffee_table"
     },
     {
       "char": "j",
@@ -89,11 +89,11 @@
     },
     {
       "char": "s",
-      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:oak_park_bench[type=left,facing=east]"
     },
     {
       "char": "t",
-      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:oak_park_bench[type=right,facing=east]"
     },
     {
       "char": "u",

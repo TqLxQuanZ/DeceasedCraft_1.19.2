@@ -63,7 +63,7 @@
     },
     {
       "char": "p",
-      "block": "cfm:stripped_birch_chair[waterlogged=false,facing=east]"
+      "block": "cfm:stripped_birch_chair[facing=east]"
     },
     {
       "char": "q",
@@ -79,7 +79,7 @@
     },
     {
       "char": "t",
-      "block": "cfm:stripped_birch_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stripped_birch_chair[facing=west]"
     },
     {
       "char": "u",

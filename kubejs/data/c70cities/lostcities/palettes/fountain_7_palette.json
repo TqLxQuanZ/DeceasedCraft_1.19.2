@@ -23,15 +23,15 @@
     },
     {
       "char": "f",
-      "block": "rocks:oak_stick[variation=small]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=small]"
     },
     {
       "char": "g",
-      "block": "rocks:oak_stick[variation=large]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=large]"
     },
     {
       "char": "h",
-      "block": "cfm:post_box[waterlogged=false,facing=west]"
+      "block": "cfm:post_box[facing=west]"
     },
     {
       "char": "i",

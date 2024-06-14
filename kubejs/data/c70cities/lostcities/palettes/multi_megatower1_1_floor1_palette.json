@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:brown_sofa[type=right,facing=west]"
     },
     {
       "char": "p",
@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "cfm:brown_sofa[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:brown_sofa[type=left,facing=west]"
     },
     {
       "char": "r",
@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:cyan_cooler[waterlogged=false,open=false,facing=west]",
+      "block": "cfm:cyan_cooler[open=false,facing=west]",
       "loot": "chestloot"
     },
     {

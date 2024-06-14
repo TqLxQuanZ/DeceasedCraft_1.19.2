@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "rocks:acacia_stick[variation=medium]"
+      "block": "rocks:acacia_stick[waterlogged=false,variation=medium]"
     },
     {
       "char": "h",
@@ -91,7 +91,7 @@
     },
     {
       "char": "x",
-      "block": "rocks:acacia_stick[variation=small]"
+      "block": "rocks:acacia_stick[waterlogged=false,variation=small]"
     },
     {
       "char": "y",
@@ -103,7 +103,7 @@
     },
     {
       "char": "B",
-      "block": "rocks:acacia_stick[variation=large]"
+      "block": "rocks:acacia_stick[waterlogged=false,variation=large]"
     },
     {
       "char": "C",

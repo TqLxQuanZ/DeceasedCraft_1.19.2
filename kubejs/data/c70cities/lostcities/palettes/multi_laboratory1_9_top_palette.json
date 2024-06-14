@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "cfm:oak_park_bench[type=single,waterlogged=false,facing=south]"
+      "block": "cfm:oak_park_bench[type=single,facing=south]"
     },
     {
       "char": "p",
@@ -71,18 +71,14 @@
     },
     {
       "char": "r",
-      "block": "another_furniture:white_lamp[waterlogged=false,facing=up,lit=false,level=3]"
-    },
-    {
-      "char": "s",
       "block": "immersiveengineering:concrete_sheet"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "immersiveengineering:concrete_quarter"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "minecraft:daylight_detector"
     }
   ]

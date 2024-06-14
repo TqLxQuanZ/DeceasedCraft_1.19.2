@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "k",
@@ -80,7 +80,7 @@
     },
     {
       "char": "t",
-      "block": "cfm:stripped_oak_desk_cabinet[type=single,waterlogged=false,open=false,facing=north]",
+      "block": "cfm:stripped_oak_desk_cabinet[type=single,open=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -141,7 +141,7 @@
     },
     {
       "char": "K",
-      "block": "cfm:stripped_oak_bedside_cabinet[waterlogged=false,open=false,facing=north]",
+      "block": "cfm:stripped_oak_bedside_cabinet[open=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -202,7 +202,7 @@
     },
     {
       "char": "Z",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=west]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "0",
@@ -239,67 +239,63 @@
     },
     {
       "char": "8",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
-    },
-    {
-      "char": "9",
       "block": "another_furniture:oak_shelf[type=left,waterlogged=false,facing=west]"
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "quark:oak_hedge[waterlogged=false]"
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "another_furniture:oak_shelf[type=right,waterlogged=false,facing=west]"
     },
     {
-      "char": "$",
+      "char": "#",
       "block": "minecraft:redstone_torch[lit=true]"
     },
     {
-      "char": "%",
+      "char": "$",
       "block": "zombie_extreme:tube_tv[facing=south]"
     },
     {
-      "char": "^",
+      "char": "%",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "&",
+      "char": "^",
       "block": "pfm:basic_shower_head[facing=south]"
     },
     {
-      "char": "*",
+      "char": "&",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,facing=west,shape=straight]"
     },
     {
-      "char": "(",
+      "char": "*",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=top,facing=south,shape=straight]"
     },
     {
-      "char": ")",
+      "char": "(",
       "block": "pfm:basic_shower_head[facing=north]"
     },
     {
-      "char": "+",
+      "char": ")",
       "block": "apocalypsenow:brokenoldradio[facing=west]"
     },
     {
-      "char": "-",
+      "char": "+",
       "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "[",
+      "char": "-",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "]",
+      "char": "[",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "{",
+      "char": "]",
       "block": "buildersdelight:industrial_flat_8[waterlogged=false,facing=north,face=ceiling]"
     }
   ]

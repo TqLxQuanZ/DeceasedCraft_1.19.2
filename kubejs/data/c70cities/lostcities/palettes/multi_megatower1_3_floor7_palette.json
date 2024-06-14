@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:brown_sofa[type=single,waterlogged=false,facing=north]"
+      "block": "cfm:brown_sofa[type=single,facing=north]"
     },
     {
       "char": "t",
@@ -87,7 +87,7 @@
     },
     {
       "char": "w",
-      "block": "cfm:brown_sofa[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:brown_sofa[type=right,facing=west]"
     },
     {
       "char": "x",

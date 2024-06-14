@@ -145,7 +145,7 @@
     },
     {
       "char": "N",
-      "block": "cfm:spruce_blinds[waterlogged=false,open=true,facing=north]"
+      "block": "cfm:spruce_blinds[open=true,facing=north]"
     },
     {
       "char": "O",

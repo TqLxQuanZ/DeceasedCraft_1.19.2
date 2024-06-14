@@ -106,7 +106,7 @@
     },
     {
       "char": "B",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=west]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "C",

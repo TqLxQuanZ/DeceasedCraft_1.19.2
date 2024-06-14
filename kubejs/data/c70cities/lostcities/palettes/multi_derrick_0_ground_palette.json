@@ -7,7 +7,7 @@
     },
     {
       "char": "b",
-      "block": "immersivepetroleum:crudeoil[level=0]"
+      "block": "immersivepetroleum:crudeoil"
     },
     {
       "char": "c",

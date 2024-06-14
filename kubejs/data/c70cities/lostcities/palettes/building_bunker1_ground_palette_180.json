@@ -23,7 +23,7 @@
     },
     {
       "char": "f",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
+      "block": "biomesoplenty:dead_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "g",

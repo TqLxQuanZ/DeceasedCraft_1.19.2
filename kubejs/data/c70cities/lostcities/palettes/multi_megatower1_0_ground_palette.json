@@ -55,159 +55,150 @@
     },
     {
       "char": "n",
-      "block": "cfm:andesite_desk_cabinet[type=left,waterlogged=false,open=false,facing=north]",
+      "block": "cfm:andesite_desk_cabinet",
       "loot": "chestloot"
     },
     {
       "char": "o",
-      "block": "cfm:andesite_desk[type=middle,waterlogged=false,facing=north]"
+      "block": "cfm:andesite_desk"
     },
     {
       "char": "p",
-      "block": "cfm:andesite_desk_cabinet[type=right,waterlogged=false,open=false,facing=north]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "q",
       "block": "minecraft:polished_diorite_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
+      "char": "q",
+      "block": "cfm:andesite_chair"
+    },
+    {
       "char": "r",
-      "block": "cfm:andesite_chair[waterlogged=false,facing=south]"
-    },
-    {
-      "char": "s",
-      "block": "cfm:andesite_chair[waterlogged=false,facing=west]"
-    },
-    {
-      "char": "t",
       "block": "minecraft:cauldron"
     },
     {
-      "char": "u",
+      "char": "s",
       "block": "quark:stone_vertical_slab[type=south,waterlogged=false]"
     },
     {
-      "char": "w",
+      "char": "t",
       "block": "embellishcraft:spruce_plain_door[half=lower,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "x",
+      "char": "u",
       "block": "embellishcraft:steel_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "y",
+      "char": "w",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
-      "char": "A",
+      "char": "x",
       "block": "embellishcraft:oak_terrace_chair[waterlogged=false,facing=north]"
     },
     {
-      "char": "B",
+      "char": "y",
       "block": "quark:stone_vertical_slab[type=north,waterlogged=false]"
     },
     {
-      "char": "C",
+      "char": "A",
       "block": "embellishcraft:steel_door[half=lower,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "D",
+      "char": "B",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "E",
+      "char": "C",
       "block": "another_furniture:spruce_table[waterlogged=false,facing=south,update=false]"
     },
     {
-      "char": "F",
+      "char": "D",
       "block": "another_furniture:spruce_drawer[open=false,facing=south]",
       "loot": "chestloot"
     },
     {
-      "char": "I",
+      "char": "E",
       "block": "quark:stone_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "J",
+      "char": "F",
       "block": "embellishcraft:steel_door[half=lower,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "K",
+      "char": "I",
       "block": "create:display_board[waterlogged=false,up=false,facing=south,down=false]"
     },
     {
-      "char": "L",
+      "char": "J",
       "block": "simplylight:illuminant_panel[waterlogged=false,facing=south]"
     },
     {
-      "char": "M",
+      "char": "K",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=south]"
     },
     {
-      "char": "N",
+      "char": "L",
       "block": "minecraft:iron_trapdoor[waterlogged=false,half=bottom,open=false,facing=south]"
     },
     {
-      "char": "O",
+      "char": "M",
       "block": "embellishcraft:spruce_plain_door[half=upper,open=false,hinge=left,facing=south]"
     },
     {
-      "char": "P",
+      "char": "N",
       "block": "embellishcraft:steel_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "Q",
+      "char": "O",
       "block": "embellishcraft:steel_door[half=upper,open=false,hinge=left,facing=north]"
     },
     {
-      "char": "R",
+      "char": "P",
       "block": "another_furniture:spruce_shelf[type=left,waterlogged=false,facing=south]"
     },
     {
-      "char": "S",
+      "char": "Q",
       "block": "another_furniture:spruce_shelf[type=right,waterlogged=false,facing=south]"
     },
     {
-      "char": "T",
+      "char": "R",
       "block": "biomesoplenty:smooth_white_sandstone"
     },
     {
-      "char": "U",
+      "char": "S",
       "block": "embellishcraft:steel_door[half=upper,open=false,hinge=left,facing=east]"
     },
     {
-      "char": "V",
+      "char": "T",
       "block": "biomesoplenty:smooth_white_sandstone_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "W",
+      "char": "U",
       "block": "immersiveengineering:lantern[waterlogged=false,facing=north]"
     },
     {
-      "char": "X",
+      "char": "V",
       "block": "biomesoplenty:cherry_button[facing=west,face=wall]"
     },
     {
-      "char": "Y",
+      "char": "W",
       "block": "biomesoplenty:cherry_button[facing=south,face=wall]"
     },
     {
-      "char": "Z",
+      "char": "X",
       "block": "minecraft:daylight_detector"
     },
     {
-      "char": "0",
+      "char": "Y",
       "block": "simplylight:edge_light_top[waterlogged=false]"
     },
     {
-      "char": "1",
+      "char": "Z",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "2",
+      "char": "0",
       "block": "minecraft:stone_slab[type=top,waterlogged=false]"
     }
   ]

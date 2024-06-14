@@ -51,15 +51,15 @@
     },
     {
       "char": "m",
-      "block": "cfm:light_gray_sofa[type=left,waterlogged=false,facing=north]"
+      "block": "cfm:light_gray_sofa[type=left,facing=north]"
     },
     {
       "char": "n",
-      "block": "cfm:light_gray_sofa[type=middle,waterlogged=false,facing=north]"
+      "block": "cfm:light_gray_sofa[type=middle,facing=north]"
     },
     {
       "char": "o",
-      "block": "cfm:light_gray_sofa[type=corner_left,waterlogged=false,facing=east]"
+      "block": "cfm:light_gray_sofa[type=corner_left,facing=east]"
     },
     {
       "char": "p",
@@ -72,7 +72,7 @@
     },
     {
       "char": "r",
-      "block": "cfm:light_gray_sofa[type=middle,waterlogged=false,facing=east]"
+      "block": "cfm:light_gray_sofa[type=middle,facing=east]"
     },
     {
       "char": "s",
@@ -84,27 +84,27 @@
     },
     {
       "char": "u",
-      "block": "cfm:light_gray_sofa[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:light_gray_sofa[type=right,facing=east]"
     },
     {
       "char": "w",
-      "block": "cfm:light_gray_sofa[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:light_gray_sofa[type=right,facing=west]"
     },
     {
       "char": "x",
-      "block": "cfm:light_gray_sofa[type=middle,waterlogged=false,facing=west]"
+      "block": "cfm:light_gray_sofa[type=middle,facing=west]"
     },
     {
       "char": "y",
-      "block": "cfm:light_gray_sofa[type=corner_left,waterlogged=false,facing=west]"
+      "block": "cfm:light_gray_sofa[type=corner_left,facing=west]"
     },
     {
       "char": "A",
-      "block": "cfm:light_gray_sofa[type=middle,waterlogged=false,facing=south]"
+      "block": "cfm:light_gray_sofa[type=middle,facing=south]"
     },
     {
       "char": "B",
-      "block": "cfm:light_gray_sofa[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:light_gray_sofa[type=left,facing=south]"
     },
     {
       "char": "C",

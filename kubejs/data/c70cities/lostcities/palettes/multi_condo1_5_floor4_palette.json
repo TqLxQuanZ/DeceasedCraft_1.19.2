@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "j",
@@ -114,7 +114,7 @@
     },
     {
       "char": "D",
-      "block": "cfm:stripped_dark_oak_cabinet[waterlogged=false,open=false,facing=east]",
+      "block": "cfm:stripped_dark_oak_cabinet[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "char": "K",
-      "block": "cfm:stripped_dark_oak_bedside_cabinet[waterlogged=false,open=false,facing=west]",
+      "block": "cfm:stripped_dark_oak_bedside_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "char": "Q",
-      "block": "cfm:stripped_dark_oak_desk[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_desk[type=left,facing=east]"
     },
     {
       "char": "R",
@@ -180,11 +180,11 @@
     },
     {
       "char": "T",
-      "block": "cfm:stripped_dark_oak_desk[type=middle,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_desk[type=middle,facing=east]"
     },
     {
       "char": "U",
-      "block": "cfm:stripped_dark_oak_desk_cabinet[type=right,waterlogged=false,open=false,facing=east]",
+      "block": "cfm:stripped_dark_oak_desk_cabinet[type=right,open=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -249,7 +249,7 @@
     },
     {
       "char": "@",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=west]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "#",

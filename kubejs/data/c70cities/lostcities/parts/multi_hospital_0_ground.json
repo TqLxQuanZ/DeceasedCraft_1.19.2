@@ -53,9 +53,9 @@
       "  A TT T U  V   ",
       "  A      W  X   ",
       "  AYZ0Z12g gg3  ",
-      "  AY4 51 MN     ",
-      "  AY6 71 M      ",
-      "  AY8 91 M      ",
+      "  AY4 41 MN     ",
+      "  AY5 61 M      ",
+      "  AY7 81 M      ",
       "  AYZZZ1 M      "
     ],
     [
@@ -68,13 +68,13 @@
       "         o      ",
       "         o      ",
       "  frrrrrrfgggr  ",
-      "  r      @  #   ",
-      "  r      @  #   ",
-      "  r$%^%& g gg   ",
-      "  r$   & MN     ",
-      "  r$   & M      ",
-      "  r$* (& M      ",
-      "  r$Z)Z& M      "
+      "  r      9  @   ",
+      "  r      9  @   ",
+      "  r#$%$^ g gg   ",
+      "  r#   ^ MN     ",
+      "  r#   ^ M      ",
+      "  r#& *^ M      ",
+      "  r#Z(Z^ M      "
     ],
     [
       "                ",
@@ -82,16 +82,16 @@
       "         l m m m",
       "         ogggggg",
       "         o      ",
-      "         o +    ",
-      "         o d  - ",
+      "         o )    ",
+      "         o d  + ",
       "         o      ",
       "  frrrrrrfgggr  ",
       "  r      g  g   ",
       "  r      g  g   ",
       "  rYZZZ1 g gg   ",
-      "  rY  [1 MN     ",
-      "  rY  [1 M      ",
-      "  rY[[[1 M      ",
+      "  rY  -1 MN     ",
+      "  rY  -1 M      ",
+      "  rY---1 M      ",
       "  rYZZZ1 M      "
     ],
     [
@@ -101,16 +101,16 @@
       "         ogggggg",
       "         o      ",
       "         o      ",
-      "         o +  ] ",
+      "         o )  [ ",
       "         o d    ",
       "  fyyyyyyfgggrrr",
       "  A      g  g   ",
       "  A      g  g   ",
-      "  A {[{  g }g   ",
-      "  A {[{  MN     ",
-      "  A {[{  M      ",
-      "  A {{{  M      ",
-      "  A \\ |  M      "
+      "  A ]-]  g {g   ",
+      "  A ]-]  MN     ",
+      "  A ]-]  M      ",
+      "  A ]]]  M      ",
+      "  A } \\  M      "
     ]
   ]
 }

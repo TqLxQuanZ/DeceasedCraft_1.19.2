@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "m",
@@ -83,11 +83,11 @@
     },
     {
       "char": "u",
-      "block": "cfm:stripped_spruce_park_bench[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_spruce_park_bench[type=left,facing=east]"
     },
     {
       "char": "w",
-      "block": "cfm:stripped_spruce_park_bench[type=middle,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_spruce_park_bench[type=middle,facing=east]"
     },
     {
       "char": "x",
@@ -99,7 +99,7 @@
     },
     {
       "char": "A",
-      "block": "cfm:stripped_spruce_park_bench[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_spruce_park_bench[type=right,facing=east]"
     },
     {
       "char": "B",
@@ -143,7 +143,7 @@
     },
     {
       "char": "N",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "O",

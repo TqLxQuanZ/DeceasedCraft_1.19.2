@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "rocks:andesite_rock[variation=tiny]"
+      "block": "rocks:andesite_rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "b",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "minecraft:oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "c",
@@ -15,11 +15,11 @@
     },
     {
       "char": "d",
-      "block": "rocks:andesite_rock[variation=small]"
+      "block": "rocks:andesite_rock[waterlogged=false,variation=small]"
     },
     {
       "char": "e",
-      "block": "rocks:oak_stick[variation=large]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=large]"
     },
     {
       "char": "f",
@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "rocks:oak_stick[variation=medium]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=medium]"
     },
     {
       "char": "h",
-      "block": "rocks:diorite_rock[variation=tiny]"
+      "block": "rocks:diorite_rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "i",

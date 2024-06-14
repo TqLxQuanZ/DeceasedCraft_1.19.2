@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "h",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "cfm:spruce_park_bench[type=left,waterlogged=false,facing=north]"
+      "block": "cfm:spruce_park_bench[type=left,facing=north]"
     },
     {
       "char": "j",
-      "block": "cfm:spruce_park_bench[type=right,waterlogged=false,facing=north]"
+      "block": "cfm:spruce_park_bench[type=right,facing=north]"
     },
     {
       "char": "k",

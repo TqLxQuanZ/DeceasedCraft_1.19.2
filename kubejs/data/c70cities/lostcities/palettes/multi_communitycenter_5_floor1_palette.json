@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:oak_park_bench[type=right,facing=south]"
     },
     {
       "char": "j",
-      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:oak_park_bench[type=left,facing=south]"
     },
     {
       "char": "k",
@@ -67,15 +67,15 @@
     },
     {
       "char": "q",
-      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=north]"
+      "block": "cfm:oak_park_bench[type=left,facing=north]"
     },
     {
       "char": "r",
-      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=north]"
+      "block": "cfm:oak_park_bench[type=right,facing=north]"
     },
     {
       "char": "s",
-      "block": "minecraft:dark_oak_leaves[persistent=true]"
+      "block": "minecraft:dark_oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "t",

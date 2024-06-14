@@ -120,7 +120,7 @@
     },
     {
       "char": "F",
-      "block": "immersivepetroleum:diesel[level=8]"
+      "block": "immersivepetroleum:diesel"
     },
     {
       "char": "I",
@@ -225,42 +225,38 @@
     },
     {
       "char": "7",
-      "block": "immersivepetroleum:diesel[level=0]"
-    },
-    {
-      "char": "8",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "9",
+      "char": "8",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "simplylight:illuminant_block"
     },
     {
-      "char": "$",
+      "char": "#",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "%",
+      "char": "$",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "^",
+      "char": "%",
       "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "&",
+      "char": "^",
       "block": "simplylight:illuminant_brown_block_on"
     },
     {
-      "char": "*",
+      "char": "&",
       "block": "simplylight:illuminant_slab[waterlogged=false,facing=down]"
     }
   ]

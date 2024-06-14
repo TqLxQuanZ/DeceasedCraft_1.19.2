@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "e",
@@ -111,11 +111,11 @@
     },
     {
       "char": "D",
-      "block": "cfm:white_sofa[type=left,waterlogged=false,facing=north]"
+      "block": "cfm:white_sofa[type=left,facing=north]"
     },
     {
       "char": "E",
-      "block": "cfm:white_sofa[type=right,waterlogged=false,facing=north]"
+      "block": "cfm:white_sofa[type=right,facing=north]"
     },
     {
       "char": "F",
@@ -123,11 +123,11 @@
     },
     {
       "char": "I",
-      "block": "cfm:white_sofa[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:white_sofa[type=right,facing=south]"
     },
     {
       "char": "J",
-      "block": "cfm:white_sofa[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:white_sofa[type=left,facing=south]"
     },
     {
       "char": "K",

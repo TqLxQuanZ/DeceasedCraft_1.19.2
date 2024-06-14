@@ -15,19 +15,19 @@
     },
     {
       "char": "d",
-      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_oak_park_bench[type=right,facing=south]"
     },
     {
       "char": "e",
-      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_oak_park_bench[type=left,facing=south]"
     },
     {
       "char": "f",
-      "block": "cfm:stripped_oak_park_bench[type=left,waterlogged=false,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[type=left,facing=north]"
     },
     {
       "char": "g",
-      "block": "cfm:stripped_oak_park_bench[type=right,waterlogged=false,facing=north]"
+      "block": "cfm:stripped_oak_park_bench[type=right,facing=north]"
     }
   ]
 }

@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=north]"
+      "block": "createdeco:andesite_catwalk_stair"
     },
     {
       "char": "r",

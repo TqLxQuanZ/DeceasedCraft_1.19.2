@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "i",
@@ -82,7 +82,7 @@
     },
     {
       "char": "t",
-      "block": "apocalypsenow:iron_locker[facing=east]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {

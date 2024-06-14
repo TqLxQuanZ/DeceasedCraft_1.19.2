@@ -60,7 +60,7 @@
     },
     {
       "char": "o",
-      "block": "apocalypsenow:iron_locker[facing=west]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -69,7 +69,7 @@
     },
     {
       "char": "q",
-      "block": "apocalypsenow:iron_locker[facing=east]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -111,7 +111,7 @@
     },
     {
       "char": "C",
-      "block": "apocalypsenow:iron_locker[facing=south]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -223,7 +223,7 @@
     },
     {
       "char": "5",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "6",

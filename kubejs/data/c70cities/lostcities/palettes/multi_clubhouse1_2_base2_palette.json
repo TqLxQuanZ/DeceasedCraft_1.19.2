@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "cfm:stripped_spruce_blinds[waterlogged=false,open=true,facing=east]"
+      "block": "cfm:stripped_spruce_blinds[open=true,facing=east]"
     },
     {
       "char": "r",
@@ -93,7 +93,7 @@
     },
     {
       "char": "w",
-      "block": "cfm:stripped_spruce_blinds[waterlogged=false,open=true,facing=west]"
+      "block": "cfm:stripped_spruce_blinds[open=true,facing=west]"
     },
     {
       "char": "x",
@@ -142,7 +142,7 @@
     },
     {
       "char": "L",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "M",

@@ -113,7 +113,7 @@
     },
     {
       "char": "C",
-      "block": "cfm:oak_park_bench[type=single,waterlogged=false,facing=west]"
+      "block": "cfm:oak_park_bench[type=single,facing=west]"
     },
     {
       "char": "D",
@@ -163,11 +163,11 @@
     },
     {
       "char": "P",
-      "block": "cfm:diving_board[waterlogged=false,part=base,facing=east]"
+      "block": "cfm:diving_board[part=base,facing=east]"
     },
     {
       "char": "Q",
-      "block": "cfm:diving_board[waterlogged=false,part=board,facing=east]"
+      "block": "cfm:diving_board[part=board,facing=east]"
     },
     {
       "char": "R",

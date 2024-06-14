@@ -27,15 +27,15 @@
     },
     {
       "char": "g",
-      "block": "cfm:white_sofa[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:white_sofa[type=left,facing=east]"
     },
     {
       "char": "h",
-      "block": "cfm:white_sofa[type=middle,waterlogged=false,facing=east]"
+      "block": "cfm:white_sofa[type=middle,facing=east]"
     },
     {
       "char": "i",
-      "block": "cfm:white_sofa[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:white_sofa[type=right,facing=east]"
     },
     {
       "char": "j",
@@ -43,7 +43,7 @@
     },
     {
       "char": "k",
-      "block": "cfm:stone_table[waterlogged=false]"
+      "block": "cfm:stone_table"
     },
     {
       "char": "l",
@@ -103,7 +103,7 @@
     },
     {
       "char": "y",
-      "block": "cfm:stone_coffee_table[waterlogged=false]"
+      "block": "cfm:stone_coffee_table"
     },
     {
       "char": "A",

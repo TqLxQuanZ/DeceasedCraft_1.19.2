@@ -27,186 +27,182 @@
     },
     {
       "char": "g",
-      "block": "tac:workbench[facing=north]"
-    },
-    {
-      "char": "h",
       "block": "minecraft:smithing_table"
     },
     {
-      "char": "i",
+      "char": "h",
       "block": "apocalypsenow:sandbags"
     },
     {
-      "char": "j",
+      "char": "i",
       "block": "quark:gunpowder_sack"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "minecraft:observer[facing=east]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "embellishcraft:slate_button[facing=west,face=floor]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "apocalypsenow:sandbagsstar[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "quark:polished_andesite_vertical_slab[type=west,waterlogged=false]"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "minecraft:dispenser[facing=west]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "createdeco:andesite_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "embellishcraft:slate_button[facing=north,face=floor]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "apocalypsenow:sandbagsslab[type=bottom,waterlogged=false]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "createdeco:cast_iron_door[half=lower,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "createdeco:cast_iron_bars[waterlogged=false]"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "minecraft:polished_andesite"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "immersiveengineering:storage_lead"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "minecraft:piston[facing=south]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "minecraft:piston_head[type=normal,facing=south]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "embellishcraft:slate_button[facing=east,face=floor]"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "minecraft:blast_furnace[facing=west,lit=false]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "minecraft:polished_deepslate"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "createdeco:cast_iron_door[half=lower,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "E",
-      "block": "cfm:andesite_table[waterlogged=false]"
+      "char": "D",
+      "block": "cfm:andesite_table"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "createdeco:andesite_trapdoor[waterlogged=false,half=bottom,open=true,facing=north]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "buildersdelight:spruce_chair_2"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "minecraft:tnt"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "minecraft:piston_head[type=normal,facing=north]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "minecraft:piston[facing=north]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "quark:spruce_bookshelf"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "minecraft:spruce_stairs[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "apocalypsenow:sandbagsstar[waterlogged=false,half=bottom,facing=north,shape=straight]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "createdeco:andesite_trapdoor[waterlogged=false,half=bottom,open=false,facing=east]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=right,facing=west]"
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "minecraft:redstone_wall_torch[facing=west,lit=true]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "createdeco:cast_iron_door[half=upper,open=false,hinge=left,facing=west]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "buildersdelight:lantern_6[waterlogged=false,facing=south,face=floor]"
     },
     {
-      "char": "V",
+      "char": "U",
       "block": "minecraft:damaged_anvil[facing=west]"
     },
     {
-      "char": "W",
+      "char": "V",
       "block": "minecraft:cobweb"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "minecraft:redstone_wall_torch[facing=east,lit=true]"
     },
     {
-      "char": "Y",
+      "char": "X",
       "block": "minecraft:spruce_stairs[waterlogged=false,half=top,facing=north,shape=straight]"
     },
     {
-      "char": "Z",
+      "char": "Y",
       "block": "embellishcraft:grid_air_duct[facing=down]"
     },
     {
-      "char": "0",
+      "char": "Z",
       "block": "quark:framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "1",
+      "char": "0",
       "block": "embellishcraft:air_duct"
     },
     {
-      "char": "2",
+      "char": "1",
       "block": "embellishcraft:damaged_paving_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "3",
+      "char": "2",
       "block": "minecraft:polished_deepslate_slab[type=top,waterlogged=false]"
     }
   ]

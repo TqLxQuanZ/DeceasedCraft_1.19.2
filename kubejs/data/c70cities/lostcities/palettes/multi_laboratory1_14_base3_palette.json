@@ -130,7 +130,7 @@
     },
     {
       "char": "J",
-      "block": "cfm:stripped_dark_oak_desk[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_desk[type=right,facing=west]"
     },
     {
       "char": "K",
@@ -158,7 +158,7 @@
     },
     {
       "char": "P",
-      "block": "cfm:stripped_dark_oak_desk[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_desk[type=left,facing=west]"
     },
     {
       "char": "Q",

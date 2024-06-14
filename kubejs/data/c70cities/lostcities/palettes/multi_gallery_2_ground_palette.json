@@ -95,7 +95,7 @@
     },
     {
       "char": "y",
-      "block": "minecraft:acacia_leaves[persistent=false]"
+      "block": "minecraft:acacia_leaves[waterlogged=false,persistent=false]"
     },
     {
       "char": "A",

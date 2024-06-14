@@ -99,7 +99,7 @@
     },
     {
       "char": "A",
-      "block": "cfm:andesite_table[waterlogged=false]"
+      "block": "cfm:andesite_table"
     },
     {
       "char": "B",

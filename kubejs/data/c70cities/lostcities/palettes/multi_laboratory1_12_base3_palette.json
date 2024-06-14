@@ -71,7 +71,7 @@
     },
     {
       "char": "r",
-      "block": "apocalypsenow:iron_locker[facing=east]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {

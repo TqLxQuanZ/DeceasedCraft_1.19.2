@@ -7,23 +7,23 @@
     },
     {
       "char": "b",
-      "block": "minecraft:dark_oak_leaves[persistent=true]"
+      "block": "minecraft:dark_oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "c",
-      "block": "cfm:stripped_dark_oak_park_bench[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_park_bench[type=right,facing=west]"
     },
     {
       "char": "d",
-      "block": "cfm:stripped_dark_oak_park_bench[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_park_bench[type=left,facing=east]"
     },
     {
       "char": "e",
-      "block": "cfm:stripped_dark_oak_park_bench[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_park_bench[type=left,facing=west]"
     },
     {
       "char": "f",
-      "block": "cfm:stripped_dark_oak_park_bench[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_park_bench[type=right,facing=east]"
     },
     {
       "char": "g",

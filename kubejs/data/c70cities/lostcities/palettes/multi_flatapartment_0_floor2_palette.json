@@ -76,7 +76,7 @@
     },
     {
       "char": "r",
-      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,open=false,facing=west]",
+      "block": "cfm:stripped_spruce_bedside_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "char": "u",
-      "block": "cfm:stripped_spruce_bedside_cabinet[waterlogged=false,open=false,facing=south]",
+      "block": "cfm:stripped_spruce_bedside_cabinet[open=false,facing=south]",
       "loot": "chestloot"
     },
     {

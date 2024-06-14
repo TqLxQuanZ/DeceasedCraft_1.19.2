@@ -47,7 +47,7 @@
     },
     {
       "char": "l",
-      "block": "apocalypsenow:petrol_barrel"
+      "block": "apocalypsenow:petrol_barrel[waterlogged=false]"
     },
     {
       "char": "m",
@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
+      "block": "biomesoplenty:dead_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "o",
@@ -116,7 +116,7 @@
     },
     {
       "char": "E",
-      "block": "apocalypsenow:iron_locker[facing=south]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {

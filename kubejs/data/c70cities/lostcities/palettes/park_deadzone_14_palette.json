@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "cfm:light_gray_picket_gate[waterlogged=false,open=false,hinge=left,facing=west]"
+      "block": "cfm:light_gray_picket_gate[open=false,hinge=left,facing=west]"
     },
     {
       "char": "r",

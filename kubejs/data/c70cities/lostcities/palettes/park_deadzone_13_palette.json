@@ -39,15 +39,15 @@
     },
     {
       "char": "j",
-      "block": "rocks:granite_rock[variation=small]"
+      "block": "rocks:granite_rock[waterlogged=false,variation=small]"
     },
     {
       "char": "k",
-      "block": "rocks:granite_rock[variation=medium]"
+      "block": "rocks:granite_rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "l",
-      "block": "rocks:granite_rock[variation=tiny]"
+      "block": "rocks:granite_rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "m",

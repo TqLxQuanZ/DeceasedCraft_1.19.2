@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "another_furniture:gray_curtain[type=right,waterlogged=false,open=false,facing=north,top=true]"
+      "block": "another_furniture:gray_curtain[type=right,waterlogged=false,facing_vertical=down,open=false,facing=north]"
     },
     {
       "char": "o",

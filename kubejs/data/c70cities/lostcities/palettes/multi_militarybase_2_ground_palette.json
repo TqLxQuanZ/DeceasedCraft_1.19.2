@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=east]"
+      "block": "createdeco:andesite_catwalk_stair"
     },
     {
       "char": "i",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "apocalypsenow:iron_locker[facing=south]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {
@@ -146,49 +146,41 @@
     },
     {
       "char": "N",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=west]"
-    },
-    {
-      "char": "O",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "biomesoplenty:stripped_dead_log[axis=z]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "immersiveengineering:razor_wire[waterlogged=false,facing=south]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "create:gearbox[axis=y]",
       "tag": {
         "id": "create:gearbox"
       }
     },
     {
-      "char": "S",
+      "char": "R",
       "block": "immersiveengineering:razor_wire[waterlogged=false,facing=north]"
     },
     {
-      "char": "T",
+      "char": "S",
       "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=true,north=false]"
     },
     {
-      "char": "U",
+      "char": "T",
       "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=false]"
     },
     {
-      "char": "V",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=north]"
-    },
-    {
-      "char": "W",
+      "char": "U",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "X",
+      "char": "V",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

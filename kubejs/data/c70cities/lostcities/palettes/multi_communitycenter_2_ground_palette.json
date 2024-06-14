@@ -76,7 +76,7 @@
     },
     {
       "char": "s",
-      "block": "cfm:stripped_birch_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stripped_birch_chair[facing=west]"
     },
     {
       "char": "t",
@@ -89,11 +89,11 @@
     },
     {
       "char": "w",
-      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:oak_park_bench[type=right,facing=west]"
     },
     {
       "char": "x",
-      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:oak_park_bench[type=left,facing=west]"
     },
     {
       "char": "y",
@@ -101,11 +101,11 @@
     },
     {
       "char": "A",
-      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:oak_park_bench[type=right,facing=south]"
     },
     {
       "char": "B",
-      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:oak_park_bench[type=left,facing=south]"
     },
     {
       "char": "C",
@@ -145,7 +145,7 @@
     },
     {
       "char": "N",
-      "block": "minecraft:spruce_leaves[persistent=false]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=false]"
     },
     {
       "char": "O",

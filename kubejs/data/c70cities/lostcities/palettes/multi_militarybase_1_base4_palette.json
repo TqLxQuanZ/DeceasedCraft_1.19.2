@@ -23,15 +23,15 @@
     },
     {
       "char": "f",
-      "block": "cfm:stripped_spruce_park_bench[type=right,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_spruce_park_bench[type=right,facing=south]"
     },
     {
       "char": "g",
-      "block": "cfm:stripped_spruce_park_bench[type=middle,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_spruce_park_bench[type=middle,facing=south]"
     },
     {
       "char": "h",
-      "block": "cfm:stripped_spruce_park_bench[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_spruce_park_bench[type=left,facing=south]"
     },
     {
       "char": "i",

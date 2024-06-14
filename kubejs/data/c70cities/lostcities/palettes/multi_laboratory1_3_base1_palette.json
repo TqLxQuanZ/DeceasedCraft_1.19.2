@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "apocalypsenow:iron_locker[facing=east]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "char": "E",
-      "block": "apocalypsenow:iron_locker[facing=north]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=north]",
       "loot": "chestloot"
     },
     {
@@ -135,7 +135,7 @@
     },
     {
       "char": "K",
-      "block": "apocalypsenow:iron_locker[facing=south]",
+      "block": "apocalypsenow:iron_locker[waterlogged=false,facing=south]",
       "loot": "chestloot"
     },
     {

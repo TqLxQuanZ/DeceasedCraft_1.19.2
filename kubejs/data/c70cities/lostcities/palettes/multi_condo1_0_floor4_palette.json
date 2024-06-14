@@ -15,7 +15,7 @@
     },
     {
       "char": "d",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "e",
@@ -59,12 +59,12 @@
     },
     {
       "char": "o",
-      "block": "cfm:stripped_oak_desk_cabinet[type=right,waterlogged=false,open=false,facing=west]",
+      "block": "cfm:stripped_oak_desk_cabinet[type=right,open=false,facing=west]",
       "loot": "chestloot"
     },
     {
       "char": "p",
-      "block": "cfm:stripped_oak_bedside_cabinet[waterlogged=false,open=false,facing=east]",
+      "block": "cfm:stripped_oak_bedside_cabinet[open=false,facing=east]",
       "loot": "chestloot"
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       "char": "r",
-      "block": "cfm:stripped_oak_desk[type=middle,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_oak_desk[type=middle,facing=west]"
     },
     {
       "char": "s",
@@ -99,7 +99,7 @@
     },
     {
       "char": "x",
-      "block": "cfm:stripped_oak_desk[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:stripped_oak_desk[type=left,facing=west]"
     },
     {
       "char": "y",
@@ -115,7 +115,7 @@
     },
     {
       "char": "C",
-      "block": "cfm:stripped_oak_cabinet[waterlogged=false,open=false,facing=west]",
+      "block": "cfm:stripped_oak_cabinet[open=false,facing=west]",
       "loot": "chestloot"
     },
     {
@@ -208,7 +208,7 @@
     },
     {
       "char": "0",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=east]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "1",

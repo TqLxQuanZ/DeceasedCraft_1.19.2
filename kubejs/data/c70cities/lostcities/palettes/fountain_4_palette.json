@@ -27,11 +27,11 @@
     },
     {
       "char": "g",
-      "block": "rocks:rock[variation=tiny]"
+      "block": "rocks:rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "h",
-      "block": "rocks:rock[variation=small]"
+      "block": "rocks:rock[waterlogged=false,variation=small]"
     },
     {
       "char": "i",
@@ -52,7 +52,7 @@
     },
     {
       "char": "l",
-      "block": "rocks:rock[variation=medium]"
+      "block": "rocks:rock[waterlogged=false,variation=medium]"
     }
   ]
 }

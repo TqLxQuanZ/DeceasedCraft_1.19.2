@@ -53,7 +53,7 @@
     },
     {
       "char": "l",
-      "block": "cfm:stripped_dark_oak_desk[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_desk[type=left,facing=east]"
     },
     {
       "char": "m",
@@ -65,11 +65,11 @@
     },
     {
       "char": "o",
-      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stone_chair"
     },
     {
       "char": "p",
-      "block": "cfm:stripped_dark_oak_desk[type=middle,waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_desk[type=middle,facing=east]"
     },
     {
       "char": "q",
@@ -86,7 +86,7 @@
     },
     {
       "char": "t",
-      "block": "cfm:stripped_dark_oak_desk_cabinet[type=right,waterlogged=false,open=false,facing=east]",
+      "block": "cfm:stripped_dark_oak_desk_cabinet[type=right,open=false,facing=east]",
       "loot": "chestloot"
     },
     {

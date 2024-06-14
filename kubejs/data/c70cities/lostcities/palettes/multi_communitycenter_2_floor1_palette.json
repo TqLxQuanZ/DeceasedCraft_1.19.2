@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "minecraft:spruce_leaves[persistent=false]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=false]"
     },
     {
       "char": "h",
@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "minecraft:dark_oak_leaves[persistent=true]"
+      "block": "minecraft:dark_oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "k",

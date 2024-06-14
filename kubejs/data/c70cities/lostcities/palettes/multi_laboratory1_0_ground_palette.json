@@ -39,7 +39,7 @@
     },
     {
       "char": "j",
-      "block": "rocks:acacia_stick[variation=large]"
+      "block": "rocks:acacia_stick[waterlogged=false,variation=large]"
     },
     {
       "char": "k",

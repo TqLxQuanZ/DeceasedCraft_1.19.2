@@ -95,7 +95,7 @@
     },
     {
       "char": "y",
-      "block": "immersivepetroleum:diesel[level=8]"
+      "block": "immersivepetroleum:diesel"
     },
     {
       "char": "A",
@@ -207,46 +207,42 @@
     },
     {
       "char": "3",
-      "block": "immersivepetroleum:diesel[level=0]"
-    },
-    {
-      "char": "4",
       "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=west,face=ceiling]"
     },
     {
-      "char": "5",
+      "char": "4",
       "block": "buildersdelight:industrial_flat_2[waterlogged=false,facing=south,face=ceiling]"
     },
     {
-      "char": "6",
+      "char": "5",
       "block": "embellishcraft:vent_air_duct[facing=down]"
     },
     {
-      "char": "7",
+      "char": "6",
       "block": "create:polished_cut_calcite_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "8",
+      "char": "7",
       "block": "create:polished_cut_calcite_stairs[waterlogged=false,half=top,facing=east,shape=straight]"
     },
     {
-      "char": "9",
+      "char": "8",
       "block": "embellishcraft:polished_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "@",
+      "char": "9",
       "block": "embellishcraft:smooth_basalt_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "#",
+      "char": "@",
       "block": "simplylight:illuminant_brown_block_on"
     },
     {
-      "char": "$",
+      "char": "#",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "%",
+      "char": "$",
       "block": "embellishcraft:air_duct"
     }
   ]

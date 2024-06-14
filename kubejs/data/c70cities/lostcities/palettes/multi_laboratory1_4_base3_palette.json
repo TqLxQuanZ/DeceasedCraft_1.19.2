@@ -225,7 +225,7 @@
     },
     {
       "char": "5",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=north]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "6",

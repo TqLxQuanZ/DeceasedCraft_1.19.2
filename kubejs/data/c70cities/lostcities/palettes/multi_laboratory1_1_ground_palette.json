@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "rocks:acacia_stick[variation=medium]"
+      "block": "rocks:acacia_stick[waterlogged=false,variation=medium]"
     },
     {
       "char": "n",

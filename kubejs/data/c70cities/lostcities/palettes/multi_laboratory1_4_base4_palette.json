@@ -71,7 +71,7 @@
     },
     {
       "char": "r",
-      "block": "cfm:stone_coffee_table[waterlogged=false]"
+      "block": "cfm:stone_coffee_table"
     },
     {
       "char": "s",

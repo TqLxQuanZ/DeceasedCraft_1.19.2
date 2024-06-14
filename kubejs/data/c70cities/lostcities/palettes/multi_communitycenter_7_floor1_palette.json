@@ -15,11 +15,11 @@
     },
     {
       "char": "d",
-      "block": "cfm:stripped_dark_oak_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stripped_dark_oak_chair[facing=west]"
     },
     {
       "char": "e",
-      "block": "cfm:stripped_dark_oak_chair[waterlogged=false,facing=south]"
+      "block": "cfm:stripped_dark_oak_chair[facing=south]"
     },
     {
       "char": "f",
@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "cfm:stripped_dark_oak_chair[waterlogged=false,facing=east]"
+      "block": "cfm:stripped_dark_oak_chair[facing=east]"
     },
     {
       "char": "h",

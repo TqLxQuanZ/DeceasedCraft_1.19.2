@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stone_chair"
     },
     {
       "char": "p",

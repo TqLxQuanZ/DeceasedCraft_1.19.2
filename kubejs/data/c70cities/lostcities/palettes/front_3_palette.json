@@ -11,11 +11,11 @@
     },
     {
       "char": "c",
-      "block": "cfm:post_box[waterlogged=false,facing=west]"
+      "block": "cfm:post_box[facing=west]"
     },
     {
       "char": "d",
-      "block": "minecraft:oak_leaves[persistent=true]"
+      "block": "minecraft:oak_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "e",

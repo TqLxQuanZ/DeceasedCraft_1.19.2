@@ -3,19 +3,19 @@
   "palette": [
     {
       "char": "a",
-      "block": "rocks:oak_stick[variation=medium]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=medium]"
     },
     {
       "char": "b",
-      "block": "rocks:rock[variation=medium]"
+      "block": "rocks:rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "c",
-      "block": "rocks:oak_stick[variation=small]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=small]"
     },
     {
       "char": "d",
-      "block": "rocks:rock[variation=small]"
+      "block": "rocks:rock[waterlogged=false,variation=small]"
     },
     {
       "char": "e",
@@ -35,11 +35,11 @@
     },
     {
       "char": "i",
-      "block": "rocks:rock[variation=tiny]"
+      "block": "rocks:rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "j",
-      "block": "rocks:oak_stick[variation=large]"
+      "block": "rocks:oak_stick[waterlogged=false,variation=large]"
     }
   ]
 }

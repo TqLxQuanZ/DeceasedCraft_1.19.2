@@ -67,7 +67,7 @@
     },
     {
       "char": "q",
-      "block": "cfm:stone_coffee_table[waterlogged=false]"
+      "block": "cfm:stone_coffee_table"
     },
     {
       "char": "r",
@@ -83,7 +83,7 @@
     },
     {
       "char": "u",
-      "block": "cfm:stripped_dark_oak_mail_box[waterlogged=false,facing=north]"
+      "block": "cfm:stripped_dark_oak_mail_box[facing=north]"
     },
     {
       "char": "w",
@@ -263,7 +263,7 @@
     },
     {
       "char": "&",
-      "block": "cfm:stripped_dark_oak_chair[waterlogged=false,facing=north]"
+      "block": "cfm:stripped_dark_oak_chair[facing=north]"
     },
     {
       "char": "*",

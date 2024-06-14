@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:oak_park_bench[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:oak_park_bench[type=left,facing=east]"
     },
     {
       "char": "n",
@@ -59,7 +59,7 @@
     },
     {
       "char": "o",
-      "block": "cfm:oak_park_bench[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:oak_park_bench[type=right,facing=east]"
     },
     {
       "char": "p",
@@ -101,7 +101,7 @@
     },
     {
       "char": "A",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=west]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "B",

@@ -49,7 +49,7 @@
     },
     {
       "char": "l",
-      "block": "cfm:stripped_spruce_chair[waterlogged=false,facing=north]"
+      "block": "cfm:stripped_spruce_chair[facing=north]"
     },
     {
       "char": "m",
@@ -189,7 +189,7 @@
     },
     {
       "char": "X",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=west]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "Y",

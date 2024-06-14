@@ -11,7 +11,7 @@
     },
     {
       "char": "c",
-      "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=west]"
+      "block": "createdeco:cast_iron_catwalk_stair"
     },
     {
       "char": "d",

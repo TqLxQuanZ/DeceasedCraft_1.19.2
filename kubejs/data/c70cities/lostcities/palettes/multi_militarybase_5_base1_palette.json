@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "cfm:andesite_table[waterlogged=false]"
+      "block": "cfm:andesite_table"
     },
     {
       "char": "h",
@@ -132,7 +132,7 @@
     },
     {
       "char": "K",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=west]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "L",

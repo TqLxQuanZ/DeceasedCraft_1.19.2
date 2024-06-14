@@ -31,7 +31,7 @@
     },
     {
       "char": "h",
-      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stripped_oak_chair[facing=west]"
     },
     {
       "char": "i",
@@ -51,7 +51,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:stripped_oak_chair[waterlogged=false,facing=south]"
+      "block": "cfm:stripped_oak_chair[facing=south]"
     },
     {
       "char": "n",

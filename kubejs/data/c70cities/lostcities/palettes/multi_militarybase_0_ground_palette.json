@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=south]"
+      "block": "createdeco:andesite_catwalk_stair"
     },
     {
       "char": "f",
@@ -51,138 +51,130 @@
     },
     {
       "char": "m",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=west]"
-    },
-    {
-      "char": "n",
       "block": "immersiveengineering:sheetmetal_steel"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=east]"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "embellishcraft:rusty_wall_ladder[waterlogged=false,facing=north]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "minecraft:iron_bars[waterlogged=false]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "embellishcraft:sturdy_steel_door[half=lower,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "createdeco:cast_iron_trapdoor[waterlogged=false,half=bottom,open=true,facing=south]"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "pfm:andesite_chair[facing=north]"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "pfm:mesh_trashcan[facing=south]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "pfm:smooth_stone_kitchen_counter[facing=south]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "immersiveengineering:razor_wire[waterlogged=false,facing=east]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "minecraft:stone_pressure_plate"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "create:polished_cut_limestone"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "quark:gray_framed_glass_pane[waterlogged=false]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "minecraft:redstone_torch[lit=true]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "embellishcraft:sturdy_steel_door[half=upper,open=false,hinge=right,facing=south]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "zombie_extreme:tube_tv[facing=north]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "create:analog_lever[facing=south,face=floor]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "zombie_extreme:radio_installation[facing=north]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "immersiveengineering:slab_hempcrete[type=bottom,waterlogged=false]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "create:polished_cut_limestone_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "L",
+      "char": "K",
       "block": "create:andesite_bars[waterlogged=false]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "immersiveengineering:steel_fence[waterlogged=false]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "immersiveengineering:razor_wire[waterlogged=false,facing=south]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "createbigcannons:cannon_mount[facing=north]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=false,north=false]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=false,south=true,north=false]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "createdeco:andesite_catwalk[waterlogged=false,bottom=false,west=false,east=true,south=false,north=false]"
     },
     {
-      "char": "S",
-      "block": "createdeco:andesite_catwalk_stair[waterlogged=false,facing=north]"
-    },
-    {
-      "char": "T",
+      "char": "R",
       "block": "minecraft:smooth_stone"
     },
     {
-      "char": "U",
+      "char": "S",
       "block": "minecraft:hopper[facing=south]"
     },
     {
-      "char": "V",
+      "char": "T",
       "block": "minecraft:lever[facing=west,face=wall]"
     },
     {
-      "char": "W",
+      "char": "U",
       "block": "createbigcannons:cannon_mount[facing=west]"
     },
     {
-      "char": "X",
+      "char": "V",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     }
   ]

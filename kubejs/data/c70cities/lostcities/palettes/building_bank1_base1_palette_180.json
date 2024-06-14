@@ -49,7 +49,7 @@
     },
     {
       "char": "l",
-      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=south]",
+      "block": "cfm:andesite_cabinet",
       "loot": "chestloot"
     },
     {
@@ -58,37 +58,22 @@
     },
     {
       "char": "n",
-      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=west]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "o",
-      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=east]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "p",
       "block": "minecraft:gold_block"
     },
     {
-      "char": "q",
+      "char": "o",
       "block": "apocalypsenow:money_block"
     },
     {
-      "char": "r",
-      "block": "cfm:andesite_cabinet[waterlogged=false,open=false,facing=north]",
-      "loot": "chestloot"
-    },
-    {
-      "char": "s",
+      "char": "p",
       "block": "minecraft:quartz_block"
     },
     {
-      "char": "t",
+      "char": "q",
       "block": "minecraft:chain[waterlogged=false,axis=y]"
     },
     {
-      "char": "u",
+      "char": "r",
       "block": "simplylight:illuminant_block_on"
     }
   ]

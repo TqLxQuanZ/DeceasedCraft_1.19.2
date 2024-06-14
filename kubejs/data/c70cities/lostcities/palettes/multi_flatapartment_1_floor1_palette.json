@@ -54,7 +54,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:stripped_spruce_chair[waterlogged=false,facing=north]"
+      "block": "cfm:stripped_spruce_chair[facing=north]"
     },
     {
       "char": "n",

@@ -27,7 +27,7 @@
     },
     {
       "char": "g",
-      "block": "cfm:light_gray_sofa[type=right,waterlogged=false,facing=west]"
+      "block": "cfm:light_gray_sofa[type=right,facing=west]"
     },
     {
       "char": "h",
@@ -35,7 +35,7 @@
     },
     {
       "char": "i",
-      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
+      "block": "cfm:stone_chair"
     },
     {
       "char": "j",
@@ -43,122 +43,118 @@
     },
     {
       "char": "k",
-      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+      "block": "cfm:light_gray_sofa[type=left,facing=east]"
     },
     {
       "char": "l",
-      "block": "cfm:light_gray_sofa[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:light_gray_sofa[type=left,facing=west]"
     },
     {
       "char": "m",
-      "block": "cfm:light_gray_sofa[type=left,waterlogged=false,facing=west]"
+      "block": "cfm:light_gray_sofa[type=right,facing=east]"
     },
     {
       "char": "n",
-      "block": "cfm:light_gray_sofa[type=right,waterlogged=false,facing=east]"
-    },
-    {
-      "char": "o",
       "block": "buildersdelight:spruce_chair_2"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "another_furniture:spruce_table[waterlogged=false,facing=east,update=false]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "pfm:spruce_modern_stool[facing=east]"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "another_furniture:spruce_table[waterlogged=false,facing=east,update=true]"
     },
     {
-      "char": "s",
+      "char": "r",
       "block": "pfm:spruce_modern_stool[facing=north]"
     },
     {
-      "char": "t",
+      "char": "s",
       "block": "another_furniture:spruce_table[waterlogged=false,facing=north,update=false]"
     },
     {
-      "char": "u",
+      "char": "t",
       "block": "another_furniture:spruce_table[waterlogged=false,facing=north,update=true]"
     },
     {
-      "char": "w",
+      "char": "u",
       "block": "minecraft:stripped_spruce_log[axis=y]"
     },
     {
-      "char": "x",
+      "char": "w",
       "block": "embellishcraft:smooth_marble_stairs[waterlogged=false,half=bottom,facing=east,shape=straight]"
     },
     {
-      "char": "y",
+      "char": "x",
       "block": "pfm:mesh_trashcan[facing=west]"
     },
     {
-      "char": "A",
+      "char": "y",
       "block": "minecraft:stone_brick_wall[waterlogged=false,up=true]"
     },
     {
-      "char": "B",
+      "char": "A",
       "block": "pfm:light_gray_simple_sofa[facing=north,shape=left_edge]"
     },
     {
-      "char": "C",
+      "char": "B",
       "block": "pfm:light_gray_simple_sofa[facing=north,shape=middle]"
     },
     {
-      "char": "D",
+      "char": "C",
       "block": "pfm:light_gray_simple_sofa[facing=north,shape=inner_right]"
     },
     {
-      "char": "E",
+      "char": "D",
       "block": "quark:spruce_hedge[waterlogged=false]"
     },
     {
-      "char": "F",
+      "char": "E",
       "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
     },
     {
-      "char": "I",
+      "char": "F",
       "block": "pfm:basic_plate[facing=north]"
     },
     {
-      "char": "J",
+      "char": "I",
       "block": "pfm:basic_plate[facing=west]"
     },
     {
-      "char": "K",
+      "char": "J",
       "block": "embellishcraft:spruce_large_suspended_stairs[waterlogged=false,facing=east]"
     },
     {
-      "char": "L",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "char": "K",
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
-      "char": "M",
+      "char": "L",
       "block": "minecraft:black_stained_glass_pane[waterlogged=false]"
     },
     {
-      "char": "N",
+      "char": "M",
       "block": "buildersdelight:lantern_4[waterlogged=false,facing=east,face=ceiling]"
     },
     {
-      "char": "O",
+      "char": "N",
       "block": "buildersdelight:lantern_4[waterlogged=false,facing=west,face=ceiling]"
     },
     {
-      "char": "P",
+      "char": "O",
       "block": "cfm:spruce_hedge[waterlogged=false]"
     },
     {
-      "char": "Q",
+      "char": "P",
       "block": "buildersdelight:chain_2[waterlogged=false,axis=y]"
     },
     {
-      "char": "R",
+      "char": "Q",
       "block": "minecraft:spruce_fence[waterlogged=false]"
     }
   ]

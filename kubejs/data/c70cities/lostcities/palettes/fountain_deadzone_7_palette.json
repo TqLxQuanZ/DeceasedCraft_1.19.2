@@ -3,11 +3,11 @@
   "palette": [
     {
       "char": "a",
-      "block": "biomesoplenty:dead_leaves[persistent=true]"
+      "block": "biomesoplenty:dead_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "b",
-      "block": "rocks:netherrack_rock[variation=small]"
+      "block": "rocks:netherrack_rock[waterlogged=false,variation=small]"
     },
     {
       "char": "c",
@@ -15,11 +15,11 @@
     },
     {
       "char": "d",
-      "block": "rocks:netherrack_rock[variation=tiny]"
+      "block": "rocks:netherrack_rock[waterlogged=false,variation=tiny]"
     },
     {
       "char": "e",
-      "block": "rocks:netherrack_rock[variation=medium]"
+      "block": "rocks:netherrack_rock[waterlogged=false,variation=medium]"
     },
     {
       "char": "f",

@@ -78,12 +78,12 @@
     },
     {
       "char": "s",
-      "block": "cfm:stripped_spruce_desk_cabinet[type=right,waterlogged=false,open=false,facing=south]",
+      "block": "cfm:stripped_spruce_desk_cabinet[type=right,open=false,facing=south]",
       "loot": "chestloot"
     },
     {
       "char": "t",
-      "block": "cfm:stripped_spruce_desk[type=left,waterlogged=false,facing=south]"
+      "block": "cfm:stripped_spruce_desk[type=left,facing=south]"
     },
     {
       "char": "u",
@@ -163,7 +163,7 @@
     },
     {
       "char": "R",
-      "block": "ag_day_counter:calendar[waterlogged=false,facing=north]"
+      "block": "ag_day_counter:calendar"
     },
     {
       "char": "S",

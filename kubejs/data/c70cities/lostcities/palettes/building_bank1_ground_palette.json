@@ -56,19 +56,19 @@
     },
     {
       "char": "n",
-      "block": "cfm:white_sofa[type=left,waterlogged=false,facing=east]"
+      "block": "cfm:white_sofa[type=left,facing=east]"
     },
     {
       "char": "o",
-      "block": "cfm:white_sofa[type=single,waterlogged=false,facing=west]"
+      "block": "cfm:white_sofa[type=single,facing=west]"
     },
     {
       "char": "p",
-      "block": "cfm:white_sofa[type=right,waterlogged=false,facing=east]"
+      "block": "cfm:white_sofa[type=right,facing=east]"
     },
     {
       "char": "q",
-      "block": "cfm:andesite_table[waterlogged=false]"
+      "block": "cfm:andesite_table"
     },
     {
       "char": "r",

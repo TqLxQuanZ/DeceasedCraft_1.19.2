@@ -75,7 +75,7 @@
     },
     {
       "char": "s",
-      "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=south]"
+      "block": "createdeco:cast_iron_catwalk_stair"
     },
     {
       "char": "t",
@@ -178,14 +178,10 @@
     },
     {
       "char": "V",
-      "block": "createdeco:cast_iron_catwalk_stair[waterlogged=false,facing=east]"
-    },
-    {
-      "char": "W",
       "block": "createdeco:cast_iron_catwalk[waterlogged=false]"
     },
     {
-      "char": "X",
+      "char": "W",
       "block": "embellishcraft:air_duct"
     }
   ]

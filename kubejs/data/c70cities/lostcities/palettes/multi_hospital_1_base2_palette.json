@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "cfm:stone_chair[waterlogged=false,facing=west]"
+      "block": "cfm:stone_chair"
     },
     {
       "char": "f",
@@ -28,52 +28,48 @@
     },
     {
       "char": "g",
-      "block": "cfm:stone_chair[waterlogged=false,facing=east]"
-    },
-    {
-      "char": "h",
       "block": "lootr:lootr_chest[type=single,waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "i",
+      "char": "h",
       "block": "car:sign_post[waterlogged=false]"
     },
     {
-      "char": "j",
+      "char": "i",
       "block": "minecraft:gray_stained_glass_pane[waterlogged=false]"
     },
     {
-      "char": "k",
+      "char": "j",
       "block": "minecraft:redstone_torch[lit=true]"
     },
     {
-      "char": "l",
+      "char": "k",
       "block": "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
     },
     {
-      "char": "m",
+      "char": "l",
       "block": "minecraft:potted_wither_rose"
     },
     {
-      "char": "n",
+      "char": "m",
       "block": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "char": "o",
+      "char": "n",
       "block": "apocalypsenow:medical_storage[waterlogged=false,facing=east]",
       "loot": "chestloot"
     },
     {
-      "char": "p",
+      "char": "o",
       "block": "minecraft:repeater[facing=west]"
     },
     {
-      "char": "q",
+      "char": "p",
       "block": "minecraft:brewing_stand"
     },
     {
-      "char": "r",
+      "char": "q",
       "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
     }
   ]

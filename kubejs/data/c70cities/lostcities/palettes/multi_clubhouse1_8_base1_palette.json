@@ -19,7 +19,7 @@
     },
     {
       "char": "e",
-      "block": "minecraft:spruce_leaves[persistent=true]"
+      "block": "minecraft:spruce_leaves[waterlogged=false,persistent=true]"
     },
     {
       "char": "f",
@@ -55,7 +55,7 @@
     },
     {
       "char": "n",
-      "block": "cfm:andesite_coffee_table[waterlogged=false]"
+      "block": "cfm:andesite_coffee_table"
     },
     {
       "char": "o",
