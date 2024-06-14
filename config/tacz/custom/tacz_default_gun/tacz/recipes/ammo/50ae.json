@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/lead"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "kubejs:bullet_casing_ae50"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:50ae",
+    "count": 3
+  }
+}
