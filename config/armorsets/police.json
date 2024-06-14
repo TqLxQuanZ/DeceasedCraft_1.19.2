@@ -38,7 +38,7 @@
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_damage",
-      "value": 1.5,
+      "value": 1.0,
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "4fca7493-3eb1-4549-b5c9-6bfbd3ab914a",

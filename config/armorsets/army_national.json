@@ -64,7 +64,7 @@
     {
       "type": "attribute",
       "name": "puffish_attributes:player.ranged_damage",
-      "value": 0.15,
+      "value": 0.25,
       "interactionType": "self",
       "attributeOperation": 1,
       "modifierUUID": "af8319e0-92be-11ee-b9d1-0242ac120002",
