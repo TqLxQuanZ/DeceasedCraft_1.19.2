@@ -48,12 +48,12 @@ ItemEvents.modification(event => {
 	event.modify('apocalypsenow:tactical_machete', item => { 
 		replaceAttribute("generic.attack_damage", 1.0, item)
 		replaceAttribute("generic.attack_speed", 1.2, item)
-		item.setMaxDamage(1821.0)
+		item.setMaxDamage(1210.0)
 	})
 	event.modify('apocalypsenow:kukri_machete', item => { 
 		replaceAttribute("generic.attack_damage", 1.0, item)
 		replaceAttribute("generic.attack_speed", 1.4, item)
-		item.setMaxDamage(1510.0)
+		item.setMaxDamage(1427.0)
 	})
 
 })

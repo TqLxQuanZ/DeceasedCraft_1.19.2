@@ -6,8 +6,8 @@ function replaceAttribute(attributeString, boost, item) {
 
 ItemEvents.modification(event => {
 	event.modify('apocalypsenow:katana', item => { 
-		replaceAttribute("generic.attack_damage", 1.1, item)
-		replaceAttribute("generic.attack_speed", 2.0, item)
+		replaceAttribute("generic.attack_damage", 1.3, item)
+		replaceAttribute("generic.attack_speed", 1.3, item)
 		item.setMaxDamage(2451.0)
 	})
 

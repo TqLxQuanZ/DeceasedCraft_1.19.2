@@ -88,12 +88,12 @@ ItemEvents.modification(event => {
 	event.modify('apocalypsenow:military_knife', item => { 
 		replaceAttribute("generic.attack_damage", 0.8, item)
 		replaceAttribute("generic.attack_speed", 1.2, item)
-		item.setMaxDamage(895.0)
+		item.setMaxDamage(764.0)
 	})
 	event.modify('apocalypsenow:tactical_knife', item => { 
 		replaceAttribute("generic.attack_damage", 0.7, item)
 		replaceAttribute("generic.attack_speed", 1.4, item)
-		item.setMaxDamage(1243.0)
+		item.setMaxDamage(843.0)
 	})
 
 })
