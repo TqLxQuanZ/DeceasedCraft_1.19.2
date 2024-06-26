@@ -15,8 +15,18 @@ ItemEvents.modification(event => {
 		replaceAttribute("generic.attack_speed", 1.5, item)
 		item.setMaxDamage(24.0)
 	})
-	event.modify('apocalypsenow:switch_knife', item => { 
+	event.modify('apocalypsenow:shiv', item => { 
 		replaceAttribute("generic.attack_damage", 0.3, item)
+		replaceAttribute("generic.attack_speed", 1.4, item)
+		item.setMaxDamage(118.0)
+	})
+	event.modify('apocalypsenow:scalpel', item => { 
+		replaceAttribute("generic.attack_damage", 0.3, item)
+		replaceAttribute("generic.attack_speed", 1.2, item)
+		item.setMaxDamage(160.0)
+	})
+	event.modify('apocalypsenow:switch_knife', item => { 
+		replaceAttribute("generic.attack_damage", 0.4, item)
 		replaceAttribute("generic.attack_speed", 1.0, item)
 		item.setMaxDamage(290.0)
 	})

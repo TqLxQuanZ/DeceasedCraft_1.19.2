@@ -42,7 +42,7 @@ ItemEvents.modification(event => {
 	})
 	event.modify('minecraft:netherite_hoe', item => { 
 		replaceAttribute("generic.attack_damage", 0.7, item)
-		replaceAttribute("generic.attack_speed", 1.6, item)
+		replaceAttribute("generic.attack_speed", 1.4, item)
 		item.setMaxDamage(2031.0)
 	})
 

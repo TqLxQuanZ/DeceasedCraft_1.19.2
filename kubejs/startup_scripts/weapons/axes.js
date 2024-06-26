@@ -200,5 +200,45 @@ ItemEvents.modification(event => {
 		replaceAttribute("generic.attack_speed", 2.8, item)
 		item.setMaxDamage(198.0)
 	})
+	event.modify('farmersdelight:skillet', item => { 
+		replaceAttribute("generic.attack_damage", 0.6, item)
+		replaceAttribute("generic.attack_speed", 1.8, item)
+		item.setMaxDamage(730.0)
+	})
+	event.modify('quark:pickarang', item => { 
+		replaceAttribute("generic.attack_damage", 0.4, item)
+		replaceAttribute("generic.attack_speed", 1.8, item)
+		item.setMaxDamage(800.0)
+	})
+	event.modify('quark:flamerang', item => { 
+		replaceAttribute("generic.attack_damage", 0.6, item)
+		replaceAttribute("generic.attack_speed", 1.8, item)
+		item.setMaxDamage(1540.0)
+	})
+	event.modify('apocalypsenow:spear', item => { 
+		replaceAttribute("generic.attack_damage", 0.7, item)
+		replaceAttribute("generic.attack_speed", 1.5, item)
+		item.setMaxDamage(489.0)
+	})
+	event.modify('apocalypsenow:guitar', item => { 
+		replaceAttribute("generic.attack_damage", 0.6, item)
+		replaceAttribute("generic.attack_speed", 1.3, item)
+		item.setMaxDamage(78.0)
+	})
+	event.modify('apocalypsenow:bass', item => { 
+		replaceAttribute("generic.attack_damage", 0.6, item)
+		replaceAttribute("generic.attack_speed", 1.3, item)
+		item.setMaxDamage(78.0)
+	})
+	event.modify('apocalypsenow:kitchen_knife', item => { 
+		replaceAttribute("generic.attack_damage", 0.5, item)
+		replaceAttribute("generic.attack_speed", 2.4, item)
+		item.setMaxDamage(195.0)
+	})
+	event.modify('apocalypsenow:scythe', item => { 
+		replaceAttribute("generic.attack_damage", 0.6, item)
+		replaceAttribute("generic.attack_speed", 1.6, item)
+		item.setMaxDamage(623.0)
+	})
 
 })
